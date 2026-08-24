@@ -47,7 +47,7 @@ flowchart TD
 | Garde-fou | Où | Pourquoi |
 |---|---|---|
 | **Signature HMAC** | webhook Ringover | Refuse tout appel non signé (`fail-closed`). |
-| **Secret interne** `x-aloalo-internal` | `/api/transcribe`, `/api/analyze` | Ces routes écrivent en bypass RLS → appelées **que** par nos webhooks. |
+| **Secret interne** `x-tolkee-internal` | `/api/transcribe`, `/api/analyze` | Ces routes écrivent en bypass RLS → appelées **que** par nos webhooks. |
 | **Allowlist d'hôtes audio** | `/api/transcribe` | AssemblyAI ne fetch qu'un hôte autorisé (anti-SSRF). |
 | **Secret webhook AssemblyAI** | webhook AssemblyAI | On vérifie qu'AssemblyAI nous renvoie bien notre secret. |
 | **Idempotence (upsert)** | webhook Ringover | Un même `call.ended` rejoué ne crée pas de doublon ni de transcription payante. |

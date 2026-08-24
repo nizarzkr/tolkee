@@ -3,7 +3,7 @@
  *
  * Source de données de la nouvelle App Card HubSpot (UI Extension React).
  * Appelé DIRECTEMENT par la carte React via `hubspot.fetch()` (cf.
- * hubspot/aloalo-crm-card/src/app/cards/AloaloCard.tsx). Plus de fonction
+ * hubspot/tolkee-crm-card/src/app/cards/TolkeeCard.tsx). Plus de fonction
  * serverless HubSpot relais : celle-ci exigeait un abonnement Enterprise.
  *
  * AUTHENTIFICATION — signature HubSpot v3.
@@ -21,7 +21,7 @@
  *   environnements Vercel (Production, Preview, Development).
  *
  * Query string (portalId est ajouté automatiquement par hubspot.fetch) :
- *   portalId  — Hub ID du portail HubSpot → identifie l'org Aloalo
+ *   portalId  — Hub ID du portail HubSpot → identifie l'org Tolkee
  *   contactId — ID du contact HubSpot ouvert (carte sur fiche contact)
  *   dealId    — ID du deal HubSpot ouvert (carte sur fiche deal). Si présent,
  *               on renvoie le digest DU deal ; sinon le digest du contact.

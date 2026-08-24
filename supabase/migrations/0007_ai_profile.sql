@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0007 : organizations.ai_profile (J14)
+-- Tolkee — Migration 0007 : organizations.ai_profile (J14)
 -- Date  : 2026-05-25
 -- ============================================================================
 -- ai_profile : profil commercial de l'organisation utilisé pour contextualiser

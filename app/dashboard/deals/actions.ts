@@ -64,7 +64,7 @@ function buildTaskBody(alert: CoachingAlert): string {
       ? `\nEngagement : ${alert.first_engagement} → ${alert.last_engagement} (sur ${alert.calls_count} appels).`
       : ''
   const body = [
-    'Alerte Aloalo — engagement du prospect en baisse.',
+    'Alerte Tolkee — engagement du prospect en baisse.',
     `\nAction recommandée :\n${alert.action}`,
     reasons ? `\nPourquoi :\n${reasons}` : '',
     trajectory,
@@ -182,7 +182,7 @@ export async function pushCoachingAction(
 
   // 6. Création de la tâche dans le CRM (via l'adaptateur).
   const title = sanitizeForHubspot(
-    `Aloalo — Relance : ${alert.title}`,
+    `Tolkee — Relance : ${alert.title}`,
     250,
   )
   const taskId = await crm.createTask(
@@ -240,7 +240,7 @@ function buildHygieneTaskBody(gap: HygieneGap): string {
       : ''
   const hint = gap.suggested_stage_hint ? `\n${gap.suggested_stage_hint}` : ''
   const body = [
-    `Hygiène pipeline Aloalo — ${gap.title}.`,
+    `Hygiène pipeline Tolkee — ${gap.title}.`,
     `\n${gap.detail}`,
     criteria,
     hint,
@@ -304,7 +304,7 @@ export async function pushHygieneFix(
   if (!target) return { ok: false, reason: 'no_target' }
 
   // 6. Tâche de correction dans le CRM.
-  const title = sanitizeForHubspot(`Aloalo — Hygiène : ${gap.title}`, 250)
+  const title = sanitizeForHubspot(`Tolkee — Hygiène : ${gap.title}`, 250)
   const taskId = await crm.createTask(
     target,
     title,

@@ -8,8 +8,8 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Conditions Générales — Aloalo",
-  description: "Conditions Générales d'Utilisation et de Vente d'Aloalo.",
+  title: "Conditions Générales — Tolkee",
+  description: "Conditions Générales d'Utilisation et de Vente d'Tolkee.",
 };
 
 const LAST_UPDATED = "11 mai 2026";
@@ -36,7 +36,7 @@ export default function TermsPage() {
           <h2 className="text-lg font-semibold">1. Objet</h2>
           <p>
             Les présentes Conditions Générales (« CG ») régissent
-            l&apos;utilisation du service Aloalo, un logiciel en mode SaaS
+            l&apos;utilisation du service Tolkee, un logiciel en mode SaaS
             d&apos;analyse de performance commerciale qui se connecte à votre
             outil de téléphonie (Ringover, Aircall) pour transcrire et
             analyser automatiquement vos appels.
@@ -50,17 +50,17 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-semibold">2. Éditeur et coordonnées</h2>
           <ul className="ml-4 mt-2 list-disc space-y-1">
-            <li>Aloalo — édité par Nizar [NOM]</li>
+            <li>Tolkee — édité par Nizar [NOM]</li>
             <li>[FORME JURIDIQUE], SIRET [SIRET]</li>
             <li>Adresse&nbsp;: [ADRESSE COMPLÈTE]</li>
-            <li>Email&nbsp;: contact@aloalo.fr</li>
+            <li>Email&nbsp;: contact@tolkee.fr</li>
           </ul>
         </section>
 
         <section>
           <h2 className="text-lg font-semibold">3. Description du service</h2>
           <p>
-            Aloalo fournit&nbsp;:
+            Tolkee fournit&nbsp;:
           </p>
           <ul className="ml-4 mt-2 list-disc space-y-1">
             <li>
@@ -119,7 +119,7 @@ export default function TermsPage() {
           <p>Le client s&apos;engage à&nbsp;:</p>
           <ul className="ml-4 mt-2 list-disc space-y-1">
             <li>
-              ne soumettre à Aloalo que des appels pour lesquels il dispose des
+              ne soumettre à Tolkee que des appels pour lesquels il dispose des
               autorisations nécessaires (information des interlocuteurs,
               consentement le cas échéant) conformément à la législation
               applicable&nbsp;;
@@ -142,11 +142,11 @@ export default function TermsPage() {
           <h2 className="text-lg font-semibold">7. Propriété intellectuelle</h2>
           <p>
             Le client reste seul propriétaire de ses données (enregistrements,
-            transcriptions, analyses). Aloalo dispose d&apos;une licence
+            transcriptions, analyses). Tolkee dispose d&apos;une licence
             d&apos;usage strictement limitée à la fourniture du service.
           </p>
           <p className="mt-2">
-            Le code, l&apos;interface, les algorithmes et la marque Aloalo
+            Le code, l&apos;interface, les algorithmes et la marque Tolkee
             demeurent la propriété exclusive de l&apos;éditeur.
           </p>
         </section>
@@ -154,7 +154,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-semibold">8. Disponibilité du service</h2>
           <p>
-            Aloalo s&apos;engage à mettre en œuvre les moyens raisonnables pour
+            Tolkee s&apos;engage à mettre en œuvre les moyens raisonnables pour
             garantir la disponibilité du service. Aucun engagement formel de SLA
             n&apos;est fourni en dehors d&apos;un avenant écrit. Des
             interruptions pour maintenance peuvent intervenir, idéalement
@@ -165,14 +165,14 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-semibold">9. Limitation de responsabilité</h2>
           <p>
-            Aloalo fournit une aide à la décision basée sur des modèles
+            Tolkee fournit une aide à la décision basée sur des modèles
             d&apos;IA. Les scores et conseils générés sont indicatifs et ne
             sauraient se substituer au jugement humain. L&apos;éditeur ne
             pourra être tenu responsable des décisions prises par le client sur
             la base des résultats produits par le service.
           </p>
           <p className="mt-2">
-            En tout état de cause, la responsabilité d&apos;Aloalo est limitée
+            En tout état de cause, la responsabilité d&apos;Tolkee est limitée
             au montant des sommes effectivement perçues du client au titre des
             12 derniers mois précédant le fait générateur.
           </p>
@@ -185,7 +185,7 @@ export default function TermsPage() {
             <Link href="/privacy" className="underline">
               Politique de confidentialité
             </Link>
-            , qui fait partie intégrante des présentes CG. Aloalo agit en tant
+            , qui fait partie intégrante des présentes CG. Tolkee agit en tant
             que sous-traitant au sens du RGPD pour le contenu des appels et en
             tant que responsable de traitement pour les données de compte.
           </p>
@@ -203,7 +203,7 @@ export default function TermsPage() {
             n&apos;ouvre pas droit à remboursement au prorata.
           </p>
           <p className="mt-2">
-            Aloalo peut résilier le contrat avec préavis de 30 jours en cas de
+            Tolkee peut résilier le contrat avec préavis de 30 jours en cas de
             manquement grave du client (non-paiement, usage illicite, atteinte à
             la sécurité du service).
           </p>
@@ -222,7 +222,7 @@ export default function TermsPage() {
         <section>
           <h2 className="text-lg font-semibold">13. Modification des CG</h2>
           <p>
-            Aloalo se réserve le droit de modifier les présentes CG. Toute
+            Tolkee se réserve le droit de modifier les présentes CG. Toute
             modification substantielle sera notifiée par email avec un préavis
             de 30 jours, ouvrant le droit de résilier sans frais avant
             application des nouvelles conditions.

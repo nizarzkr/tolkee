@@ -122,11 +122,11 @@ Deno.serve(async (req: Request) => {
         },
         body: JSON.stringify({
           // Sender vérifié dans Resend (cf. app/api/invitations/route.ts).
-          from: "Aloalo <noreply@pillarops.fr>",
+          from: "Tolkee <noreply@pillarops.fr>",
           to: SPEND_ALERT_TO,
-          subject: `⚠️ Aloalo — dépense IA du ${dayLabel} : ${total.toFixed(2)} €`,
+          subject: `⚠️ Tolkee — dépense IA du ${dayLabel} : ${total.toFixed(2)} €`,
           html:
-            `<p>Alerte de dépense quotidienne Aloalo.</p>` +
+            `<p>Alerte de dépense quotidienne Tolkee.</p>` +
             `<p>Dépense estimée du <strong>${dayLabel}</strong> (UTC) : ` +
             `<strong>${total.toFixed(2)} €</strong>, au-dessus du seuil de ` +
             `<strong>${threshold} €</strong>.</p>` +

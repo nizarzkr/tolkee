@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   // Base absolue des métadonnées : sans elle, Next ne peut pas résoudre les
   // URLs relatives (canonical, image de partage) et prévient au build.
   metadataBase: new URL(SITE_URL),
-  title: "Aloalo — L'IA qui écoute vos appels commerciaux",
+  title: "Tolkee — L'IA qui écoute vos appels commerciaux",
   description:
     "Transcription, analyse et coaching automatique pour vos équipes commerciales. 100% RGPD, hébergé en France. Branchement Ringover & Aircall en 5 minutes.",
 };

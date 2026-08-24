@@ -1,4 +1,4 @@
-# 🗺️ Carte globale — Aloalo
+# 🗺️ Carte globale — Tolkee
 
 Vue d'ensemble du système. **Clique une boîte** pour zoomer (ou utilise la liste sous le schéma).
 

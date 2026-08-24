@@ -137,7 +137,7 @@ export async function GET(req: NextRequest) {
                 method: 'POST',
                 headers: {
                   'Content-Type': 'application/json',
-                  'x-aloalo-internal':
+                  'x-tolkee-internal':
                     process.env.INTERNAL_PIPELINE_SECRET ?? '',
                 },
                 body: JSON.stringify({ callId }),

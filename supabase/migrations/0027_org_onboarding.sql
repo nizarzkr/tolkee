@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0027 : drapeau de complétion de l'onboarding par org
+-- Tolkee — Migration 0027 : drapeau de complétion de l'onboarding par org
 -- Date  : 2026-06-17
 -- J-day : J29 (Semaine 4) — Socle #3 (3/3) : le parcours d'onboarding assisté IA
 -- ============================================================================

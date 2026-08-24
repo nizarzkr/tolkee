@@ -25,7 +25,7 @@ export function MarketingNav() {
           href="/"
           className="font-heading text-xl font-bold tracking-tight text-foreground"
         >
-          Aloalo
+          Tolkee
         </Link>
 
         <ul className="hidden items-center gap-7 lg:flex">

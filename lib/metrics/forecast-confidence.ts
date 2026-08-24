@@ -4,7 +4,7 @@
 // Positionnement ASSUMÉ : « on ne fait pas ton forecast, on le FIABILISE ». On ne
 // produit pas de prévision chiffrée (marché Clari encombré) — on compare, par
 // deal, la CONFIANCE DÉCLARÉE par le CRM (avancement de phase HubSpot) à
-// l'ENGAGEMENT RÉEL mesuré par Aloalo (momentum J23 + décrochage J24 + écarts
+// l'ENGAGEMENT RÉEL mesuré par Tolkee (momentum J23 + décrochage J24 + écarts
 // d'hygiène J30/J32). L'écart révèle les deals « optimistes » qui gonflent le
 // forecast jusqu'à ce qu'ils glissent.
 //
@@ -76,7 +76,7 @@ export function computeForecastConfidence(
   const declared = Math.round(clamp(input.advancement, 0, 1) * 100)
 
   // Engagement observé pénalisé par les signaux négatifs (décrochage, critères
-  // non remplis, phase ≠ réalité) : la « vraie » confiance qu'Aloalo lit.
+  // non remplis, phase ≠ réalité) : la « vraie » confiance qu'Tolkee lit.
   const penalty =
     (input.declining ? FORECAST_THRESHOLDS.decliningPenalty : 0) +
     (input.unmetCriteria ? FORECAST_THRESHOLDS.unmetCriteriaPenalty : 0) +

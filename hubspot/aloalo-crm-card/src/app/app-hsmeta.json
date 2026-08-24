@@ -2,7 +2,7 @@
   "uid": "aloalo_crm_card_app",
   "type": "app",
   "config": {
-    "description": "Affiche l'historique de coaching Aloalo (score, appels analysés, axe prioritaire) sur la fiche contact, et le digest des appels du deal sur la fiche deal.",
+    "description": "Affiche l'historique de coaching Tolkee (score, appels analysés, axe prioritaire) sur la fiche contact, et le digest des appels du deal sur la fiche deal.",
     "name": "aloalo-crm-card-App",
     "distribution": "private",
     "auth": {

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0034 : autoriser le provider 'google_meet' sur calls
+-- Tolkee — Migration 0034 : autoriser le provider 'google_meet' sur calls
 -- Date  : 2026-06-18
 -- J-day : J43 (Semaine 5+) — Google Meet (2/2) : visio → appel analysé
 -- ============================================================================

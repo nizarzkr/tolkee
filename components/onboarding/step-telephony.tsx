@@ -4,7 +4,7 @@
 // Réutilise le formulaire de clé Ringover existant + affiche l'URL du webhook à
 // coller côté Ringover. Un encart pliable détaille « où cliquer » pour tenir
 // l'objectif des 10 min (le temps de config est chez le fournisseur, pas dans
-// Aloalo → on guide pas à pas).
+// Tolkee → on guide pas à pas).
 // ============================================================================
 
 import { Phone } from "lucide-react";
@@ -29,7 +29,7 @@ export function StepTelephony({ hasRingoverKey, webhookUrl }: Props) {
           Connectez votre téléphonie
         </h1>
         <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
-          Aloalo récupère l&apos;enregistrement de chaque appel via Ringover pour
+          Tolkee récupère l&apos;enregistrement de chaque appel via Ringover pour
           le transcrire et l&apos;analyser. Deux choses à faire : coller votre clé
           API, puis l&apos;URL du webhook dans Ringover.
         </p>

@@ -40,7 +40,7 @@ const METRICS = [
 export function CallAnalysisMockup({ className }: { className?: string }) {
   return (
     <Frame
-      label="aloalo.app / appels / Camille Roux — Acme Corp"
+      label="tolkee.fr / appels / Camille Roux — Acme Corp"
       activeItem="Mes appels"
       className={className}
     >

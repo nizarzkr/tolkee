@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0022 : Durcissement RLS + contraintes data
+-- Tolkee — Migration 0022 : Durcissement RLS + contraintes data
 -- Date  : 2026-06-10
 -- Issue : #26 (audit pré-PoC du 2026-06-08)
 -- ============================================================================

@@ -20,7 +20,7 @@ export function Integrations() {
               Vos outils restent les vôtres.
             </DisplayTitle>
             <p className="mt-5 max-w-md text-[15px] leading-relaxed text-muted-foreground">
-              Aloalo se branche sur ce que votre équipe utilise déjà et renvoie
+              Tolkee se branche sur ce que votre équipe utilise déjà et renvoie
               tout dans votre CRM. Rien à migrer, rien à désapprendre, aucun
               lock-in : si vous partez, vos notes et vos tâches sont déjà chez
               vous.

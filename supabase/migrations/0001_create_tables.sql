@@ -1,9 +1,9 @@
 -- ============================================================================
--- Aloalo — Migration 0001 : Création des 6 tables de base
+-- Tolkee — Migration 0001 : Création des 6 tables de base
 -- Date  : 2026-05-02 (J2)
 -- Auteur : Nizar + Claude (CTO)
 -- ============================================================================
--- Ce script crée toute la structure de données du SaaS Aloalo.
+-- Ce script crée toute la structure de données du SaaS Tolkee.
 -- Il est idempotent dans la mesure où on part d'une DB vierge — à exécuter
 -- UNE SEULE FOIS dans le SQL Editor de Supabase.
 --
@@ -19,7 +19,7 @@
 
 
 -- ============================================================================
--- 1. ORGANIZATIONS — Les entreprises clientes (1 org = 1 compte Aloalo)
+-- 1. ORGANIZATIONS — Les entreprises clientes (1 org = 1 compte Tolkee)
 -- ============================================================================
 create table public.organizations (
   id uuid primary key default gen_random_uuid(),
@@ -40,7 +40,7 @@ create table public.organizations (
 );
 
 comment on table public.organizations is
-  'Entreprises clientes Aloalo. Racine du tenant multi-tenant.';
+  'Entreprises clientes Tolkee. Racine du tenant multi-tenant.';
 
 
 -- ============================================================================

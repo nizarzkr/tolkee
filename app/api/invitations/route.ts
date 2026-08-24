@@ -33,9 +33,9 @@ function buildEmailHtml(params: {
 <html lang="fr">
   <body style="font-family:system-ui,-apple-system,sans-serif;background:#f6f7f9;margin:0;padding:32px;color:#111">
     <div style="max-width:560px;margin:0 auto;background:#fff;border-radius:12px;padding:32px">
-      <h1 style="font-size:20px;margin:0 0 16px">Vous êtes invité à rejoindre ${organizationName} sur Aloalo</h1>
+      <h1 style="font-size:20px;margin:0 0 16px">Vous êtes invité à rejoindre ${organizationName} sur Tolkee</h1>
       <p style="line-height:1.5;margin:0 0 16px">
-        ${inviterFirstName} vous invite à rejoindre <strong>${organizationName}</strong> sur Aloalo,
+        ${inviterFirstName} vous invite à rejoindre <strong>${organizationName}</strong> sur Tolkee,
         la plateforme d'intelligence commerciale.
       </p>
       <p style="margin:24px 0">
@@ -167,9 +167,9 @@ export async function POST(req: NextRequest) {
     await resend.emails.send({
       // Domaine d'envoi : pillarops.fr (utilisé pour les POC). Nécessite que le
       // domaine soit VÉRIFIÉ dans Resend (DNS SPF/DKIM) — sinon l'envoi échoue.
-      from: 'Aloalo <noreply@pillarops.fr>',
+      from: 'Tolkee <noreply@pillarops.fr>',
       to: body.email,
-      subject: `Vous êtes invité à rejoindre ${org.name} sur Aloalo`,
+      subject: `Vous êtes invité à rejoindre ${org.name} sur Tolkee`,
       html: buildEmailHtml({
         inviterFirstName,
         organizationName: org.name,

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0020 : supprime les colonnes mortes de `calls`
+-- Tolkee — Migration 0020 : supprime les colonnes mortes de `calls`
 -- Date  : 2026-06-10
 -- Issue : #6 (cleanup de suivi prévu par l'issue)
 -- ============================================================================

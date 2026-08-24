@@ -38,7 +38,7 @@ export function StepCriteria({ editorPipelines, hasAnyCriteria, done }: Props) {
         <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
           Pour chaque phase de votre tunnel, l&apos;IA propose ce qui doit être
           vrai pour qu&apos;un deal avance. Vous ajustez en quelques clics — c&apos;est
-          ce qu&apos;Aloalo vérifiera ensuite sur vos appels.
+          ce qu&apos;Tolkee vérifiera ensuite sur vos appels.
         </p>
       </div>
 

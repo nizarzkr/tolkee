@@ -23,7 +23,7 @@ export default async function SignupPage({
   return (
     <Card className="p-2">
       <CardHeader>
-        <CardTitle className="text-xl">Créer un compte Aloalo</CardTitle>
+        <CardTitle className="text-xl">Créer un compte Tolkee</CardTitle>
         <CardDescription>
           14 jours gratuits — sans carte bancaire.
         </CardDescription>

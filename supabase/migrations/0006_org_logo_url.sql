@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0006 : organizations.logo_url + ringover_api_key (J12)
+-- Tolkee — Migration 0006 : organizations.logo_url + ringover_api_key (J12)
 -- Date  : 2026-05-12 (logo_url) / 2026-05-13 (ringover_api_key)
 -- ============================================================================
 -- 1. logo_url : permet à un owner de personnaliser l'identité visuelle de son

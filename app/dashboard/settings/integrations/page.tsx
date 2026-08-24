@@ -117,7 +117,7 @@ export default async function IntegrationsSettingsPage({
       <SectionHeading
         icon={Cable}
         title="Intégrations"
-        description="Connectez votre téléphonie et votre CRM à Aloalo."
+        description="Connectez votre téléphonie et votre CRM à Tolkee."
       />
 
       <div className="space-y-6">
@@ -128,7 +128,7 @@ export default async function IntegrationsSettingsPage({
               <div>
                 <CardTitle className="text-base">Ringover</CardTitle>
                 <CardDescription>
-                  Synchronisez automatiquement vos appels avec Aloalo.
+                  Synchronisez automatiquement vos appels avec Tolkee.
                 </CardDescription>
               </div>
               {hasRingoverKey ? (
@@ -154,7 +154,7 @@ export default async function IntegrationsSettingsPage({
               <div>
                 <h3 className="text-sm font-medium">Clé API Ringover</h3>
                 <p className="mt-1 text-xs text-muted-foreground">
-                  Permet à Aloalo de récupérer l&apos;enregistrement audio de
+                  Permet à Tolkee de récupérer l&apos;enregistrement audio de
                   chaque appel reçu via le webhook. La clé est stockée chiffrée
                   côté serveur et n&apos;est jamais affichée en clair.
                 </p>
@@ -185,7 +185,7 @@ export default async function IntegrationsSettingsPage({
               <p>
                 Besoin d&apos;aide pour la configuration côté Ringover ?{" "}
                 <a
-                  href="mailto:support@aloalo.app?subject=Aide%20configuration%20Ringover"
+                  href="mailto:support@tolkee.fr?subject=Aide%20configuration%20Ringover"
                   className="font-medium text-foreground underline-offset-4 hover:underline"
                 >
                   Contactez notre support
@@ -204,7 +204,7 @@ export default async function IntegrationsSettingsPage({
                 <div>
                   <CardTitle className="text-base">Aircall</CardTitle>
                   <CardDescription>
-                    Synchronisez automatiquement vos appels Aircall avec Aloalo.
+                    Synchronisez automatiquement vos appels Aircall avec Tolkee.
                   </CardDescription>
                 </div>
                 {hasAircallToken ? (
@@ -412,7 +412,7 @@ export default async function IntegrationsSettingsPage({
                   <CardTitle className="text-base">Google Meet</CardTitle>
                   <CardDescription>
                     Connectez votre compte Google Workspace pour analyser vos
-                    visioconférences. Aloalo lit la transcription native de Meet
+                    visioconférences. Tolkee lit la transcription native de Meet
                     (vrais noms des participants, sans téléchargement).
                   </CardDescription>
                 </div>

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0019 : aligne le schéma `calls` sur le code applicatif
+-- Tolkee — Migration 0019 : aligne le schéma `calls` sur le code applicatif
 -- Date  : 2026-06-10
 -- Issue : #6 (audit pré-PoC du 2026-06-08)
 -- ============================================================================

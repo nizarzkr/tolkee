@@ -9,9 +9,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Mentions légales — Aloalo",
+  title: "Mentions légales — Tolkee",
   description:
-    "Mentions légales d'Aloalo : éditeur, directeur de publication, hébergeur.",
+    "Mentions légales d'Tolkee : éditeur, directeur de publication, hébergeur.",
 };
 
 const LAST_UPDATED = "11 mai 2026";
@@ -35,7 +35,7 @@ export default function LegalPage() {
         <section>
           <h2 className="text-lg font-semibold">1. Éditeur du site</h2>
           <ul className="ml-4 mt-2 list-disc space-y-1">
-            <li>Nom commercial&nbsp;: Aloalo</li>
+            <li>Nom commercial&nbsp;: Tolkee</li>
             <li>Représentant légal&nbsp;: Nizar [NOM]</li>
             <li>Forme juridique&nbsp;: [FORME JURIDIQUE]</li>
             <li>Capital social&nbsp;: [CAPITAL SOCIAL] (si applicable)</li>
@@ -43,7 +43,7 @@ export default function LegalPage() {
             <li>SIRET&nbsp;: [SIRET]</li>
             <li>RCS&nbsp;: [VILLE D&apos;IMMATRICULATION RCS] (si applicable)</li>
             <li>N° de TVA intracommunautaire&nbsp;: [TVA] (si assujetti)</li>
-            <li>Email&nbsp;: contact@aloalo.fr</li>
+            <li>Email&nbsp;: contact@tolkee.fr</li>
           </ul>
         </section>
 
@@ -54,7 +54,7 @@ export default function LegalPage() {
 
         <section>
           <h2 className="text-lg font-semibold">3. Hébergement</h2>
-          <p>L&apos;application Aloalo est hébergée sur les infrastructures suivantes&nbsp;:</p>
+          <p>L&apos;application Tolkee est hébergée sur les infrastructures suivantes&nbsp;:</p>
           <ul className="ml-4 mt-2 list-disc space-y-1">
             <li>
               <strong>Front-end et logique applicative</strong>&nbsp;: Vercel
@@ -75,7 +75,7 @@ export default function LegalPage() {
           <p>
             Pour toute question relative au site ou au service&nbsp;:
             <br />
-            <strong>contact@aloalo.fr</strong>
+            <strong>contact@tolkee.fr</strong>
           </p>
         </section>
 

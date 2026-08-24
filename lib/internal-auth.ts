@@ -1,7 +1,7 @@
 import { NextRequest } from 'next/server'
 import crypto from 'crypto'
 
-const HEADER = 'x-aloalo-internal'
+const HEADER = 'x-tolkee-internal'
 
 /**
  * Vérifie l'en-tête de secret partagé interne en temps constant.

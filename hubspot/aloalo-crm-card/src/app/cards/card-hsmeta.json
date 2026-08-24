@@ -2,7 +2,7 @@
   "uid": "aloalo_crm_card_card",
   "type": "card",
   "config": {
-    "name": "Historique Aloalo",
+    "name": "Historique Tolkee",
     "location": "crm.record.tab",
     "entrypoint": "/app/cards/AloaloCard.tsx",
     "objectTypes": [

@@ -1,10 +1,10 @@
 -- ============================================================================
--- Aloalo — Migration 0023 : phase du deal HubSpot sur l'appel (J25 phase 2)
+-- Tolkee — Migration 0023 : phase du deal HubSpot sur l'appel (J25 phase 2)
 -- Date  : 2026-06-17
 -- ============================================================================
 -- Objectif : persister la PHASE du deal HubSpot (dealstage) au moment de
 -- l'enrichissement, en plus de son nom/ID (migration 0012). Aujourd'hui le
--- statut d'un deal dans Aloalo est déduit de l'ACTIVITÉ (actif si dernier appel
+-- statut d'un deal dans Tolkee est déduit de l'ACTIVITÉ (actif si dernier appel
 -- récent, sinon dormant). Avec la phase HubSpot, on peut détecter le vrai
 -- « gagné / perdu » des pipelines standard (stages `closedwon` / `closedlost`).
 --

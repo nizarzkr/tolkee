@@ -5,7 +5,7 @@
 // design : l'URL de prise de RDV, l'email de contact, les entrées de nav.
 // ============================================================================
 
-export const CONTACT_EMAIL = "contact@aloalo.fr";
+export const CONTACT_EMAIL = "contact@tolkee.fr";
 
 // CTA principal du site : « Réserver une démo ».
 // Tant qu'il n'y a pas d'agenda en ligne (Cal.com / Calendly), on retombe sur
@@ -14,11 +14,11 @@ export const CONTACT_EMAIL = "contact@aloalo.fr";
 export const DEMO_URL =
   `mailto:${CONTACT_EMAIL}` +
   "?subject=" +
-  encodeURIComponent("Démo Aloalo — 15 minutes") +
+  encodeURIComponent("Démo Tolkee — 15 minutes") +
   "&body=" +
   encodeURIComponent(
     "Bonjour,\n\n" +
-      "Je souhaiterais voir Aloalo en démo.\n\n" +
+      "Je souhaiterais voir Tolkee en démo.\n\n" +
       "Entreprise :\n" +
       "Nombre de commerciaux :\n" +
       "Téléphonie utilisée (Ringover / Aircall / autre) :\n" +

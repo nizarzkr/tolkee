@@ -54,7 +54,7 @@ export default async function OnboardingLayout({
     <div className="flex min-h-screen flex-1 flex-col bg-muted/30">
       <header className="flex items-center justify-between px-6 py-5">
         <span className="font-heading text-xl font-bold tracking-tight text-foreground">
-          Aloalo
+          Tolkee
         </span>
         <Link
           href="/dashboard"

@@ -305,7 +305,7 @@ export async function getMostRecentDealForContact(
 // 1quinquies. resolveContactContext — résout un numéro vers contact + entreprise
 //             + deal le plus récent, en une seule passe (J18bis).
 // ============================================================================
-// Sert à la fois à l'enrichissement d'affichage (nom/entreprise/deal dans Aloalo)
+// Sert à la fois à l'enrichissement d'affichage (nom/entreprise/deal dans Tolkee)
 // ET au choix de la cible des notes/tâches (deal en priorité, sinon contact).
 // Tout est dégradé : si une sous-requête échoue, le champ correspondant est null.
 // @returns { contact, company, deal } ; contact=null si aucun contact pour ce numéro.
@@ -384,7 +384,7 @@ export async function getDeal(
 // Pour la carte CRM scopée au deal : on lit l'association `deals → calls` que
 // HubSpot tient déjà à jour (un appel passé depuis Ringover/Aircall via le deal
 // y est rattaché). On récupère, pour chaque appel, son numéro appelé et son
-// horodatage — la seule clé de jointure dispo vers nos appels Aloalo, faute de
+// horodatage — la seule clé de jointure dispo vers nos appels Tolkee, faute de
 // `hs_call_external_id` exposé côté portail (cf. décision archi carte deal).
 //
 // 2 requêtes :
@@ -604,7 +604,7 @@ export async function getContactEmailSignals(
 // 2bis. getContact — récupère un contact par son ID (J16, pour la CRM Card).
 // ============================================================================
 // À l'ouverture d'une fiche contact, HubSpot nous transmet l'ID du contact.
-// On en lit le téléphone pour retrouver les appels Aloalo correspondants.
+// On en lit le téléphone pour retrouver les appels Tolkee correspondants.
 // On ramène `phone` ET `mobilephone` : un contact peut n'avoir renseigné que
 // l'un des deux, et l'appel peut avoir été passé sur l'un ou l'autre.
 // @returns { id, firstname, lastname, phone, mobilephone } ou null.

@@ -30,7 +30,7 @@ export function Hero() {
 
           {/* Sous-titre en noir plein : la DA refuse le gris sur le hero. */}
           <p className="mt-7 max-w-lg text-lg leading-snug tracking-[-0.011em] text-pretty text-foreground md:text-xl">
-            Aloalo transcrit et analyse chaque appel de votre équipe, pousse la
+            Tolkee transcrit et analyse chaque appel de votre équipe, pousse la
             note et les tâches de suivi dans votre CRM, et donne à vos managers
             de quoi coacher sur des faits plutôt que sur des impressions.
           </p>

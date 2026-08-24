@@ -47,7 +47,7 @@ export type NormalizedRecording = {
   // Identifiant de l'appel/réunion côté source (→ provider_call_id). Clé
   // d'idempotence : un replay du même id réel ne crée pas de doublon.
   providerCallId: string
-  // Org Aloalo destinataire — DÉJÀ RÉSOLUE par l'adaptateur de façon sûre
+  // Org Tolkee destinataire — DÉJÀ RÉSOLUE par l'adaptateur de façon sûre
   // (jamais depuis un champ non authentifié du body). On ne la (re)dérive pas ici.
   organizationId: string
   // Durée en secondes (null toléré : la colonne est nullable).

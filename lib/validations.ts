@@ -185,7 +185,7 @@ export type HubspotSettingsInput = z.infer<typeof HubspotSettingsSchema>
 // Forme réelle du payload Ringover (et notre fixture de simulation) :
 //   {
 //     event: 'call.ended' | autre,
-//     organization_id: <uuid Aloalo>,
+//     organization_id: <uuid Tolkee>,
 //     call: {
 //       id: <id Ringover>,
 //       to_number?: string,

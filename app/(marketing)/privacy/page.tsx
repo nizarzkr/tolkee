@@ -12,9 +12,9 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "Politique de confidentialité — Aloalo",
+  title: "Politique de confidentialité — Tolkee",
   description:
-    "Comment Aloalo collecte, traite et protège vos données personnelles.",
+    "Comment Tolkee collecte, traite et protège vos données personnelles.",
 };
 
 const LAST_UPDATED = "11 mai 2026";
@@ -40,20 +40,20 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-semibold">1. Qui est responsable du traitement ?</h2>
           <p>
-            Aloalo (« nous ») est un service SaaS d&apos;analyse d&apos;appels
+            Tolkee (« nous ») est un service SaaS d&apos;analyse d&apos;appels
             commerciaux édité par&nbsp;:
           </p>
           <ul className="ml-4 mt-2 list-disc space-y-1">
             <li>Nizar [NOM] — [FORME JURIDIQUE]</li>
             <li>Adresse&nbsp;: [ADRESSE COMPLÈTE]</li>
             <li>SIRET&nbsp;: [SIRET]</li>
-            <li>Email&nbsp;: contact@aloalo.fr</li>
+            <li>Email&nbsp;: contact@tolkee.fr</li>
           </ul>
         </section>
 
         <section>
           <h2 className="text-lg font-semibold">2. Quelles données collectons-nous ?</h2>
-          <p>Dans le cadre du service Aloalo, nous traitons&nbsp;:</p>
+          <p>Dans le cadre du service Tolkee, nous traitons&nbsp;:</p>
           <ul className="ml-4 mt-2 list-disc space-y-1">
             <li>
               <strong>Données de compte</strong>&nbsp;: email, nom complet, rôle
@@ -100,7 +100,7 @@ export default function PrivacyPage() {
           <p className="mt-2">
             Le contenu des appels analysés relève de l&apos;exécution du
             contrat conclu avec votre employeur (l&apos;organisation cliente
-            Aloalo). Votre employeur est responsable de vous informer et le
+            Tolkee). Votre employeur est responsable de vous informer et le
             cas échéant de recueillir votre consentement à l&apos;enregistrement
             et à l&apos;analyse de ces conversations.
           </p>
@@ -139,7 +139,7 @@ export default function PrivacyPage() {
         <section>
           <h2 className="text-lg font-semibold">5. Avec qui partageons-nous vos données ?</h2>
           <p>
-            Aloalo s&apos;appuie sur des sous-traitants techniques pour fournir
+            Tolkee s&apos;appuie sur des sous-traitants techniques pour fournir
             le service. Tous présentent des garanties de conformité RGPD&nbsp;:
           </p>
           <ul className="ml-4 mt-2 list-disc space-y-1">
@@ -196,7 +196,7 @@ export default function PrivacyPage() {
             </li>
           </ul>
           <p className="mt-2">
-            Pour toute demande, écrivez-nous à <strong>contact@aloalo.fr</strong>.
+            Pour toute demande, écrivez-nous à <strong>contact@tolkee.fr</strong>.
             Nous répondons sous un mois maximum. Vous avez par ailleurs le droit
             d&apos;introduire une réclamation auprès de la CNIL (www.cnil.fr).
           </p>
@@ -209,14 +209,14 @@ export default function PrivacyPage() {
             notre cas, le point de contact unique pour toute question liée à la
             protection des données est&nbsp;:
             <br />
-            <strong>contact@aloalo.fr</strong>
+            <strong>contact@tolkee.fr</strong>
           </p>
         </section>
 
         <section>
           <h2 className="text-lg font-semibold">8. Cookies</h2>
           <p>
-            Aloalo n&apos;utilise que des cookies strictement nécessaires au
+            Tolkee n&apos;utilise que des cookies strictement nécessaires au
             fonctionnement du service (session d&apos;authentification). Aucun
             cookie publicitaire ou de mesure tierce n&apos;est déposé.
           </p>

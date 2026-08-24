@@ -15,11 +15,11 @@ const PRINCIPLES = [
   },
   {
     title: "L'IA propose, l'humain valide",
-    body: "Sur les sujets structurants (critères de passage de phase, corrections de pipeline), Aloalo suggère et n'impose rien. Le responsable garde la main.",
+    body: "Sur les sujets structurants (critères de passage de phase, corrections de pipeline), Tolkee suggère et n'impose rien. Le responsable garde la main.",
   },
   {
     title: "On fiabilise, on ne devine pas",
-    body: "Pas de forecast prédictif sorti d'un chapeau. Aloalo dit seulement si le forecast déjà présent dans votre CRM est soutenu par les appels réels.",
+    body: "Pas de forecast prédictif sorti d'un chapeau. Tolkee dit seulement si le forecast déjà présent dans votre CRM est soutenu par les appels réels.",
   },
   {
     title: "Sobriété assumée",

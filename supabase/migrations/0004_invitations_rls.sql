@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0004 : RLS invitations (J8 étape 2)
+-- Tolkee — Migration 0004 : RLS invitations (J8 étape 2)
 -- Date  : 2026-05-06
 -- ============================================================================
 -- Active les policies INSERT/UPDATE manquantes sur public.invitations.

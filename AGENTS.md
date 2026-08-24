@@ -6,7 +6,7 @@ This version has breaking changes — APIs, conventions, and file structure may 
 
 ---
 
-# Projet Aloalo
+# Projet Tolkee
 
 ## Pitch
 SaaS d'intelligence commerciale qui se branche via API sur la téléphonie d'entreprise (Ringover, Aircall). Transcrit les appels, les analyse via IA, génère scores de performance et conseils de coaching automatique.
@@ -92,7 +92,7 @@ Ajouts prévus : `STRIPE_WEBHOOK_SECRET`, `RINGOVER_WEBHOOK_SECRET`.
 ## Modèle de données (cf. `supabase/migrations/`)
 
 10 tables dans `public` :
-- `organizations` — racine du tenant (1 org = 1 compte client Aloalo)
+- `organizations` — racine du tenant (1 org = 1 compte client Tolkee)
 - `profiles` — `id = auth.users.id`, lié à une org, role `owner`/`manager`/`sales`
 - `calls` — appels Ringover/Aircall/Google Meet/simulés, pipeline `pending → transcribing → analyzed`
 - `analyses` — résultat IA d'un appel (1-to-1 avec `calls`), dimensions + conseils

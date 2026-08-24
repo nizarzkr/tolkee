@@ -13,7 +13,7 @@ export default function AuthLayout({
             href="/"
             className="font-heading text-2xl font-bold tracking-tight text-foreground"
           >
-            Aloalo
+            Tolkee
           </Link>
         </div>
         {children}

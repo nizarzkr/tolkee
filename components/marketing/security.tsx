@@ -39,7 +39,7 @@ export function Security() {
             Des conversations clients. Traitées comme telles.
           </DisplayTitle>
           <p className="mt-6 max-w-md text-[15px] leading-relaxed text-muted-foreground">
-            Vous confiez à Aloalo ce que vos clients vous disent. Les durées de
+            Vous confiez à Tolkee ce que vos clients vous disent. Les durées de
             conservation, les sous-traitants et vos droits sont écrits noir sur
             blanc, pas cachés dans une annexe.
           </p>

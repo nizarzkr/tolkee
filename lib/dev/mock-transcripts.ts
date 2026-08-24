@@ -645,17 +645,17 @@ export const MOCK_TRANSCRIPTS: MockTranscript[] = [
   {
     id: 'mock-1',
     title: 'Appel avec objection prix — PME logistique',
-    description: 'Aloalo vs TransLog · objection budget gérée par discovery ROI · closing par démo planifiée mardi 10h.',
+    description: 'Tolkee vs TransLog · objection budget gérée par discovery ROI · closing par démo planifiée mardi 10h.',
     duration_seconds: 312,
     caller_number: '+33612345678',
     callee_number: '+33145678901',
-    text: `Bonjour, je suis Thomas Mercier de chez Aloalo. Je vous appelle suite à votre demande de démo sur notre solution d'analyse d'appels commerciaux. Vous avez quelques minutes ?
+    text: `Bonjour, je suis Thomas Mercier de chez Tolkee. Je vous appelle suite à votre demande de démo sur notre solution d'analyse d'appels commerciaux. Vous avez quelques minutes ?
 Oui bonjour Thomas, je suis Sophie Renard, directrice commerciale chez TransLog. Oui j'ai quelques minutes.
 Parfait. Avant de vous présenter la solution, j'aimerais mieux comprendre votre contexte. Combien de commerciaux avez-vous dans votre équipe actuellement ?
 On est une équipe de 12 personnes. On fait beaucoup d'appels sortants, facilement 40 à 50 appels par commercial par semaine.
 D'accord, donc environ 500 appels par semaine au total. Et aujourd'hui, comment vous évaluez la performance de vos équipes sur ces appels ?
 Honnêtement, on fait des écoutes aléatoires, mais c'est très chronophage. Je peux en écouter 5 ou 6 par semaine maximum. Le reste, on n'a aucune visibilité.
-C'est exactement le problème qu'on résout. Avec Aloalo, 100% de vos appels sont analysés automatiquement. Vous recevez un score et des conseils de coaching pour chaque appel, sans rien écouter manuellement.
+C'est exactement le problème qu'on résout. Avec Tolkee, 100% de vos appels sont analysés automatiquement. Vous recevez un score et des conseils de coaching pour chaque appel, sans rien écouter manuellement.
 Ça m'intéresse. Quel est le tarif ?
 On est sur un abonnement à 299 euros par mois pour votre taille d'équipe, tout compris.
 Hm, c'est plus que ce que j'imaginais. On a déjà des outils CRM, j'ai du mal à justifier un budget supplémentaire auprès de ma direction.
@@ -666,13 +666,13 @@ Oui, pourquoi pas. Plutôt en début de semaine si possible.
 Mardi 10h ça vous irait ?
 Mardi 10h c'est parfait.`,
     segments: [
-      { speaker: 'A', text: "Bonjour, je suis Thomas Mercier de chez Aloalo. Je vous appelle suite à votre demande de démo sur notre solution d'analyse d'appels commerciaux. Vous avez quelques minutes ?", start: 0, end: 12000 },
+      { speaker: 'A', text: "Bonjour, je suis Thomas Mercier de chez Tolkee. Je vous appelle suite à votre demande de démo sur notre solution d'analyse d'appels commerciaux. Vous avez quelques minutes ?", start: 0, end: 12000 },
       { speaker: 'B', text: "Oui bonjour Thomas, je suis Sophie Renard, directrice commerciale chez TransLog. Oui j'ai quelques minutes.", start: 12500, end: 20000 },
       { speaker: 'A', text: "Parfait. Avant de vous présenter la solution, j'aimerais mieux comprendre votre contexte. Combien de commerciaux avez-vous dans votre équipe actuellement ?", start: 20500, end: 30000 },
       { speaker: 'B', text: "On est une équipe de 12 personnes. On fait beaucoup d'appels sortants, facilement 40 à 50 appels par commercial par semaine.", start: 30500, end: 40000 },
       { speaker: 'A', text: "D'accord, donc environ 500 appels par semaine au total. Et aujourd'hui, comment vous évaluez la performance de vos équipes sur ces appels ?", start: 40500, end: 51000 },
       { speaker: 'B', text: "Honnêtement, on fait des écoutes aléatoires, mais c'est très chronophage. Je peux en écouter 5 ou 6 par semaine maximum. Le reste, on n'a aucune visibilité.", start: 51500, end: 63000 },
-      { speaker: 'A', text: "C'est exactement le problème qu'on résout. Avec Aloalo, 100% de vos appels sont analysés automatiquement. Vous recevez un score et des conseils de coaching pour chaque appel, sans rien écouter manuellement.", start: 63500, end: 77000 },
+      { speaker: 'A', text: "C'est exactement le problème qu'on résout. Avec Tolkee, 100% de vos appels sont analysés automatiquement. Vous recevez un score et des conseils de coaching pour chaque appel, sans rien écouter manuellement.", start: 63500, end: 77000 },
       { speaker: 'B', text: "Ça m'intéresse. Quel est le tarif ?", start: 77500, end: 81000 },
       { speaker: 'A', text: "On est sur un abonnement à 299 euros par mois pour votre taille d'équipe, tout compris.", start: 81500, end: 88000 },
       { speaker: 'B', text: "Hm, c'est plus que ce que j'imaginais. On a déjà des outils CRM, j'ai du mal à justifier un budget supplémentaire auprès de ma direction.", start: 88500, end: 100000 },
@@ -691,7 +691,7 @@ Mardi 10h c'est parfait.`,
     duration_seconds: 198,
     caller_number: '+33687654321',
     callee_number: '+33156789012',
-    text: `Allô bonjour, c'est Kevin de chez Aloalo, j'appelle pour vous présenter notre solution. Vous avez le temps là ?
+    text: `Allô bonjour, c'est Kevin de chez Tolkee, j'appelle pour vous présenter notre solution. Vous avez le temps là ?
 Euh... oui enfin j'ai 5 minutes.
 Super. Donc on fait de l'analyse d'appels par IA, c'est vraiment top, tous nos clients adorent. Je voulais vous montrer notre démo.
 D'accord mais on utilise quoi comme téléphonie ?
@@ -705,7 +705,7 @@ Je comprends. On pourrait peut-être quand même faire une démo pour voir ?
 Non je pense pas, merci quand même.
 D'accord, bonne journée.`,
     segments: [
-      { speaker: 'A', text: "Allô bonjour, c'est Kevin de chez Aloalo, j'appelle pour vous présenter notre solution. Vous avez le temps là ?", start: 0, end: 8000 },
+      { speaker: 'A', text: "Allô bonjour, c'est Kevin de chez Tolkee, j'appelle pour vous présenter notre solution. Vous avez le temps là ?", start: 0, end: 8000 },
       { speaker: 'B', text: "Euh... oui enfin j'ai 5 minutes.", start: 8500, end: 12000 },
       { speaker: 'A', text: "Super. Donc on fait de l'analyse d'appels par IA, c'est vraiment top, tous nos clients adorent. Je voulais vous montrer notre démo.", start: 12500, end: 22000 },
       { speaker: 'B', text: "D'accord mais on utilise quoi comme téléphonie ?", start: 22500, end: 26000 },
@@ -727,7 +727,7 @@ D'accord, bonne journée.`,
     duration_seconds: 425,
     caller_number: '+33698765432',
     callee_number: '+33167890123',
-    text: `Bonjour Monsieur Dumont, c'est Laura Petit d'Aloalo. On s'était échangé des messages sur LinkedIn la semaine dernière au sujet de l'analyse de vos appels commerciaux. C'est toujours un bon moment ?
+    text: `Bonjour Monsieur Dumont, c'est Laura Petit d'Tolkee. On s'était échangé des messages sur LinkedIn la semaine dernière au sujet de l'analyse de vos appels commerciaux. C'est toujours un bon moment ?
 Oui bonjour Laura, tout à fait. J'avais regardé votre profil, ça m'avait l'air intéressant.
 Merci. Pour qu'on soit efficaces, j'ai quelques questions rapides. Vous utilisez bien Ringover avec votre équipe ?
 Oui, on est passés sur Ringover il y a 6 mois. On a 8 commerciaux.
@@ -746,7 +746,7 @@ Franchement ça me semble raisonnable par rapport au problème. Je peux démarre
 Tout à fait. Je vous envoie le lien d'inscription dans la foulée, et je vous propose un point de suivi jeudi pour voir les premiers résultats. Ça vous va ?
 Parfait, j'attends votre mail.`,
     segments: [
-      { speaker: 'A', text: "Bonjour Monsieur Dumont, c'est Laura Petit d'Aloalo. On s'était échangé des messages sur LinkedIn la semaine dernière au sujet de l'analyse de vos appels commerciaux. C'est toujours un bon moment ?", start: 0, end: 14000 },
+      { speaker: 'A', text: "Bonjour Monsieur Dumont, c'est Laura Petit d'Tolkee. On s'était échangé des messages sur LinkedIn la semaine dernière au sujet de l'analyse de vos appels commerciaux. C'est toujours un bon moment ?", start: 0, end: 14000 },
       { speaker: 'B', text: "Oui bonjour Laura, tout à fait. J'avais regardé votre profil, ça m'avait l'air intéressant.", start: 14500, end: 22000 },
       { speaker: 'A', text: "Merci. Pour qu'on soit efficaces, j'ai quelques questions rapides. Vous utilisez bien Ringover avec votre équipe ?", start: 22500, end: 30000 },
       { speaker: 'B', text: "Oui, on est passés sur Ringover il y a 6 mois. On a 8 commerciaux.", start: 30500, end: 37000 },

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0029 : actions d'hygiène poussées dans HubSpot
+-- Tolkee — Migration 0029 : actions d'hygiène poussées dans HubSpot
 -- Date  : 2026-06-17
 -- J-day : J31 (Semaine 4) — #1 Pipeline Hygiene Engine (2/2) : surface + 1 clic
 -- ============================================================================

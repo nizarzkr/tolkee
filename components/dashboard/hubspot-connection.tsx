@@ -69,7 +69,7 @@ export function HubspotConnection({
   return (
     <div className="space-y-3">
       <p className="text-xs text-muted-foreground">
-        Votre portail HubSpot est connecté. Aloalo renouvelle l&apos;accès
+        Votre portail HubSpot est connecté. Tolkee renouvelle l&apos;accès
         automatiquement.
       </p>
       <div className="flex flex-wrap items-center gap-3">

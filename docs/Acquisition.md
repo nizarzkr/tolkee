@@ -59,7 +59,7 @@ pas de cold call massif (trop dur en solo). On concentre.
 
 ### Le message (en phase POC)
 
-Réflexe à tuer : « Bonjour, je vous présente Aloalo, une solution de… ».
+Réflexe à tuer : « Bonjour, je vous présente Tolkee, une solution de… ».
 Structure qui marche : **court, sur EUX, une seule question, offre de test gratuit.**
 
 ```
@@ -131,7 +131,7 @@ posts répond bien mieux à ton message.
 
 ```
 ┌────────────────────────────────────────────────────────────┐
-│  CLIENT IDÉAL ALOALO                                          │
+│  CLIENT IDÉAL TOLKEE                                          │
 ├────────────────────────────────────────────────────────────┤
 │  Pays           │ France (+ Belgique/Suisse FR plus tard)    │
 │  Taille          │ 11–50 salariés  (cœur de cible)           │

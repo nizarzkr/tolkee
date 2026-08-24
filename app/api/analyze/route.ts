@@ -72,7 +72,7 @@ function buildNoteSummary(a: CallAnalysis): string {
     .join('\n')
 
   const parts = [
-    `Analyse Aloalo — Score global : ${a.score_global}/100`,
+    `Analyse Tolkee — Score global : ${a.score_global}/100`,
     a.summary ? `\n${a.summary}` : '',
     strengths ? `\nPoints forts :\n${strengths}` : '',
     weaknesses ? `\nAxes d'amélioration :\n${weaknesses}` : '',
@@ -330,7 +330,7 @@ export async function POST(req: NextRequest) {
   //
   //    Les points de suivi (followup_points) et les tâches contextuelles
   //    (suggested_tasks) sont déjà persistés dans `analyses` (insert ci-dessus)
-  //    → visibles côté Aloalo même sans HubSpot.
+  //    → visibles côté Tolkee même sans HubSpot.
   //
   //    Si HubSpot est connecté ET qu'on retrouve le contact par son numéro :
   //      - note de synthèse (score + forts/faibles + points de suivi) ;
@@ -359,7 +359,7 @@ export async function POST(req: NextRequest) {
       if (crmConnected && phone) {
         // Résout contact + entreprise + deal le plus récent ET enrichit les
         // colonnes d'affichage de l'appel (nom/entreprise/deal visibles dans
-        // Aloalo). Réutilise le contexte renvoyé pour cibler la synchro.
+        // Tolkee). Réutilise le contexte renvoyé pour cibler la synchro.
         const ctx = await enrichCallFromHubspot(supabase, callId, phone, crm)
         const contact = ctx.contact
 

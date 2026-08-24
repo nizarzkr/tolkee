@@ -107,7 +107,7 @@ const AloaloCard = ({ context }: { context: CrmContext }) => {
       );
   }, [objectId, isDeal]);
 
-  if (!result) return <LoadingSpinner label="Chargement de l'historique Aloalo…" />;
+  if (!result) return <LoadingSpinner label="Chargement de l'historique Tolkee…" />;
   if ('message' in result) return <Text>{result.message}</Text>;
 
   // ---- Rendu DEAL : digest des appels rattachés au deal. -------------------
@@ -136,7 +136,7 @@ const AloaloCard = ({ context }: { context: CrmContext }) => {
         </DescriptionList>
         <Divider />
         <Link href={`${ALOALO_BASE_URL}/dashboard/calls/${deal.lastCallId}`}>
-          Voir le détail sur Aloalo
+          Voir le détail sur Tolkee
         </Link>
       </>
     );
@@ -146,7 +146,7 @@ const AloaloCard = ({ context }: { context: CrmContext }) => {
   const contact = result as ContactData;
   return (
     <>
-      <Heading>Historique Aloalo</Heading>
+      <Heading>Historique Tolkee</Heading>
       <DescriptionList direction="row">
         <DescriptionListItem label="Dimensions validées">
           <Text>{fmtDims(contact.lastValidated, contact.lastTotal)}</Text>
@@ -163,7 +163,7 @@ const AloaloCard = ({ context }: { context: CrmContext }) => {
       </DescriptionList>
       <Divider />
       <Link href={`${ALOALO_BASE_URL}/dashboard/calls/${contact.lastCallId}`}>
-        Voir le détail sur Aloalo
+        Voir le détail sur Tolkee
       </Link>
     </>
   );

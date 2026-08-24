@@ -23,9 +23,9 @@ connexion Postgres. Faire le dump contre la connection string de
 
 ```bash
 # format custom (-Fc), compressé et restaurable sélectivement avec pg_restore
-pg_dump "$SUPABASE_DB_URL" -Fc -f aloalo-$(date +%F).dump
+pg_dump "$SUPABASE_DB_URL" -Fc -f tolkee-$(date +%F).dump
 # équivalent CLI Supabase :
-# supabase db dump --db-url "$SUPABASE_DB_URL" -f aloalo-$(date +%F).dump
+# supabase db dump --db-url "$SUPABASE_DB_URL" -f tolkee-$(date +%F).dump
 ```
 
 > ⚠️ Le dump contient des données tenant : le stocker **hors Supabase** (stockage chiffré
@@ -38,7 +38,7 @@ pg_dump "$SUPABASE_DB_URL" -Fc -f aloalo-$(date +%F).dump
 ### Depuis un dump (méthode active en plan gratuit)
 
 ```bash
-pg_restore --clean --if-exists -d "$TARGET_DB_URL" aloalo-YYYY-MM-DD.dump
+pg_restore --clean --if-exists -d "$TARGET_DB_URL" tolkee-YYYY-MM-DD.dump
 ```
 
 (`--clean --if-exists` supprime les objets existants avant de les recréer, sans erreur si

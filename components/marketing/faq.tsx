@@ -22,7 +22,7 @@ const QUESTIONS = [
   },
   {
     q: "Faut-il prévenir les personnes qu'on enregistre ?",
-    a: "Oui. Aloalo analyse les enregistrements produits par votre téléphonie ou votre visio : l'information et le recueil du consentement des interlocuteurs relèvent de votre organisation, comme pour tout enregistrement d'appel. Nous vous aidons à cadrer la mention à ajouter, mais nous ne pouvons pas le faire à votre place.",
+    a: "Oui. Tolkee analyse les enregistrements produits par votre téléphonie ou votre visio : l'information et le recueil du consentement des interlocuteurs relèvent de votre organisation, comme pour tout enregistrement d'appel. Nous vous aidons à cadrer la mention à ajouter, mais nous ne pouvons pas le faire à votre place.",
   },
   {
     q: "Que deviennent les enregistrements ?",
@@ -30,7 +30,7 @@ const QUESTIONS = [
   },
   {
     q: "Mes commerciaux vont-ils avoir l'impression d'être surveillés ?",
-    a: "C'est la question la plus importante du déploiement. Aloalo est construit comme un outil de coaching : chaque constat est justifié par une citation, un brief 1:1 ne retient qu'un seul axe de travail, et le score global sur 100 a été retiré exprès. Le commercial y gagne d'abord du temps de saisie — c'est ce qui fait accepter le reste.",
+    a: "C'est la question la plus importante du déploiement. Tolkee est construit comme un outil de coaching : chaque constat est justifié par une citation, un brief 1:1 ne retient qu'un seul axe de travail, et le score global sur 100 a été retiré exprès. Le commercial y gagne d'abord du temps de saisie — c'est ce qui fait accepter le reste.",
   },
   {
     q: "Et si mon CRM ou ma téléphonie n'est pas dans la liste ?",

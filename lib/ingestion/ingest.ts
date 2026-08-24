@@ -115,7 +115,7 @@ export async function ingestRecording({
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
-          'x-aloalo-internal': process.env.INTERNAL_PIPELINE_SECRET ?? '',
+          'x-tolkee-internal': process.env.INTERNAL_PIPELINE_SECRET ?? '',
         },
         body: JSON.stringify({
           callId,

@@ -42,7 +42,7 @@ export function DesignPartner() {
             On cherche quelques équipes, pas encore des clients.
           </DisplayTitle>
           <p className="mt-6 text-lg leading-snug tracking-[-0.011em] text-foreground">
-            Aloalo est un produit jeune, construit avec les équipes qui
+            Tolkee est un produit jeune, construit avec les équipes qui
             l&apos;utilisent. Nous ouvrons donc un nombre limité de POC gratuits
             à des PME françaises de 5 à 50 commerciaux. Pas de carte bancaire,
             pas d&apos;engagement.

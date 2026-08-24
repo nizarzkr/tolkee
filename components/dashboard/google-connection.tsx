@@ -48,7 +48,7 @@ export function GoogleConnection({
     return (
       <div className="space-y-3">
         <p className="text-xs text-muted-foreground">
-          Connectez votre compte Google Workspace en un clic. Aloalo lira la
+          Connectez votre compte Google Workspace en un clic. Tolkee lira la
           transcription native de vos réunions Meet (aucun fichier à
           télécharger). Les jetons sont stockés chiffrés côté serveur.
         </p>
@@ -70,7 +70,7 @@ export function GoogleConnection({
   return (
     <div className="space-y-3">
       <p className="text-xs text-muted-foreground">
-        Compte Google connecté{email ? ` (${email})` : ""}. Aloalo renouvelle
+        Compte Google connecté{email ? ` (${email})` : ""}. Tolkee renouvelle
         l&apos;accès automatiquement.
       </p>
       <div className="flex flex-wrap items-center gap-3">

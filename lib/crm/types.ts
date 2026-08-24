@@ -92,7 +92,7 @@ export interface CrmAdapter {
   testConnection(): Promise<CrmConnectionStatus>
 
   // --- Carte du tunnel ---
-  // Lecture de l'instantané déjà STOCKÉ par Aloalo (lecture DB, sans appel CRM ni
+  // Lecture de l'instantané déjà STOCKÉ par Tolkee (lecture DB, sans appel CRM ni
   // jeton). Synchro = relit l'API du CRM et persiste l'instantané.
   getStoredPipelines(): Promise<CrmStoredPipelines>
   syncPipelines(): Promise<CrmPipelineSyncResult>

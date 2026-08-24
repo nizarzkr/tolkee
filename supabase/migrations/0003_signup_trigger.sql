@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0003 : Trigger auto signup (organization + profile)
+-- Tolkee — Migration 0003 : Trigger auto signup (organization + profile)
 -- Date  : 2026-05-02 (J2)
 -- ============================================================================
 -- À chaque inscription dans auth.users, on crée automatiquement :

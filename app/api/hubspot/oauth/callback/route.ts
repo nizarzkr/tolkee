@@ -53,7 +53,7 @@ export async function GET(req: NextRequest) {
     return redirectTo(req, "error");
   }
 
-  // 2. Org depuis la session (l'owner est toujours connecté à Aloalo dans cet
+  // 2. Org depuis la session (l'owner est toujours connecté à Tolkee dans cet
   //    onglet — on ne fait jamais confiance à un identifiant venu de l'URL).
   const supabase = await createClient();
   const {

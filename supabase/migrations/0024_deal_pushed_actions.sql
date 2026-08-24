@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0024 : Tâches d'alerte coaching poussées dans HubSpot
+-- Tolkee — Migration 0024 : Tâches d'alerte coaching poussées dans HubSpot
 -- Date  : 2026-06-17
 -- J-day : J26 (Semaine 4) — « L'alerte qui AGIT » (patch agentic #2)
 -- ============================================================================

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0026 : critères de sortie de phase (exit criteria) par org
+-- Tolkee — Migration 0026 : critères de sortie de phase (exit criteria) par org
 -- Date  : 2026-06-17
 -- J-day : J28 (Semaine 4) — Socle #3 (2/3) : le cerveau exit-criteria
 -- ============================================================================

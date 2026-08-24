@@ -150,7 +150,7 @@ function SidebarContent({
           onClick={onNavigate}
           className="font-heading text-xl font-bold tracking-tight text-foreground"
         >
-          Aloalo
+          Tolkee
         </Link>
       </div>
 
@@ -255,7 +255,7 @@ export function Sidebar(props: SidebarProps) {
           href="/dashboard"
           className="font-heading text-lg font-bold tracking-tight text-foreground"
         >
-          Aloalo
+          Tolkee
         </Link>
         <Button
           variant="ghost"

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0017 : protège les credentials tiers de organizations
+-- Tolkee — Migration 0017 : protège les credentials tiers de organizations
 -- Date  : 2026-06-09
 -- ============================================================================
 -- Contexte (audit pré-PoC #5) : la policy RLS "Users can view their own

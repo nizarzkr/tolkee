@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0018 : colonne indexée pour retrouver un call par son
+-- Tolkee — Migration 0018 : colonne indexée pour retrouver un call par son
 --                            transcript_id AssemblyAI (au lieu d'un scan jsonb)
 -- Date  : 2026-06-10
 -- ============================================================================

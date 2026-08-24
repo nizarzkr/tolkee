@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0033 : jetons OAuth Google (Meet) par organisation
+-- Tolkee — Migration 0033 : jetons OAuth Google (Meet) par organisation
 -- Date  : 2026-06-18
 -- J-day : J42 (Semaine 5+) — Intégration Google Meet (connexion + transcripts)
 -- ============================================================================

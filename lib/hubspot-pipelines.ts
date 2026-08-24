@@ -1,7 +1,7 @@
 // ============================================================================
 // lib/hubspot-pipelines.ts — Synchro + lecture de la carte du tunnel (J27)
 // ============================================================================
-// Socle #3 (1/3) de la Semaine 4 : Aloalo lit et stocke la STRUCTURE du tunnel
+// Socle #3 (1/3) de la Semaine 4 : Tolkee lit et stocke la STRUCTURE du tunnel
 // HubSpot de chaque org (pipelines + stages), pas seulement le stage courant
 // d'un deal. C'est le pré-requis des exit-criteria (J28), de l'onboarding (J29)
 // et de l'hygiène de pipeline (J30).

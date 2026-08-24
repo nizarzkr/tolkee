@@ -578,7 +578,7 @@ export async function testConnection(
 // ============================================================================
 
 // Historique d'appels rattachés à un deal : les activités Pipedrive type « call »
-// ne portent pas de numéro composé fiable → jointure vers nos appels Aloalo non
+// ne portent pas de numéro composé fiable → jointure vers nos appels Tolkee non
 // faite pour l'instant. TODO (jour ultérieur) : explorer activities?type=call.
 export async function getDealCalls(): Promise<CrmDealCall[]> {
   return [];

@@ -187,7 +187,7 @@ export async function POST(req: NextRequest) {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'x-aloalo-internal': process.env.INTERNAL_PIPELINE_SECRET ?? '',
+            'x-tolkee-internal': process.env.INTERNAL_PIPELINE_SECRET ?? '',
           },
           body: JSON.stringify({ callId }),
         })
@@ -241,7 +241,7 @@ export async function POST(req: NextRequest) {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
-            'x-aloalo-internal': process.env.INTERNAL_PIPELINE_SECRET ?? '',
+            'x-tolkee-internal': process.env.INTERNAL_PIPELINE_SECRET ?? '',
           },
           body: JSON.stringify({ callId }),
         })

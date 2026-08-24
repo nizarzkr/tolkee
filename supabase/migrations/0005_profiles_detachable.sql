@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0005 : profils détachables (J8 retrait de membre)
+-- Tolkee — Migration 0005 : profils détachables (J8 retrait de membre)
 -- Date  : 2026-05-06
 -- ============================================================================
 -- Permet de "retirer" un membre d'une org sans supprimer son compte auth :

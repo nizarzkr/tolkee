@@ -62,7 +62,7 @@ const DEALS: Deal[] = [
 export function DealsMockup({ className }: { className?: string }) {
   return (
     <Frame
-      label="aloalo.app / pipeline"
+      label="tolkee.fr / pipeline"
       activeItem="Pipeline"
       className={className}
     >

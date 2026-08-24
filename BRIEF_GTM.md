@@ -1,4 +1,4 @@
-# Aloalo — Brief GTM (contexte produit pour stratégie go-to-market)
+# Tolkee — Brief GTM (contexte produit pour stratégie go-to-market)
 
 > Document autoportant, à fournir comme contexte à une IA pour construire la stratégie GTM
 > et identifier les premiers clients / design partners. Rédigé le 9 juin 2026, mis à jour le 20 juillet 2026.
@@ -8,7 +8,7 @@
 
 ## 1. En une phrase
 
-Aloalo est un outil de **conversation intelligence** pour les PME et startups françaises (5 à 50 commerciaux).
+Tolkee est un outil de **conversation intelligence** pour les PME et startups françaises (5 à 50 commerciaux).
 Il se branche sur la téléphonie (Ringover, Aircall) et les outils de réunion (Google Meet), transcrit et
 analyse les conversations commerciales via IA, puis renvoie tout dans le CRM déjà en place (HubSpot ou
 Pipedrive). Il en restitue trois usages, organisés en trois « actes » : **Analyser** (un assistant qui note
@@ -46,7 +46,7 @@ d'embaucher ces profils à temps plein.**
 
 ### Le commercial — gagner du temps et ne rien laisser tomber
 - **Problème** : prise de notes et CRM chronophages, next steps oubliés.
-- **Ce qu'Aloalo fait** : note de synthèse générée après l'appel ; tâches de suivi proposées avec une
+- **Ce qu'Tolkee fait** : note de synthèse générée après l'appel ; tâches de suivi proposées avec une
   échéance contextualisée (pas un rappel générique), regroupées dans une file **« À faire »** cochable ;
   points de suivi prêts à reprendre dans l'email que le commercial enverra lui-même ; suggestion de
   prochaine étape.
@@ -57,7 +57,7 @@ d'embaucher ces profils à temps plein.**
 
 ### Le manager — coacher sur des faits, pas sur le ressenti
 - **Problème** : peu de matière concrète pour préparer un 1:1 utile.
-- **Ce qu'Aloalo fait** : analyse de l'appel par **dimensions** (ex. découverte, objections, prochaine
+- **Ce qu'Tolkee fait** : analyse de l'appel par **dimensions** (ex. découverte, objections, prochaine
   étape), chaque dimension étant marquée validé / partiel / manqué **et justifiée par une citation de
   l'appel** ; métriques de dynamique calculées sans IA (temps de parole, alternance des tours de parole,
   plus long monologue, rapidité à passer au pitch) ; signaux comportementaux (questions ouvertes/fermées,
@@ -70,7 +70,7 @@ d'embaucher ces profils à temps plein.**
 
 ### Le responsable commercial / Rev Ops — objectiver le pilotage
 - **Problème** : qualification du pipe en partie subjective, difficile à vérifier à grande échelle.
-- **Ce qu'Aloalo fait** : repère côté prospect des **signaux** issus de la conversation (intentions
+- **Ce qu'Tolkee fait** : repère côté prospect des **signaux** issus de la conversation (intentions
   d'achat exprimées, fermeté du prochain rendez-vous, nature des objections) pour appuyer la
   qualification ; suit le **momentum d'un deal** sur plusieurs appels (progression ou décrochage) avec les
   raisons explicitées ; vue **Deals** agrégée (statut actif/dormant/gagné/perdu, tendance, tri par risque).
@@ -89,8 +89,8 @@ d'embaucher ces profils à temps plein.**
 - **Analyses sourcées** : chaque évaluation IA s'appuie sur une citation de l'appel, pour rester
   vérifiable et inspirer confiance.
 - **L'IA propose, l'humain valide** : sur les briques structurantes (exit-criteria, corrections de
-  pipeline), Aloalo suggère mais n'impose rien — l'owner garde la main.
-- **On fiabilise, on ne devine pas** : pas de forecast prédictif inventé de toutes pièces ; Aloalo se
+  pipeline), Tolkee suggère mais n'impose rien — l'owner garde la main.
+- **On fiabilise, on ne devine pas** : pas de forecast prédictif inventé de toutes pièces ; Tolkee se
   contente de dire si le forecast déjà présent dans le CRM est soutenu par les appels réels.
 - **Périmètre resserré** : on couvre bien un périmètre précis (téléphonie/visio FR + 2 CRM courants)
   plutôt qu'un catalogue d'intégrations tous azimuts.
@@ -113,7 +113,7 @@ Claap, et plus haut de gamme Gong et Modjo.
 toutefois plutôt à des organisations dotées d'équipes Rev Ops établies, avec une tarification et une
 richesse fonctionnelle pensées pour ce segment (Attention : 59 / 149 / 399 $ par utilisateur/mois).
 
-**Différenciation visée par Aloalo :**
+**Différenciation visée par Tolkee :**
 1. **Hébergement et traitement des données en Europe (RGPD)** — Supabase Paris, AssemblyAI EU, sans
    transit hors UE. Argument de réassurance fort pour les décideurs français sensibles à la conformité.
 2. **Téléphonie et visio françaises au cœur du produit** (Ringover, Aircall, Google Meet), avec un

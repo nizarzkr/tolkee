@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0002 : Activation RLS + policies de base
+-- Tolkee — Migration 0002 : Activation RLS + policies de base
 -- Date  : 2026-05-02 (J2)
 -- ============================================================================
 -- Active Row Level Security sur les 6 tables publiques et crée les policies

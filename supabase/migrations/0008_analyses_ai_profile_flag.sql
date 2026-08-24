@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0008 : analyses.used_ai_profile (J14)
+-- Tolkee — Migration 0008 : analyses.used_ai_profile (J14)
 -- Date  : 2026-05-25
 -- ============================================================================
 -- Flag booléen qui indique si l'analyse a été générée avec le profil IA de

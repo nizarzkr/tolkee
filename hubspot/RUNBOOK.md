@@ -86,7 +86,7 @@ réelle, sans deviner le format de config.
 
 Le composant `hubspot/aloalo-crm-card/src/app/cards/AloaloCard.tsx` appelle directement
 notre endpoint via `hubspot.fetch()` (pas de `runServerlessFunction`) et affiche
-score / nb d'appels / dernier appel / axe + un lien vers le détail sur Aloalo.
+score / nb d'appels / dernier appel / axe + un lien vers le détail sur Tolkee.
 
 > ⚠️ Les noms exacts des composants (`DescriptionList`, `Statistics`…) et la signature
 > de `hubspot.fetch()` dépendent de la version de `@hubspot/ui-extensions` du scaffold.
@@ -101,7 +101,7 @@ hs project dev                   # dev local + preview live ("Developing locally
 ```
 
 Puis : installer la Private App sur le portail de test → ouvrir une **fiche contact/deal**
-dont le téléphone correspond à un appel analysé dans Aloalo → la carte doit afficher
+dont le téléphone correspond à un appel analysé dans Tolkee → la carte doit afficher
 score / nb d'appels / dernier appel / axe + le bouton vers le détail.
 
 ## Vérifs

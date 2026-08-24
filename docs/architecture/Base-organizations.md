@@ -2,7 +2,7 @@
 
 # 🗄️ Table `organizations`
 
-La **racine du tenant** : 1 org = 1 compte client Aloalo. Tout (appels, membres,
+La **racine du tenant** : 1 org = 1 compte client Tolkee. Tout (appels, membres,
 coûts) est rattaché à une org.
 
 ```mermaid

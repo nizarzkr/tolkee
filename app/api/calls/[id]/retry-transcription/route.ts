@@ -80,14 +80,14 @@ export async function POST(
 
   // 5. Re-déclencher /api/transcribe sans body audio : il retombe sur
   //    calls.audio_url. /api/transcribe est protégée par verifyInternalSecret →
-  //    on envoie le header x-aloalo-internal (sinon 401). On utilise l'origin de
+  //    on envoie le header x-tolkee-internal (sinon 401). On utilise l'origin de
   //    la requête courante (même logique que /api/analyze).
   const appUrl = req.nextUrl.origin
   fetch(`${appUrl}/api/transcribe`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'x-aloalo-internal': process.env.INTERNAL_PIPELINE_SECRET ?? '',
+      'x-tolkee-internal': process.env.INTERNAL_PIPELINE_SECRET ?? '',
     },
     body: JSON.stringify({ callId }),
   }).catch(() => {

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0028 : cache d'hygiène de pipeline par deal
+-- Tolkee — Migration 0028 : cache d'hygiène de pipeline par deal
 -- Date  : 2026-06-17
 -- J-day : J30 (Semaine 4) — #1 Pipeline Hygiene Engine (1/2) : moteur de détection
 -- ============================================================================

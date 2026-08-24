@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0009 : organizations.hubspot_token + hubspot_portal_id (J15)
+-- Tolkee — Migration 0009 : organizations.hubspot_token + hubspot_portal_id (J15)
 -- Date  : 2026-05-25
 -- ============================================================================
 -- Intégration HubSpot. Même logique que ringover_api_key (migration 0006) :

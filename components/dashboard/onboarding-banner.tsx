@@ -26,7 +26,7 @@ export function OnboardingBanner({ doneCount, totalSteps }: Props) {
         </span>
         <div>
           <p className="text-sm font-medium text-foreground">
-            Terminez la configuration d&apos;Aloalo
+            Terminez la configuration d&apos;Tolkee
           </p>
           <p className="text-xs text-muted-foreground">
             {doneCount}/{totalSteps} étapes faites — il vous reste quelques

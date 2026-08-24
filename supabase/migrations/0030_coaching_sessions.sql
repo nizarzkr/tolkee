@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0030 : sessions de 1:1 (coaching manager)
+-- Tolkee — Migration 0030 : sessions de 1:1 (coaching manager)
 -- Date  : 2026-06-18
 -- J-day : J35 — « Préparer un 1:1 » (axe Coacher, le différenciateur)
 -- ============================================================================

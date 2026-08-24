@@ -23,15 +23,15 @@ import { Faq } from "@/components/marketing/faq";
 import { FinalCta } from "@/components/marketing/final-cta";
 
 export const metadata: Metadata = {
-  title: "Aloalo — Vos appels commerciaux se notent tout seuls",
+  title: "Tolkee — Vos appels commerciaux se notent tout seuls",
   description:
-    "Aloalo transcrit et analyse les appels de vos commerciaux, pousse notes et tâches dans HubSpot ou Pipedrive, et donne à vos managers de quoi coacher sur des faits. Ringover, Aircall, Google Meet. Données hébergées en Europe.",
+    "Tolkee transcrit et analyse les appels de vos commerciaux, pousse notes et tâches dans HubSpot ou Pipedrive, et donne à vos managers de quoi coacher sur des faits. Ringover, Aircall, Google Meet. Données hébergées en Europe.",
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
     locale: "fr_FR",
-    siteName: "Aloalo",
-    title: "Aloalo — Vos appels commerciaux se notent tout seuls",
+    siteName: "Tolkee",
+    title: "Tolkee — Vos appels commerciaux se notent tout seuls",
     description:
       "Conversation intelligence pour les PME françaises : transcription, analyse sourcée, notes et tâches dans votre CRM. Données hébergées en Europe.",
   },

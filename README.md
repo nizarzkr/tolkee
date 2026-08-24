@@ -1,4 +1,4 @@
-# Aloalo — Conversation intelligence pour équipes commerciales
+# Tolkee — Conversation intelligence pour équipes commerciales
 
 **Un outil qui écoute les appels commerciaux, les analyse, et rend au manager la matière factuelle dont il a besoin pour coacher — puis renvoie tout dans le CRM déjà en place.**
 
@@ -54,12 +54,12 @@ Le produit est organisé en trois actes, chacun adressant un persona.
 
 Quelques arbitrages qui expliquent la forme du produit :
 
-- **Se brancher sur le CRM existant plutôt que le remplacer.** Aucune équipe ne migre son CRM pour un outil de coaching. Aloalo écrit dans HubSpot / Pipedrive et n'essaie pas de devenir la source de vérité.
+- **Se brancher sur le CRM existant plutôt que le remplacer.** Aucune équipe ne migre son CRM pour un outil de coaching. Tolkee écrit dans HubSpot / Pipedrive et n'essaie pas de devenir la source de vérité.
 - **Les métriques de dynamique sont calculées sans IA.** Un manager peut contester un score généré par un modèle ; il ne peut pas contester un temps de parole mesuré. C'est ce qui rend la conversation de coaching possible.
 - **Chaque jugement de l'IA est justifié par une citation.** Sans preuve extraite de l'appel, le commercial rejette l'analyse — et l'adoption tombe à zéro.
 - **Hébergement et traitement en Europe** (Supabase West EU / Paris, AssemblyAI EU) : prérequis non négociable pour vendre à des PME françaises qui enregistrent des conversations client.
 
-Le raisonnement complet — discovery, JTBD, analyse concurrentielle, et la critique des hypothèses par un avocat du diable — est documenté dans un dépôt séparé : **[sales-discovery-aloalo](https://github.com/nizarzkr/sales-discovery-aloalo)**.
+Le raisonnement complet — discovery, JTBD, analyse concurrentielle, et la critique des hypothèses par un avocat du diable — est documenté dans un dépôt séparé : **[sales-discovery-tolkee](https://github.com/nizarzkr/sales-discovery-tolkee)**.
 
 Le positionnement go-to-market détaillé est dans [`BRIEF_GTM.md`](./BRIEF_GTM.md).
 

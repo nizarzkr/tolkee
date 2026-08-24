@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0032 : jetons OAuth HubSpot par organisation
+-- Tolkee — Migration 0032 : jetons OAuth HubSpot par organisation
 -- Date  : 2026-06-18
 -- J-day : J38 (Semaine 5+) — HubSpot Public App + OAuth
 -- ============================================================================

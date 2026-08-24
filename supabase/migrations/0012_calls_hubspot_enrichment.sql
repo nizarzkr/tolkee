@@ -1,11 +1,11 @@
 -- ============================================================================
--- Aloalo — Migration 0012 : enrichissement HubSpot des appels (J18bis)
+-- Tolkee — Migration 0012 : enrichissement HubSpot des appels (J18bis)
 -- Date  : 2026-06-06
 -- ============================================================================
 -- Objectif : ne plus identifier un appel par un simple numéro de téléphone.
 -- Quand l'org a connecté HubSpot, on résout le numéro de l'appel vers le CRM
 -- pour récupérer le NOM du contact, son ENTREPRISE et le DEAL lié, et on les
--- stocke sur l'appel pour les afficher partout dans Aloalo (listes, détail).
+-- stocke sur l'appel pour les afficher partout dans Tolkee (listes, détail).
 --
 -- L'enrichissement est écrit côté serveur uniquement :
 --   - automatiquement dans le bloc after() de /api/analyze (nouveaux appels) ;

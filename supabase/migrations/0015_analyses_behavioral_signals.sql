@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0015 : analyses.behavioral_signals (J22)
+-- Tolkee — Migration 0015 : analyses.behavioral_signals (J22)
 -- Date  : 2026-06-06
 -- ============================================================================
 -- Signaux comportementaux QUALITATIFS détectés par l'IA dans le MÊME appel

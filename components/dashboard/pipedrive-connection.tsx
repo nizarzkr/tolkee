@@ -67,7 +67,7 @@ export function PipedriveConnection({
   return (
     <div className="space-y-3">
       <p className="text-xs text-muted-foreground">
-        Votre compte Pipedrive est connecté. Aloalo renouvelle l&apos;accès
+        Votre compte Pipedrive est connecté. Tolkee renouvelle l&apos;accès
         automatiquement.
       </p>
       <div className="flex flex-wrap items-center gap-3">

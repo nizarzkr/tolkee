@@ -43,7 +43,7 @@ export const ONBOARDING_STEPS: readonly OnboardingStepId[] = [
 // /onboarding (cf. app/dashboard/layout.tsx) sans marquer l'onboarding terminé.
 // Vit ici (et non dans actions.ts) car un module `'use server'` ne peut exporter
 // que des fonctions async, pas une constante.
-export const ONBOARDING_SNOOZE_COOKIE = 'aloalo_onboarding_snoozed'
+export const ONBOARDING_SNOOZE_COOKIE = 'tolkee_onboarding_snoozed'
 
 // Signaux bruts lus en base, donnés à la fonction pure deriveSteps.
 export type OnboardingSignals = {

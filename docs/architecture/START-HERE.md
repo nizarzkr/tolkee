@@ -1,4 +1,4 @@
-# 🗺️ Architecture Aloalo — mode d'emploi
+# 🗺️ Architecture Tolkee — mode d'emploi
 
 Ce dossier est un **vault Obsidian** : une carte interactive de l'application,
 où tu **cliques sur les boîtes** pour zoomer sur chaque élément (comme Google Maps).
@@ -7,7 +7,7 @@ où tu **cliques sur les boîtes** pour zoomer sur chaque élément (comme Googl
 
 1. Télécharge **Obsidian** (gratuit) : https://obsidian.md
 2. Ouvre Obsidian → **« Open folder as vault »** (Ouvrir un dossier comme vault).
-3. Choisis ce dossier : `Desktop/aloalo/docs/architecture`
+3. Choisis ce dossier : `Desktop/tolkee/docs/architecture`
 4. Ouvre la note **[[Carte-globale]]** → c'est ta vue d'ensemble.
 
 > Dans Obsidian, les boîtes des diagrammes sont **cliquables** : un clic t'ouvre

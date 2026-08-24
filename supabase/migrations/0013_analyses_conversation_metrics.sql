@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0013 : analyses.conversation_metrics (J20)
+-- Tolkee — Migration 0013 : analyses.conversation_metrics (J20)
 -- Date  : 2026-06-06
 -- ============================================================================
 -- Métriques conversationnelles DÉTERMINISTES d'un appel, calculées sans IA à

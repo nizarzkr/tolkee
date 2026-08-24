@@ -68,7 +68,7 @@ const GROUPS: { label: string; accent?: boolean; tasks: Task[] }[] = [
 export function TodoMockup({ className }: { className?: string }) {
   return (
     <Frame
-      label="aloalo.app / à faire"
+      label="tolkee.fr / à faire"
       activeItem="À faire"
       className={className}
     >

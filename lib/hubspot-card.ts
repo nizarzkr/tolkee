@@ -1,5 +1,5 @@
 // ============================================================================
-// lib/hubspot-card.ts — Données de la carte HubSpot "Historique Aloalo".
+// lib/hubspot-card.ts — Données de la carte HubSpot "Historique Tolkee".
 // ============================================================================
 // Logique consommée par l'endpoint app/api/hubspot/card-data/route.ts, appelé
 // DIRECTEMENT par l'App Card React (UI Extension) via hubspot.fetch(), auth par
@@ -98,7 +98,7 @@ function pickAxe(a: AnalysisRow | null): string {
 
 // ----------------------------------------------------------------------------
 // getContactCardData — cœur de la carte.
-//   portalId  : Hub ID du portail HubSpot appelant → identifie l'org Aloalo.
+//   portalId  : Hub ID du portail HubSpot appelant → identifie l'org Tolkee.
 //   contactId : ID du contact HubSpot ouvert → on en lit le téléphone.
 // ----------------------------------------------------------------------------
 export async function getContactCardData({
@@ -108,11 +108,11 @@ export async function getContactCardData({
   portalId: string
   contactId: string
 }): Promise<ContactCardResult> {
-  if (!portalId) return { message: 'Portail non configuré dans Aloalo' }
+  if (!portalId) return { message: 'Portail non configuré dans Tolkee' }
 
   const supabase = getAdminClient()
 
-  // 1. portalId → org Aloalo
+  // 1. portalId → org Tolkee
   const { data: org } = await supabase
     .from('organizations')
     .select('id')
@@ -120,14 +120,14 @@ export async function getContactCardData({
     .limit(1)
     .maybeSingle()
 
-  if (!org) return { message: 'Portail non configuré dans Aloalo' }
+  if (!org) return { message: 'Portail non configuré dans Tolkee' }
   // Adaptateur CRM (J45) : résout le jeton (OAuth rafraîchi auto + repli legacy).
   const crm = await getCrmAdapter(org.id)
   if (!(await crm.isConnected())) {
-    return { message: 'Connexion HubSpot incomplète côté Aloalo' }
+    return { message: 'Connexion HubSpot incomplète côté Tolkee' }
   }
   if (!contactId) {
-    return { message: 'Ouvrez une fiche contact pour voir l’historique Aloalo' }
+    return { message: 'Ouvrez une fiche contact pour voir l’historique Tolkee' }
   }
 
   // 2. Lire le téléphone du contact côté CRM (phone OU mobilephone).
@@ -181,14 +181,14 @@ export async function getContactCardData({
   }
 }
 
-// Tolérance de jointure appel HubSpot ↔ appel Aloalo : même numéro ET horaires
+// Tolérance de jointure appel HubSpot ↔ appel Tolkee : même numéro ET horaires
 // à moins de 2 min d'écart. Faute de clé d'ID partagée (hs_call_external_id non
 // exposé), on s'appuie sur (numéro + horodatage). 2 min absorbe le décalage
 // d'horloge Ringover↔HubSpot sans risquer de confondre deux appels distincts.
 const MATCH_WINDOW_MS = 2 * 60 * 1000
 
-// Forme d'un appel Aloalo candidat lu pour le matching deal.
-type AloaloCallRow = {
+// Forme d'un appel Tolkee candidat lu pour le matching deal.
+type TolkeeCallRow = {
   id: string
   callee_number: string | null
   started_at: string | null
@@ -196,8 +196,8 @@ type AloaloCallRow = {
   analyses: unknown
 }
 
-// Instant de référence d'un appel Aloalo (started_at, sinon created_at).
-function callMs(row: AloaloCallRow): number {
+// Instant de référence d'un appel Tolkee (started_at, sinon created_at).
+function callMs(row: TolkeeCallRow): number {
   const raw = row.started_at ?? row.created_at
   const ms = raw ? Date.parse(raw) : NaN
   return Number.isFinite(ms) ? ms : NaN
@@ -205,10 +205,10 @@ function callMs(row: AloaloCallRow): number {
 
 // ----------------------------------------------------------------------------
 // getDealCardData — digest des appels analysés rattachés à UN deal.
-//   portalId : Hub ID du portail HubSpot appelant → identifie l'org Aloalo.
+//   portalId : Hub ID du portail HubSpot appelant → identifie l'org Tolkee.
 //   dealId   : ID du deal HubSpot ouvert.
 // On lit les appels que HubSpot associe au deal, puis on les relie aux appels
-// Aloalo par (numéro appelé + horodatage). C'est HubSpot qui tranche quels
+// Tolkee par (numéro appelé + horodatage). C'est HubSpot qui tranche quels
 // appels appartiennent au deal — d'où la précision même quand un contact a
 // plusieurs deals.
 // ----------------------------------------------------------------------------
@@ -219,11 +219,11 @@ export async function getDealCardData({
   portalId: string
   dealId: string
 }): Promise<DealCardResult> {
-  if (!portalId) return { message: 'Portail non configuré dans Aloalo' }
+  if (!portalId) return { message: 'Portail non configuré dans Tolkee' }
 
   const supabase = getAdminClient()
 
-  // 1. portalId → org Aloalo
+  // 1. portalId → org Tolkee
   const { data: org } = await supabase
     .from('organizations')
     .select('id')
@@ -231,14 +231,14 @@ export async function getDealCardData({
     .limit(1)
     .maybeSingle()
 
-  if (!org) return { message: 'Portail non configuré dans Aloalo' }
+  if (!org) return { message: 'Portail non configuré dans Tolkee' }
   // Adaptateur CRM (J45) : résout le jeton (OAuth rafraîchi auto + repli legacy).
   const crm = await getCrmAdapter(org.id)
   if (!(await crm.isConnected())) {
-    return { message: 'Connexion HubSpot incomplète côté Aloalo' }
+    return { message: 'Connexion HubSpot incomplète côté Tolkee' }
   }
   if (!dealId) {
-    return { message: 'Ouvrez une fiche deal pour voir le digest Aloalo' }
+    return { message: 'Ouvrez une fiche deal pour voir le digest Tolkee' }
   }
 
   // 2. Appels que le CRM rattache à ce deal (numéro appelé + horodatage).
@@ -254,7 +254,7 @@ export async function getDealCardData({
     return { message: 'Aucun appel analysé sur ce deal' }
   }
 
-  // 3. Appels Aloalo candidats : mêmes numéros, avec analyse (jointure stricte).
+  // 3. Appels Tolkee candidats : mêmes numéros, avec analyse (jointure stricte).
   const { data: rows } = await supabase
     .from('calls')
     .select(
@@ -264,14 +264,14 @@ export async function getDealCardData({
     .in('callee_number', numbers)
     .order('started_at', { ascending: false, nullsFirst: false })
 
-  const candidates = (rows ?? []) as AloaloCallRow[]
+  const candidates = (rows ?? []) as TolkeeCallRow[]
   if (candidates.length === 0) {
     return { message: 'Aucun appel analysé sur ce deal' }
   }
 
-  // 4. Matcher chaque appel HubSpot au plus proche appel Aloalo (même numéro,
+  // 4. Matcher chaque appel HubSpot au plus proche appel Tolkee (même numéro,
   //    écart d'horaire ≤ fenêtre), sans réutiliser deux fois le même appel.
-  const usedAloalo = new Set<string>()
+  const usedTolkee = new Set<string>()
   const matched: Array<{
     id: string
     validated: number | null
@@ -281,10 +281,10 @@ export async function getDealCardData({
 
   for (const hc of dealCalls) {
     if (!hc.toNumber || hc.timestampMs == null) continue
-    let best: AloaloCallRow | null = null
+    let best: TolkeeCallRow | null = null
     let bestDelta = Infinity
     for (const row of candidates) {
-      if (usedAloalo.has(row.id)) continue
+      if (usedTolkee.has(row.id)) continue
       if (row.callee_number !== hc.toNumber) continue
       const ms = callMs(row)
       if (!Number.isFinite(ms)) continue
@@ -295,7 +295,7 @@ export async function getDealCardData({
       }
     }
     if (best) {
-      usedAloalo.add(best.id)
+      usedTolkee.add(best.id)
       const summary = summarizeDimensions(pickAnalysis(best.analyses)?.dimensions)
       matched.push({
         id: best.id,

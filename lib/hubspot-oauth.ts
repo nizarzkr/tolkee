@@ -29,7 +29,7 @@ const TOKEN_URL = "https://api.hubapi.com/oauth/v1/token";
 const TOKEN_INFO_URL = "https://api.hubapi.com/oauth/v1/access-tokens";
 
 // Scopes demandés à l'install — DOIVENT correspondre à ceux déclarés dans
-// hubspot/aloalo-crm-card/src/app/app-hsmeta.json (config.auth.requiredScopes).
+// hubspot/tolkee-crm-card/src/app/app-hsmeta.json (config.auth.requiredScopes).
 const SCOPES = [
   "oauth",
   "crm.objects.contacts.read",

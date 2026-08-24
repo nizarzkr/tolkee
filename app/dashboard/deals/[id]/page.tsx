@@ -393,7 +393,7 @@ export default async function DealMomentumPage({
                 tone="bg-foreground/70"
               />
               <ForecastBar
-                label="Engagement réel (Aloalo)"
+                label="Engagement réel (Tolkee)"
                 value={forecast.observed}
                 tone={engagementTone(forecast.observed)}
               />

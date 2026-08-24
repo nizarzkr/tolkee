@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0036 : jetons OAuth Pipedrive + sélecteur de CRM
+-- Tolkee — Migration 0036 : jetons OAuth Pipedrive + sélecteur de CRM
 -- Date  : 2026-06-19
 -- J-day : J46 (Semaine 5+) — Pipedrive comme 2ᵉ adaptateur CRM (abstraction J45)
 -- ============================================================================

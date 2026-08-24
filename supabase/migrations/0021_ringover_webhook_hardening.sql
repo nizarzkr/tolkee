@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0021 : durcissement du webhook Ringover
+-- Tolkee — Migration 0021 : durcissement du webhook Ringover
 -- Date  : 2026-06-10
 -- Issue : #8 (audit pré-PoC du 2026-06-08)
 -- ============================================================================

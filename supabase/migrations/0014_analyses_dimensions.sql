@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0014 : analyses.dimensions (J21)
+-- Tolkee — Migration 0014 : analyses.dimensions (J21)
 -- Date  : 2026-06-06
 -- ============================================================================
 -- Scoring FACTUEL par dimensions (remplace l'affichage du score global /100,

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0031 : complétion des tâches « À faire »
+-- Tolkee — Migration 0031 : complétion des tâches « À faire »
 -- Date  : 2026-06-18
 -- J-day : J37 — « À faire » (axe Travailler, productivité commerciale)
 -- ============================================================================

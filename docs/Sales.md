@@ -1,4 +1,4 @@
-# 🧭 Stratégie commerciale Aloalo — vision globale
+# 🧭 Stratégie commerciale Tolkee — vision globale
 
 > Doc de référence « Head of Sales ». Vue schématisée des **5 piliers** qui font
 > grandir l'activité, et de l'ordre dans lequel les construire.
@@ -81,7 +81,7 @@ En phase POC, concrètement : **Acquisition + Onboarding** sont les deux chantie
 
 **Chantiers**
 - **Démo qui fait mal puis soulage** : montrer l'appel raté qui a coûté un deal,
-  puis ce qu'Aloalo en aurait dit. Pas une visite guidée de features.
+  puis ce qu'Tolkee en aurait dit. Pas une visite guidée de features.
 - **Cadre du POC** : durée (ex. 1 mois), ce qu'on attend du client (brancher sa
   téléphonie + un call de feedback), ce qu'il obtient (analyses + coaching).
 - **Objections à scripter** : « pas le temps », « RGPD ? », « mes commerciaux vont

@@ -5,7 +5,7 @@
 // Logique : pour tout call dont audio_url est non null et créé il y a plus de
 // 24h, on remet audio_url à NULL. On ne stocke pas l'audio brut nous-mêmes —
 // c'est Ringover (ou Aircall) qui l'héberge selon ses propres durées de
-// rétention — donc effacer notre référence suffit côté Aloalo.
+// rétention — donc effacer notre référence suffit côté Tolkee.
 //
 // En mode simulation (provider='simulated'), audio_url est déjà null dès la
 // création, donc ce cron est sans effet sur les appels de test. Il vise les

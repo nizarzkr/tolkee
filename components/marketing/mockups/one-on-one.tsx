@@ -27,7 +27,7 @@ const WINS = [
 export function OneOnOneMockup({ className }: { className?: string }) {
   return (
     <Frame
-      label="aloalo.app / préparer un 1:1"
+      label="tolkee.fr / préparer un 1:1"
       activeItem="Préparer un 1:1"
       className={className}
     >

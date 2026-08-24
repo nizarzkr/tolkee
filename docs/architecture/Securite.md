@@ -12,7 +12,7 @@ flowchart TD
     subgraph NAV["🌐 Côté navigateur (user)"]
         U["Utilisateur connecté<br/>(JWT)"]
     end
-    subgraph SRV["🖥️ Côté serveur (Aloalo)"]
+    subgraph SRV["🖥️ Côté serveur (Tolkee)"]
         SK["Service key<br/>(bypass RLS)"]
     end
     subgraph DBZ["🗄️ Supabase (RLS forcée)"]
@@ -37,8 +37,8 @@ flowchart TD
 flowchart LR
     RO["Ringover"] -->|"HMAC<br/>RINGOVER_WEBHOOK_SECRET"| WHRO["webhook Ringover"]
     AAI["AssemblyAI"] -->|"ASSEMBLYAI_WEBHOOK_SECRET"| WHAAI["webhook AssemblyAI"]
-    WHRO -->|"x-aloalo-internal<br/>INTERNAL_PIPELINE_SECRET"| TR["/api/transcribe"]
-    WHAAI -->|"x-aloalo-internal"| AN["/api/analyze"]
+    WHRO -->|"x-tolkee-internal<br/>INTERNAL_PIPELINE_SECRET"| TR["/api/transcribe"]
+    WHAAI -->|"x-tolkee-internal"| AN["/api/analyze"]
     CRON["Vercel Cron"] -->|"Bearer CRON_SECRET"| SWEEP["/api/cron/sweep-stuck-calls"]
     click TR "Pipeline-appel" "Pipeline"
     click AN "Pipeline-appel" "Pipeline"

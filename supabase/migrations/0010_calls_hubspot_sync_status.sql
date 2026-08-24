@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0010 : calls.hubspot_sync_status (J17)
+-- Tolkee — Migration 0010 : calls.hubspot_sync_status (J17)
 -- Date  : 2026-06-05
 -- ============================================================================
 -- Automation post-analyse : après chaque analyse IA, si l'org a connecté
@@ -20,13 +20,13 @@
 --     "template_name": "Relance après démo",   -- modèle choisi par Claude
 --     "email_subject": "...",                  -- objet proposé (toujours stocké)
 --     "email_body": "..."                      -- corps proposé (toujours stocké,
---                                              --   visible côté Aloalo même si
+--                                              --   visible côté Tolkee même si
 --                                              --   le push HubSpot échoue)
 --   }
 --
 -- On stocke TOUJOURS l'email proposé (subject/body) ici, indépendamment du
 -- succès du push HubSpot : la valeur démo (« l'IA a choisi + rempli VOTRE
--- modèle ») reste visible dans Aloalo même si le brouillon HubSpot échoue.
+-- modèle ») reste visible dans Tolkee même si le brouillon HubSpot échoue.
 --
 -- `add column if not exists` rend la migration idempotente.
 -- ============================================================================

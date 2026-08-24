@@ -64,7 +64,7 @@ export default async function AccountSettingsPage() {
         <SectionHeading
           icon={Building2}
           title="Organisation"
-          description="Nom et logo affichés dans Aloalo."
+          description="Nom et logo affichés dans Tolkee."
         />
         <Card>
           <CardContent>

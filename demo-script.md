@@ -1,11 +1,11 @@
-# Script de démo Aloalo — 8 minutes (prospect / futur client)
+# Script de démo Tolkee — 8 minutes (prospect / futur client)
 
 > **Audience** : responsable commercial / dirigeant de PME (5–50 commerciaux) sous Ringover ou Aircall.
-> **Objectif** : montrer qu'Aloalo est **le Revenue Ops que la PME ne peut pas (encore) recruter** —
+> **Objectif** : montrer qu'Tolkee est **le Revenue Ops que la PME ne peut pas (encore) recruter** —
 > il écoute tous les appels, évalue sur des faits, repère le deal qui va se perdre, et pousse le
 > suivi dans HubSpot, sans rien changer aux habitudes de l'équipe.
 > **Fil rouge / accroche** : *« Les grosses boîtes ont un Revenue Ops et un coach commercial à temps plein.
-> Vous, non — et vous ne pouvez pas vous le payer. Aloalo, c'est cette compétence-là, en logiciel. »*
+> Vous, non — et vous ne pouvez pas vous le payer. Tolkee, c'est cette compétence-là, en logiciel. »*
 
 ---
 
@@ -17,7 +17,7 @@
 - [ ] **Données « deal qui se perd » prêtes** : les 3 appels **Helios** (`mock-12/13/14`, même numéro `+33170000123`) déjà simulés et analysés → la page `/dashboard/deals` doit montrer Helios **en décrochage avec l'alerte coaching**. (Helios est simulé, **pas** dans HubSpot — c'est normal, voir plan B.)
 - [ ] **Données HubSpot réelles prêtes** : contacts **Acme Corp** (Camille Roux `+33180000201` + Thomas Vidal `+33180000202`, **même deal**) présents dans HubSpot Ableton avec deal associé.
 - [ ] **Appel live identifié** : `mock-18` · « Acme Corp — Camille Roux (à simuler en LIVE) » — c'est celui qu'on simule en direct à l'étape 2:00. (Même deal Acme → il s'ajoute à la trajectoire.) Ne PAS le pré-simuler avant la démo, l'intérêt c'est de le lancer en live.
-- [ ] Onglets ouverts d'avance : `Aloalo /dashboard/deals` + la fiche **deal Acme** HubSpot.
+- [ ] Onglets ouverts d'avance : `Tolkee /dashboard/deals` + la fiche **deal Acme** HubSpot.
 - [ ] ⚠️ **Ne jamais utiliser le numéro `+33189665544`** (donnée de test corrompue).
 - [ ] Plan B si la simu rame : avoir **un appel déjà analysé** ouvert dans un onglet de secours.
 - [ ] 🆕 **Cohérence « zéro score sur 100 »** : depuis J25 le score chiffré a disparu de **tous** les écrans. Accueil = KPI **« Deals à risque »** ; listes d'appels (accueil, `/dashboard/calls`, fiche commercial) = **pastilles de dimensions** (vert/orange/rouge), plus de colonne « X% » ; fiche commercial = courbe **« Dimensions validées » (0-5)**. Si un prospect clique partout, rien ne contredit le discours « on ne vend pas une note ».
@@ -29,7 +29,7 @@
 ### 0:00 — 0:50 · Le problème (landing `/`)
 **Écran** : la landing page.
 **Tu dis** :
-> « Les boîtes du CAC 40 ont un *Revenue Ops* qui analyse chaque deal et un coach commercial qui débriefe chaque appel. Vous, avec 8 commerciaux, vous ne pouvez ni recruter l'un ni l'autre — ça coûte deux salaires à temps plein. Du coup vos commerciaux passent 50, 100 appels par semaine, un manager en écoute 2 ou 3, et le coaching se fait au feeling. Aloalo, c'est ce Revenue Ops et ce coach — en logiciel. Il écoute **tout**, et ne vous remonte que l'essentiel. »
+> « Les boîtes du CAC 40 ont un *Revenue Ops* qui analyse chaque deal et un coach commercial qui débriefe chaque appel. Vous, avec 8 commerciaux, vous ne pouvez ni recruter l'un ni l'autre — ça coûte deux salaires à temps plein. Du coup vos commerciaux passent 50, 100 appels par semaine, un manager en écoute 2 ou 3, et le coaching se fait au feeling. Tolkee, c'est ce Revenue Ops et ce coach — en logiciel. Il écoute **tout**, et ne vous remonte que l'essentiel. »
 
 **Point de valeur** : on ne vend pas de la transcription, on vend **une compétence d'équipe que vous ne pouvez pas embaucher**.
 
@@ -70,7 +70,7 @@ Attendre le statut **« Analysé »**, puis ouvrir l'appel.
 **Écran** : la page détail de l'appel (synthèse persistante + onglets).
 **Tu déroules dans l'ordre :**
 
-1. **En-tête** — « Regardez : ce n'est pas un numéro, c'est **Camille Roux · Acme Corp · Acme Corp — Déploiement Q3**. Aloalo a retrouvé le contact, l'entreprise et l'affaire dans HubSpot tout seul. »
+1. **En-tête** — « Regardez : ce n'est pas un numéro, c'est **Camille Roux · Acme Corp · Acme Corp — Déploiement Q3**. Tolkee a retrouvé le contact, l'entreprise et l'affaire dans HubSpot tout seul. »
 2. **Évaluation** — les **dimensions factuelles** (Découverte, Qualification, Objections, Closing, Next step), chacune **validée / partielle / manquée**, avec une **citation de l'appel** en preuve. « On ne vous sort pas une note opaque sur 100 — on vous montre *ce qui s'est dit*, et ce qui a manqué, preuve à l'appui. » Pointer le badge **« Analyse personnalisée »**.
 3. **Dynamique** — temps de parole, relances, signaux d'achat du prospect, fermeté du next step. « La lecture qu'un bon coach ferait à l'oreille — automatisée. »
 4. **Coaching** — le conseil **priorisé** (le seul qui compte), pas une liste de 40 reproches.
@@ -86,7 +86,7 @@ Attendre le statut **« Analysé »**, puis ouvrir l'appel.
 > « Voilà ce qu'un Revenue Ops ferait pour vous, et que personne n'a le temps de faire : suivre la **trajectoire** d'un deal sur plusieurs appels. Helios — trois échanges. Regardez la courbe : ça **refroidit**. Premier appel chaleureux, deuxième tiède, troisième le prospect ghoste. »
 
 Pointer **l'alerte coaching** sur le deal :
-> « Aloalo ne se contente pas de le constater. Il dit **pourquoi** ça décroche et **quelle action 1:1** le manager doit mener cette semaine pour le sauver. Ça, aujourd'hui, vous ne l'avez nulle part : le deal se perd en silence, et vous le découvrez au forecast du mois suivant. »
+> « Tolkee ne se contente pas de le constater. Il dit **pourquoi** ça décroche et **quelle action 1:1** le manager doit mener cette semaine pour le sauver. Ça, aujourd'hui, vous ne l'avez nulle part : le deal se perd en silence, et vous le découvrez au forecast du mois suivant. »
 
 **Point de valeur** : c'est **le** différenciant. On ne note pas des appels isolés — on **pilote des affaires** et on déclenche l'intervention au bon moment. C'est littéralement le boulot d'un Revenue Ops.
 
@@ -94,9 +94,9 @@ Pointer **l'alerte coaching** sur le deal :
 
 ### 6:00 — 7:00 · La boucle HubSpot (le suivi vit là où l'équipe travaille)
 **Écran** : bascule sur la **fiche deal Acme** dans HubSpot.
-**Tu montres** : la **note de synthèse** + les **tâches de suivi** créées automatiquement **sur le deal**, et la **carte Aloalo** (digest des appels du deal). Mentionner que **Camille Roux ET Thomas Vidal (le DAF)** sont sur le même deal → Aloalo voit le **multi-threading**.
+**Tu montres** : la **note de synthèse** + les **tâches de suivi** créées automatiquement **sur le deal**, et la **carte Tolkee** (digest des appels du deal). Mentionner que **Camille Roux ET Thomas Vidal (le DAF)** sont sur le même deal → Tolkee voit le **multi-threading**.
 **Tu dis** :
-> « Tout ce que vous venez de voir est **déjà dans HubSpot**, sur l'affaire. Le commercial ne ressaisit rien : il ouvre son deal, ses tâches de relance datées l'attendent. Et comme Aloalo relie les deux interlocuteurs au même deal, vous voyez aussi si une affaire ne tient qu'à une seule personne. »
+> « Tout ce que vous venez de voir est **déjà dans HubSpot**, sur l'affaire. Le commercial ne ressaisit rien : il ouvre son deal, ses tâches de relance datées l'attendent. Et comme Tolkee relie les deux interlocuteurs au même deal, vous voyez aussi si une affaire ne tient qu'à une seule personne. »
 
 **Point de valeur** : le suivi **vit là où l'équipe travaille déjà**. C'est ça qui fait que c'est adopté.
 
@@ -123,6 +123,6 @@ Pointer **l'alerte coaching** sur le deal :
 - Garder le **mode clair** (la DA est clair-only) ; pas de bascule sombre.
 
 ## 🎯 Les 3 phrases à ne pas rater
-1. « Aloalo, c'est le **Revenue Ops que vous ne pouvez pas vous payer** — en logiciel. »
+1. « Tolkee, c'est le **Revenue Ops que vous ne pouvez pas vous payer** — en logiciel. »
 2. « On ne vous note pas sur 100 : on vous montre **ce qui s'est dit**, preuve à l'appui. »
 3. « Voici le deal que votre commercial **va perdre** — et l'action pour le sauver. »

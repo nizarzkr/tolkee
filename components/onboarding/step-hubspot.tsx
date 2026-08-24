@@ -39,7 +39,7 @@ export function StepHubspot({
           Connectez votre CRM HubSpot
         </h1>
         <p className="mx-auto mt-2 max-w-md text-sm text-muted-foreground">
-          Dès que HubSpot est connecté, Aloalo lit la carte de votre tunnel
+          Dès que HubSpot est connecté, Tolkee lit la carte de votre tunnel
           (pipelines et phases) — la base pour relier chaque appel au bon deal et
           proposer vos critères de sortie à l&apos;étape suivante.
         </p>

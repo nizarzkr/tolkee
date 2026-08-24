@@ -83,7 +83,7 @@ function buildLimiter(
     // Sliding window — comportement plus fluide qu'un fixed window
     // (évite les pics au reset de la fenêtre).
     limiter: Ratelimit.slidingWindow(limit, `${windowSeconds} s`),
-    prefix: `aloalo:${prefix}`,
+    prefix: `tolkee:${prefix}`,
     analytics: false,
   })
 }

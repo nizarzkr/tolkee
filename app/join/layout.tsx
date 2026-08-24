@@ -12,7 +12,7 @@ export default function JoinLayout({
           href="/"
           className="font-heading text-2xl font-bold tracking-tight text-foreground"
         >
-          Aloalo
+          Tolkee
         </Link>
       </div>
       <div className="w-full max-w-md">{children}</div>

@@ -1,5 +1,5 @@
 -- ============================================================================
--- Aloalo — Migration 0016 : verrouillage colonne-par-colonne de profiles
+-- Tolkee — Migration 0016 : verrouillage colonne-par-colonne de profiles
 -- Date  : 2026-06-09
 -- ============================================================================
 -- La policy RLS "Users can update their own profile" (migration 0002) limite

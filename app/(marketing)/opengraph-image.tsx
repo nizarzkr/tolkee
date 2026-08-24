@@ -12,7 +12,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Aloalo — Vos appels commerciaux se notent tout seuls";
+  "Tolkee — Vos appels commerciaux se notent tout seuls";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -58,7 +58,7 @@ export default async function OpengraphImage() {
             color: "#6b6b6b",
           }}
         >
-          ALOALO · CONVERSATION INTELLIGENCE
+          TOLKEE · CONVERSATION INTELLIGENCE
         </div>
 
         <div
