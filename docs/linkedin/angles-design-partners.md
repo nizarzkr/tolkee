@@ -711,7 +711,7 @@ Discovery, qualification, relance d'un deal endormi, sortie d'une objection prix
 **Quand :** ACTIF du mardi. C'est le format qui se copie-colle dans un Notion d'équipe —
 donc celui qui circule le plus loin.
 
-**But :** saves · **Formule :** F13 ou F7 · **Gabarit :** `grille`
+**But :** saves · **Formule :** F1 anaphore ou F7 · **Gabarit :** `grille`
 
 ```
 « Ça avance bien » est la phrase la plus chère d'une revue de pipe.
@@ -743,7 +743,7 @@ traduction honnête, puis la question qui les remplace. Utile, drôle, et très 
 territoire *Piloter* sans que tu aies besoin d'avoir été manager. Tu ne juges pas les
 managers, tu démontes un langage.
 
-**But :** reposts · **Formule :** F13 Anaphora ou F20 · **Gabarit :** `tableau`
+**But :** reposts · **Formule :** F1 anaphore ou F20 · **Gabarit :** `tableau`
 
 ```
 {N} phrases qu'on entend en revue de pipe et qui ne veulent rien dire.
@@ -930,7 +930,7 @@ d'AE te rendent indiscutablement légitime.
 **Quand :** ACTIF du mardi, en **remplacement** de n'importe quel format dont la matière
 n'est pas prête le lundi matin. C'est le filet de sécurité de la semaine.
 
-**But :** saves / reposts · **Formule :** F13 Anaphora · **Gabarit :** `tableau`
+**But :** saves / reposts · **Formule :** F1 anaphore · **Gabarit :** `tableau`
 
 ```
 {N} phrases que je disais en rendez-vous, et ce que je dis aujourd'hui.

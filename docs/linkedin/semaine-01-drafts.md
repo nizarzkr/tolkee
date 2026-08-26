@@ -1,50 +1,100 @@
 # Semaine 1 — plan et brouillons
 
 > Phase « pré-lancement / design partners », semaine 1 sur 6.
-> Cadre : `angles-design-partners.md` · Voix : `voice-profile.md`
-> Aucune mention de Tolkee cette semaine. Aucun ask produit.
+> **Lundi 31 août → vendredi 4 septembre 2026.**
+> Cadre : `angles-design-partners.md` §2 (arc) et §3 bis (formats) · Voix : `voice-profile.md`
+> Visuels : `visuels/` · **Aucune mention de Tolkee. Aucun pitch. Aucune demande de call.**
 
 ## Le plan
 
-| Jour | Heure | Pilier | Angle | Formule | But |
-|---|---|---|---|---|---|
-| Lundi | — | — | Journée commentaires uniquement | — | — |
-| Mardi | 8h30 | Terrain | D11 — la mesure et la confiance | F10 Contrarian | comments |
-| Mercredi | 8h30 | Terrain | D10 — l'angle mort de la catégorie | F18 False-Binary + close F20 | reposts |
-| Jeudi | 8h30 | Toi | D6 bis — les présupposés en discovery | F4 Time-Anchor Confession | comments |
-| Vendredi | 9h30 | Consultation | D7 — la question du curseur | F12 Permission Slip | comments |
-| Sam/Dim | — | — | Off | — | — |
+| Jour | Heure | Rôle | Angle / format | Formule | But | Visuel |
+|---|---|---|---|---|---|---|
+| Lundi 31 | — | — | Journée commentaires uniquement + départ des 15 DM de l'enquête V9 | — | — | — |
+| Mardi 1er | 8h30 | **ACTIF** | V4 — l'anti-glossaire de la revue de pipe | F1 anaphore | reposts / saves | `tableau` |
+| Mercredi 2 | — | — | Journée commentaires uniquement | — | — | — |
+| Jeudi 3 | 8h30 | **POV** | D11 — la mesure et la confiance | F10 Contrarian | comments | aucun (option dispo) |
+| Vendredi 4 | 9h30 | **CONVERSATION** | D7 — la question du curseur | F12 (esprit permission-slip) | comments / DM | `carte-citation` |
+| Sam/Dim | — | — | Off | — | — | — |
 
-**Exception assumée sur le mix des buts.** La règle demande d'étaler comments / reposts /
-likes / saves sur la semaine. La semaine 1 est volontairement orientée **comments** :
-à ce stade tu ne cherches pas de la portée ni des enregistrements, tu cherches des
-conversations — c'est le premier étage de l'entonnoir design partners. Le mercredi tire
-vers les reposts pour élargir l'audience. Les posts « saves » (D1 avec F7, D2 avec F15)
-arrivent en semaine 2, quand tu auras des chiffres à donner.
+**Contrôles.** Trois formules distinctes (F1, F10, F12). Trois buts distincts. Un post
+avec une vraie vulnérabilité (les trois en ont, mardi le plus). Un chiffre réel et
+vérifiable : mardi et jeudi sont ancrés sur du vécu mesurable, aucun n'avance de
+statistique tierce, donc aucune source à lier ce n'est pas nécessaire cette semaine.
+
+**Continuité.** Les trois posts s'enchaînent : mardi installe que le langage du pipe est
+déclaratif, jeudi dit pourquoi (le climat décide de ce qui se dit), vendredi ouvre la
+question que jeudi laisse entière. Un lecteur qui prend le fil en cours de route comprend
+quand même chaque post seul.
+
+**Un ancrage par semaine.** Le « sept ans » d'AE est l'ancrage du **jeudi**, où il porte
+tout le post. Le mardi ouvre donc sur la revue de pipe, pas sur les années : répéter le
+même ancrage biographique à deux jours d'écart s'entend et affaiblit les deux.
 
 ---
 
-## Mardi — D11 · La mesure et la confiance
+## Mardi 1er septembre — 8h30 — V4 · L'anti-glossaire de la revue de pipe
 
-*Terrain · F10 Contrarian · but : comments*
+*ACTIF · F1 anaphore · but : reposts / saves · visuel : `tableau`*
+
+```
+« Ça avance bien. »
+
+Je l'ai dit à presque toutes les revues de pipe de ma carrière d'AE. Personne ne m'a jamais demandé ce que ça voulait dire. Moi non plus.
+
+Voilà les sept que j'utilisais le plus, et leur traduction honnête :
+
+« Ça avance bien » → je n'ai pas de next step daté
+« Il est très intéressé » → il a été poli en visio
+« On attend leur retour » → je n'ai pas relancé depuis dix jours
+« C'est une question de budget » → je n'ai jamais parlé à celui qui signe
+« Ça se signe ce trimestre » → il me l'a dit une fois, en juin
+« Le projet est prioritaire » → prioritaire pour mon contact, pas pour son comité
+« Je le relance la semaine prochaine » → je n'ai aucune raison de le rappeler
+
+Elles ont toutes le même défaut. Elles décrivent un ressenti et se donnent l'air d'un fait.
+
+Le plus gênant, c'est que ça passait. Un pipe raconté avec assez de conviction traverse la revue du lundi sans une seule question, et l'écart ne se voit qu'en fin de trimestre.
+
+Ce que je m'impose depuis : un fait vérifiable par deal. Une date, un nom, un document. Quand je n'en ai pas, je le dis à voix haute. C'est inconfortable trente secondes, et beaucoup moins cher trois mois plus tard.
+
+Laquelle vous entendez le plus souvent dans votre équipe ?
+```
+
+**Notes**
+- Le hook tient en 157 caractères, donc entier avant le « … voir plus ».
+- **Le ton est la moitié du post.** C'est *lui* qui parlait comme ça, pas ses lecteurs.
+  Se moquer du langage, jamais des gens qui l'emploient : la moitié de l'audience emploie
+  ces phrases, et elle doit se reconnaître sans se sentir visée.
+- Couperet unique : « Elles décrivent un ressenti et se donnent l'air d'un fait. »
+- La question de clôture demande un choix dans une liste, donc elle se répond en trois mots
+  depuis un téléphone. C'est ce qui fait le volume de commentaires sur ce format.
+- Aucune statistique tierce, donc rien à sourcer. Le seul matériau est son vécu, présenté
+  comme tel.
+
+---
+
+## Jeudi 3 septembre — 8h30 — D11 · La mesure et la confiance
+
+*POV · F10 Contrarian · but : comments · texte nu*
 
 ```
 On m'a mesuré pendant sept ans. Ça ne m'a jamais dérangé une seule fois.
 
-Pas parce que j'aimais les tableaux de bord. Parce que je savais que je pouvais dire à ma manager qu'un deal était mort, que j'avais raté mon rendez-vous, ou que je n'y arrivais plus cette semaine — sans que ça me revienne dessus trois mois plus tard.
+Pas parce que j'aimais les tableaux de bord. Parce que je savais que je pouvais dire à ma manager qu'un deal était mort, que j'avais raté mon rendez-vous, ou que je n'y arrivais plus cette semaine, sans que ça me revienne dessus trois mois plus tard.
 
 Ce n'est pas l'outil qui décide si une équipe se sent surveillée. C'est ce qui a été installé avant.
 
 Dans une équipe où ce climat n'existe pas, exactement la même mesure produit autre chose :
-— des deals gardés en vie parce qu'un pipe qui rétrécit fait peur
-— des probabilités arrondies vers le haut la veille de la revue
-— et les vraies difficultés, celles sur lesquelles on pourrait aider, qui ne remontent jamais
 
-On ne mesure plus l'activité. On mesure ce que les gens acceptent de montrer.
+→ des deals gardés en vie parce qu'un pipe qui rétrécit fait peur
+→ des probabilités arrondies vers le haut la veille de la revue
+→ les vraies difficultés, celles sur lesquelles on pourrait aider, qui ne remontent jamais
 
-Perdre en motivation, ça arrive à tout le monde. Ce qui compte, c'est de pouvoir le dire.
+On ne mesure plus l'activité, on mesure ce que les gens acceptent de montrer.
 
-Alors la confiance, dans une équipe commerciale, ce n'est pas une valeur qu'on affiche au mur. C'est une condition technique : sans elle, les chiffres que vous regardez sont faux.
+Perdre en motivation, ça arrive à tout le monde. Ce qui compte, c'est de pouvoir le dire sans calculer ce que ça va coûter.
+
+Alors la confiance, dans une équipe commerciale, ce n'est pas une valeur qu'on affiche au mur. C'est une condition technique. Sans elle, les chiffres que vous regardez sont faux.
 
 Chez vous, qu'est-ce qui a été installé avant qu'on regarde les chiffres de près ?
 ```
@@ -52,140 +102,68 @@ Chez vous, qu'est-ce qui a été installé avant qu'on regarde les chiffres de p
 **Notes**
 - Le hook est contrariant venant de quelqu'un qui va défendre la confiance : il désamorce
   l'accusation de naïveté dès la première ligne.
-- Couperet : « Ce n'est pas l'outil qui décide si une équipe se sent surveillée. »
-- Second couperet : « On mesure ce que les gens acceptent de montrer. » Deux, c'est
-  déjà limite — si tu dois en couper un, garde le premier.
-- **Option amplification :** si ta manager est sur LinkedIn et que tu la préviens, tu peux
-  la nommer en une ligne. Ça transforme le post en hommage partiel et elle le relaiera
-  presque à coup sûr. Une ligne seulement, sinon tu mélanges deux accroches.
+- Couperet unique : « Ce n'est pas l'outil qui décide si une équipe se sent surveillée. »
+  La ligne « on mesure ce que les gens acceptent de montrer » a été fondue dans la phrase
+  précédente pour ne pas faire un second marteau.
+- Le tiret cadratin de la version d'août a été retiré (règle de voix : pas de cadratin).
+- **Cadrage à ne pas rater** : jamais « la confiance plutôt que la performance ». Ici c'est
+  « la confiance est la condition technique de chiffres justes » — un directeur commercial
+  comptable d'un chiffre reste dans le post.
+- « Perdre en motivation » s'adresse au commercial. Ça passe parce que le narrateur *est*
+  le commercial dans ce post. Ne jamais servir cette ligne depuis la position du manager.
+- **Option d'amplification** : si ta manager de l'époque est sur LinkedIn et que tu la
+  préviens avant, tu peux la nommer en une ligne. Le post devient un hommage partiel et
+  elle le relaiera presque à coup sûr. Une ligne, pas un paragraphe.
+- **Visuel : je le déconseille.** C'est le post qui doit faire des commentaires, et une
+  image y déplace la lecture. Un `carte-citation` avec le couperet est préparé dans
+  `visuels/exports/` si tu veux trancher en le voyant.
 
 ---
 
-## Mercredi — D10 · L'angle mort de la catégorie
+## Vendredi 4 septembre — 9h30 — D7 · La question du curseur
 
-*Terrain · F18 False-Binary avec clôture F20 · but : reposts*
-
-```
-Tous les outils qui analysent les appels commerciaux partent du même postulat : le problème du manager, c'est qu'il manque d'information.
-
-Je ne crois pas que ce soit ça.
-
-Un manager a déjà de l'information. Il a les chiffres de résultat, il a le CRM, il a ce que son commercial lui raconte. Le problème n'est pas qu'il en manque. C'est qu'aucune de ces trois sources ne tient trente secondes en 1:1.
-
-Les chiffres de résultat ? Ils arrivent trois semaines trop tard et ne disent pas quoi corriger.
-Le récit du commercial ? C'est la version où il a plutôt bien fait. Ce n'est pas de la mauvaise foi, c'est de la mémoire.
-Un score généré par un modèle ? « Découverte : 4/10 ». Le commercial le conteste, et il a raison de le contester.
-
-Les trois échouent pour la même raison : rien là-dedans n'est opposable.
-
-Ce qui change une conversation de coaching, ce n'est pas plus d'information. C'est une information que le commercial ne peut pas discuter. Un temps de parole mesuré. Le plus long monologue de l'appel. La phrase exacte du client, citée, avec son horodatage.
-
-Un score, ça se discute pendant vingt minutes.
-Une citation de l'appel, ça se regarde ensemble pendant deux minutes, et on passe à ce qu'on en fait.
-
-Plus vous ajoutez d'information non opposable, plus le 1:1 devient une négociation. Plus vous ajoutez de faits vérifiables, plus il devient court.
-
-Vous, en 1:1, sur quoi vous vous appuyez qui ne se conteste pas ?
-```
-
-**Notes**
-- Aucune marque nommée : on attaque l'hypothèse de la catégorie, pas les concurrents.
-- La clôture en courbes divergentes (« plus vous ajoutez X… plus vous ajoutez Y… ») est
-  le déclencheur de repost.
-- C'est aussi ta thèse produit énoncée sans produit. Elle prépare la semaine 3.
-
----
-
-## Jeudi — D6 bis · Les présupposés en discovery
-
-*Toi · F4 Time-Anchor Confession · but : comments*
+*CONVERSATION · esprit F12 · but : comments / DM · visuel : `carte-citation`*
 
 ```
-Pendant trois ans, j'ai cru que je faisais de la découverte. Je faisais de la vérification.
+Je préfère poser la question que faire semblant d'avoir tranché.
 
-Personne ne me l'a dit, parce que ça ne se voit pas de l'extérieur. Mes rendez-vous se passaient bien. Je posais des questions. Elles étaient même bien tournées.
+Hier j'ai écrit qu'une équipe qui n'a pas confiance produit des chiffres faux. Je le pense toujours. Mais ça laisse entière une question que je n'ai pas traitée.
 
-Le problème, c'est ce qui se passe au bout du deux-centième rendez-vous.
+À partir de quel moment écouter les appels de son équipe devient la surveiller ?
 
-Les profils commencent à se ressembler. Vous reconnaissez la situation avant que la personne ait fini sa deuxième phrase. Et sans vous en rendre compte, vous arrêtez de demander : vous confirmez. « Vous devez sûrement avoir le problème X, non ? » Le prospect dit oui, parce que c'est plus simple que d'expliquer que ce n'est pas tout à fait ça.
+Mon intuition penche vers l'intention. Écouter pour faire progresser quelqu'un et écouter pour vérifier qu'il travaille, ce n'est pas le même geste, même si c'est le même enregistrement.
 
-Vous repartez avec la confirmation de ce que vous pensiez en entrant. Et vous construisez votre offre sur une douleur que vous avez apportée avec vous.
+Sauf que l'intention ne se voit pas. Ce qui se voit, c'est la fréquence, qui choisit l'appel, et ce qui se passe après. Un commercial écouté une fois par mois pour préparer un 1:1 ne vit pas la même chose que celui qui ignore quand et pourquoi on l'écoute.
 
-Le pire, c'est que c'est l'expérience qui fabrique ça. Un commercial qui débute pose de vraies questions ouvertes — il n'a pas le choix, il ne sait pas encore ce qu'il va entendre.
-
-Aujourd'hui je le vois. Je ne suis pas sûr de savoir le corriger : la répétition, c'est aussi ce qui rend bon sur tout le reste.
-
-Quel présupposé vous a pris le plus longtemps à repérer chez vous ?
-```
-
-**Notes**
-- Le mécanisme remplace l'anecdote : « au bout du deux-centième rendez-vous » est aussi
-  précis qu'une scène, et le lecteur le vérifie sur lui immédiatement.
-- L'aveu final (« je ne suis pas sûr de savoir le corriger ») évite la leçon assénée et
-  ouvre le commentaire. Ne pas le remplacer par une solution.
-- Vérifie l'ordre de grandeur : si ce n'était pas ~200 rendez-vous, mets le vrai chiffre.
-  Ne jamais publier un nombre approximatif.
-
----
-
-## Vendredi — D7 · La question du curseur
-
-*Consultation · F12 Permission Slip · but : comments*
-
-```
-Je bloque sur une question depuis quelques semaines. Je préfère la poser que faire semblant d'avoir tranché.
-
-À partir de quel moment est-ce qu'écouter les appels de son équipe devient surveiller son équipe ?
-
-Mon intuition, c'est que le curseur n'est pas dans l'outil. Il est dans l'ordre : qui voit le résultat en premier.
-
-Si le commercial découvre l'analyse de son appel en même temps que son manager, c'est du coaching.
-S'il l'apprend par son manager, c'est un contrôle.
-
-Mais quelque chose m'embête dans ma propre réponse. Un manager pourrait me dire, avec raison, qu'un commercial qui sait qu'il verra les choses en premier finira par filtrer ce qui remonte — et qu'on perd exactement ce qu'on cherchait.
-
-Je n'ai pas la réponse, et elle ne se trouve pas en réfléchissant tout seul.
+Et je bute dessus pour une raison simple. J'ai été le commercial qu'on écoute. Je n'ai jamais été celui qui décide de la règle.
 
 Si vous managez une équipe commerciale, votre avis vaut plus que le mien ici. Je publie la synthèse de vos réponses vendredi prochain.
+
+Vous le mettez où, ce curseur ?
 ```
 
 **Notes**
-- La question est réellement ouverte — c'est ce qui fait la différence avec de
-  l'engagement bait.
-- L'engagement de synthèse est contraignant : **il faut la publier le vendredi suivant.**
-  C'est le post de consultation de la semaine 2, et chaque personne citée revient le lire.
-- Aucun mot sur ce que tu construis. Cette semaine, on n'ouvre pas encore le chantier.
+- **La limite de légitimité devient l'atout du post.** « J'ai été le commercial qu'on
+  écoute, je n'ai jamais été celui qui décide de la règle » est à la fois le couperet, la
+  vulnérabilité, et la raison pour laquelle la question est sincère. C'est ce qui empêche
+  le post de ressembler à une fausse question d'engagement bait.
+- **Engagement public** : « je publie la synthèse vendredi prochain » se tient. C'est le
+  D8 du 11 septembre. Un engagement non tenu en semaine 2 coûte les quatre suivantes.
+- **La question est aussi celle de l'enquête V9** partie en DM le lundi 31. Les réponses
+  publiques et les réponses privées alimentent la même synthèse.
+- **Variante si le post du jeudi a bien répondu** : remplacer le deuxième paragraphe par
+  « Plusieurs d'entre vous m'ont répondu que le problème n'était pas la confiance mais le
+  curseur. » C'est plus fort, mais ça ne s'écrit que si c'est vrai. À trancher vendredi
+  matin, pas avant.
+- Aucune demande de call, aucun « je construis un truc ». L'ask reste à zéro en semaine 1
+  (cf. §4 de la bibliothèque d'angles).
 
 ---
 
-## Les commentaires de la semaine
+## À faire avant lundi 31
 
-L'essentiel de l'effort est ici, pas dans les quatre posts. Objectif : 10 à 15
-commentaires substantiels par jour, du lundi au vendredi, soit 50 à 75 sur la semaine.
-
-| Cible | Part | Ce que tu y cherches |
-|---|---|---|
-| Head of sales / directeurs commerciaux, PME et startups FR (5-50 commerciaux) | 40 % | La conversation qui devient un DM en semaine 3 |
-| Coachs et formateurs commerciaux FR | 30 % | L'accès à leur audience, et la matière pour D8 en semaine 2 |
-| Rev Ops / Sales Ops FR | 15 % | La validation du problème de pilotage |
-| Founders qui vendent eux-mêmes, AE et SDR | 15 % | Le réseau de base qui fait vivre tes posts |
-
-**Cette semaine, zéro pitch en DM.** Tu remercies, tu prolonges la conversation du
-commentaire, tu notes qui répond. Le DM avec une intention arrive en semaine 3.
-
-**Note pour D8 (vendredi semaine 2) :** tiens une liste, dès lundi, des trois personnes
-dont un commentaire ou un post t'a réellement fait changer d'avis cette semaine, avec la
-phrase exacte. C'est la matière du post de gratitude, et elle ne se reconstitue pas de
-mémoire.
-
----
-
-## Checklist avant publication
-
-- [ ] Aucune coquille (relire chaque post à voix haute)
-- [ ] Un seul couperet par post
-- [ ] Aucun chiffre approximatif — le « deux-centième rendez-vous » de jeudi est à valider
-- [ ] Aucune mention de Tolkee
-- [ ] Aucun concurrent nommé
-- [ ] Aucune demande de call
-- [ ] Quatre formules différentes : F10, F18, F4, F12 ✓
+- [ ] **L'enquête V9** : quinze DM à des head of sales de l'ICP, avec la même question que
+      le D7. Liste à établir.
+- [ ] Vérifier que Publora est bien connecté et les trois posts programmés.
+- [ ] Décider pour l'option « nommer ta manager » du jeudi (et la prévenir si oui).
+- [ ] Relire les trois à voix haute. C'est le seul test qui attrape les phrases d'IA.

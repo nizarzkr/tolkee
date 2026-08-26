@@ -40,6 +40,16 @@ link() {
 link "$REPO_DIR/voice-profile.md"            "$REFS/voice-profile.md"
 link "$REPO_DIR/angles-design-partners.md"   "$REFS/design-partner-topics.md"
 
+# Clés API (Publora, Apify). Le vrai fichier vit hors du plugin et hors du repo :
+# il survit aux mises à jour et n'est jamais committé.
+ENV_SRC="$HOME/.claude/linkedin-skills.env"
+if [[ -f "$ENV_SRC" ]]; then
+  ln -sfn "$ENV_SRC" "$VERSION_DIR/.env"
+  echo "  ✓ .env → $ENV_SRC"
+else
+  echo "  · pas de $ENV_SRC (mode brouillon, sans publication auto)"
+fi
+
 # Ajoute la section « édition design partners » au content planner, une seule fois.
 MARKER="## Design-partner edition"
 if grep -qF "$MARKER" "$PLANNER"; then
