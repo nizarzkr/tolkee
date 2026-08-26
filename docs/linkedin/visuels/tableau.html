@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Tolkee — tableau</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  .title { font-size: 86px; margin-top: 0; max-width: 1000px; }
+  .subtitle { margin-top: 26px; font-size: 27px; line-height: 1.35; color: var(--graphite); max-width: 940px; }
+  .rows { margin-top: 52px; display: flex; flex-direction: column; gap: 3px; }
+  .row {
+    background: var(--white);
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 28px;
+    padding: 26px 32px;
+  }
+  .row:nth-child(even) { background: var(--mist); }
+  .row .left  { font-size: 28px; line-height: 1.28; letter-spacing: -0.02em; color: var(--ink); font-weight: 500; }
+  .row .arrow { font-family: var(--font-mono); font-size: 26px; color: var(--steel); }
+  .row .right { font-size: 26px; line-height: 1.28; letter-spacing: -0.02em; color: var(--graphite); }
+  /* La ligne mise en avant : un seul aplat menthe par visuel. */
+  .row.accent { background: var(--mint); }
+  .row.accent .right { color: var(--ink); }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="head">
+    <span class="label" id="topic"></span>
+    <span class="label" id="index"></span>
+  </div>
+  <div class="body">
+    <h1 class="display title" id="title"></h1>
+    <p class="subtitle" id="subtitle"></p>
+    <div class="rows" id="rows"></div>
+  </div>
+  <div class="sig">
+    <span class="wordmark" id="wordmark"></span>
+    <span class="source" id="source"></span>
+  </div>
+</div>
+
+<script>
+/* ▼▼▼ LA SEULE ZONE À MODIFIER ▼▼▼ ------------------------------------------
+   Gabarit `tableau` — pour V2 (comparatif de frameworks), V4 (anti-glossaire)
+   et V10 (le reformulateur, avant / après).
+
+   Règles :
+   - 5 à 7 lignes. Au-delà de 7, le texte devient illisible dans le fil : coupe.
+   - `accent: true` sur UNE seule ligne au maximum.
+   - `arrow` : "→" pour un avant/après, "=" pour une traduction, "·" pour neutre.
+-------------------------------------------------------------------------- */
+const DATA = {
+  topic:    "Revue de pipe",
+  index:    "01 / 03",
+  title:    "Sept phrases de revue de pipe qui ne veulent rien dire",
+  subtitle: "À gauche ce qu'on dit. À droite ce que ça veut dire vraiment.",
+  arrow:    "→",
+  rows: [
+    { left: "« Ça avance bien »",              right: "Je n'ai pas de next step daté" },
+    { left: "« Il est très intéressé »",        right: "Il a été poli en visio" },
+    { left: "« On attend leur retour »",        right: "Je n'ai pas relancé depuis dix jours" },
+    { left: "« C'est une question de budget »", right: "Je n'ai jamais parlé au décideur budget", accent: true },
+    { left: "« Ça se signe ce trimestre »",     right: "Il me l'a dit une fois, en juin" },
+    { left: "« Le projet est prioritaire »",    right: "Prioritaire pour mon contact, pas pour son comité" },
+    { left: "« Je le relance la semaine pro »",  right: "Je n'ai pas de raison de le rappeler" },
+  ],
+  wordmark: "Nizar Zekri",
+  source:   "Formulations relevées en rendez-vous, 7 ans en tant qu'AE",
+};
+/* ▲▲▲ FIN DE LA ZONE À MODIFIER ▲▲▲ */
+
+document.getElementById("topic").textContent = DATA.topic;
+document.getElementById("index").textContent = DATA.index;
+document.getElementById("title").textContent = DATA.title;
+document.getElementById("subtitle").textContent = DATA.subtitle;
+document.getElementById("wordmark").textContent = DATA.wordmark;
+document.getElementById("source").textContent = DATA.source;
+
+document.getElementById("rows").innerHTML = DATA.rows.map(function (r) {
+  return '<div class="row' + (r.accent ? ' accent' : '') + '">'
+       +   '<div class="left">'  + r.left  + '</div>'
+       +   '<div class="arrow">' + DATA.arrow + '</div>'
+       +   '<div class="right">' + r.right + '</div>'
+       + '</div>';
+}).join("");
+</script>
+</body>
+</html>

@@ -9,7 +9,9 @@
 - filled: yes
 - source: établi le 21 août 2026 à partir de 3 lettres de motivation réelles de Nizar
   (Matera, Combo, transporteur mutualisé) — voir §5
-- updated: 2026-08-21
+- updated: 2026-08-26 — révision « virage valeur » : cadence 3 posts/semaine avec les
+  rôles ACTIF / POV / CONVERSATION (§2), limite de légitimité explicitée (§2), règle de
+  sourcing ajoutée aux règles dures (§3), brand assets renseignés (§6).
 
 ## 1. Voice fingerprint
 
@@ -87,8 +89,8 @@ déférentes. On garde le doigté, on jette la déférence (cf. « à perdre » 
 
 ## 2. Who you are and who you write for
 
-- **Tu es :** founder de **Tolkee** (nom de produit, ex-Tolkee, non annoncé publiquement
-  avant la semaine 3) — un outil de conversation intelligence pour équipes commerciales.
+- **Tu es :** founder de **Tolkee** (nom de produit, ex-Aloalo, non annoncé publiquement
+  avant le jeudi 17 septembre 2026) — un outil de conversation intelligence pour équipes commerciales.
   Ancien Account Executive B2B : quatre ans à porter seul une agence d'acquisition
   (Prosperito), puis trois ans en full-cycle chez La Solive. Tu as fait les appels dont
   tu parles. Tu construis le produit de bout en bout en pilotant une IA qui code, sans
@@ -106,9 +108,23 @@ déférentes. On garde le doigté, on jette la déférence (cf. « à perdre » 
   partners**. Pas de la portée, pas des abonnés, pas des clients. Tout ce qui est publié
   doit servir ça. Objectif suivant, une fois les design partners signés : autorité sur le
   marché et acquisition client.
-- **Tes piliers de contenu :** Terrain (POV métier) · Chantier (build in public, à partir
-  de la semaine 3) · Toi (récit) · Consultation (l'ask). Détail complet dans
-  `docs/linkedin/angles-design-partners.md`.
+- **Ta cadence et tes trois rôles (révision du 26 août 2026) :** **3 posts par semaine**,
+  un métier par jour — **ACTIF** le mardi (le document utile, illustré, qui ne parle jamais
+  de toi) · **POV** le jeudi (l'opinion tranchée, texte nu, une vraie question) ·
+  **CONVERSATION** le vendredi (la question au marché ou la synthèse des réponses).
+  Grille complète et arc des 6 semaines dans `docs/linkedin/angles-design-partners.md` §2.
+
+- **La limite de légitimité, à respecter dans chaque post.** Tu as été AE pendant sept ans ;
+  tu n'as **jamais** été head of sales. Ton ICP l'est. Donc : tu peux parler en expert de
+  l'appel, de la discovery, de la qualification, de ce que ça fait d'être mesuré. Tu ne peux
+  **pas** parler depuis la position du manager (« voilà comment coacher votre équipe »,
+  « voilà comment animer votre revue de pipe ») — ça s'entend en trois lignes et ça coûte
+  la crédibilité que le post venait chercher.
+  **Les trois postures qui te donnent de la valeur sans mentir sur ton vécu** :
+  *le lecteur* (« j'ai lu les 40 pages, voilà les trois chiffres qui comptent »),
+  *le constructeur* (« pour construire ça, j'ai dû trancher, voilà comment »),
+  *l'enquêteur* (« j'ai posé la question à onze head of sales, voilà ce qui revient »).
+  Quand un post ne tient dans aucune des trois, il ne se publie pas.
 - **Ta conviction fondatrice (angle D11, colonne vertébrale des 6 semaines) :** on ne
   peut pas écouter les appels d'une équipe qui n'a pas confiance sans transformer le
   coaching en surveillance — et une équipe surveillée ne produit pas mieux, elle produit
@@ -142,6 +158,16 @@ déférentes. On garde le doigté, on jette la déférence (cf. « à perdre » 
 **Jamais :**
 - Pas de chiffre inventé, arrondi ou « estimé ». L'audience est composée d'opérationnels
   qui vérifient.
+- **Pas de chiffre sans source publique nommée dans le post et liée en premier commentaire.**
+  Sources recevables : Gong Labs, State of Sales (Salesforce), HubSpot Research, RAIN Group,
+  les benchmarks publiés par Ringover ou Aircall, la recherche académique en vente B2B.
+  **Les notes du dossier `ETUDES IA ALOALO/` ne sont pas une source** — leur propre README
+  le dit : ce sont des hypothèses produites par des modèles de langage, pas des données
+  terrain. Elles servent à savoir quelles questions poser en enquête, pas à fournir des
+  chiffres. Un chiffre dont la source remonte à un LLM, découvert en commentaire, coûte
+  six semaines de crédibilité.
+- Pas de post d'ACTIF (mardi) sans son visuel au gabarit. Pas de visuel de carrousel sur
+  un post de POV (jeudi) : l'image déplace la lecture et coûte des commentaires.
 - Pas d'engagement bait : pas de « commentez X pour recevoir Y » (F6 au maximum une fois
   par mois, et pas avant la semaine 4), pas de fausse question dont tu as la réponse.
 - **Concurrents : citables pour créditer, jamais pour tacler.** « Modjo a réglé X mieux
@@ -190,8 +216,65 @@ ces rythmes-là qu'il faut imiter, pas une voix LinkedIn générique.
 > À enrichir dès que 3-4 vrais posts LinkedIn existent : le registre du post diffère de
 > celui de la lettre, et le fingerprint gagnera à être recalibré sur le bon format.
 
-## 6. Brand assets (for illustrations)
+## 6. Brand assets (pour les illustrations)
 
-- Non renseigné pour l'instant : pas d'identité visuelle publique avant l'annonce de Tolkee.
-- À remplir au moment du lancement (couleurs, logo, police) pour que les visuels générés
-  soient cohérents.
+Direction artistique **« Swiss editorial »** — la même que le produit et le site vitrine.
+Source de vérité technique : `app/globals.css` et `refero/DESIGN.md`. Ce qui suit en est
+l'extrait utile pour fabriquer un visuel LinkedIn.
+
+**Ce que la DA doit produire dans un fil LinkedIn.** Le fil d'un directeur commercial
+français est saturé de carrousels bleu-violet à dégradés sortis du même modèle Canva. Du
+noir et blanc typographique sur fond gris, avec un seul aplat menthe, se remarque **parce
+qu'il ne ressemble à rien d'autre** — et signale « produit qui a du goût » avant même
+d'avoir dit ce qu'on vend. C'est un avantage : ne pas le diluer.
+
+### Couleurs
+
+| Rôle | Valeur | Usage |
+|---|---|---|
+| Canvas mist | `#e5e7eb` | Fond de tous les visuels. Le sol gris signature. |
+| Pure white | `#ffffff` | Cartes, panneaux. |
+| Surface mist | `#f3f3f3` | Surfaces secondaires, lignes paires d'un tableau. |
+| Ink black | `#000000` | Titres, corps, chiffres. |
+| Graphite | `#444444` | Texte secondaire. |
+| Steel gray | `#979797` | Légendes, sources, mentions. |
+| Mint pulse | `#d1ffca` | **Un seul** aplat de surlignage par visuel. |
+| Electric yellow | `#fff100` | La voix la plus forte. Réservée au moment qui doit arrêter l'œil. Jamais deux fois sur le même visuel. |
+
+**Surfaces plates. Aucune ombre, aucun dégradé, jamais.** La hiérarchie se fait par la
+pile de tons (canvas → carte blanche → mist → menthe → jaune), pas par de la profondeur.
+
+### Typographie
+
+| Rôle | Police | Substitut Google Fonts | Réglages |
+|---|---|---|---|
+| Titres display | SuisseIntlCond | **Barlow Condensed** 700 | `line-height: 0.90`, `letter-spacing: -0.03em`. Tailles 48 / 64 / 80 / 130. |
+| Corps et UI | SuisseIntl | **Inter** 400-500 | `letter-spacing: -0.02em`. Tailles 14 / 16 / 18 / 20 / 28 / 40. |
+| Micro-labels | SuisseIntlMono | **JetBrains Mono** 400 | **12px uniquement**, majuscules. C'est une signature typographique, pas une police de corps. |
+
+**Le geste signature :** un titre condensé énorme, serré (0.90 de hauteur de ligne), qui
+occupe le visuel comme une une de journal — soutenu par du blanc, jamais par des filets
+ou des séparateurs.
+
+### Marque
+
+- **Wordmark : « Tolkee »**, en Barlow Condensed 700, `tracking-tight`, noir. Pas de
+  logo image à ce jour — le mot *est* le logo.
+- **Signature de pied de visuel** (obligatoire sur tous les gabarits) : le wordmark à
+  gauche en 12px mono, la source à droite en steel-gray. **Jusqu'au 17 septembre 2026,
+  le wordmark est remplacé par « Nizar Zekri »** — le nom Tolkee n'apparaît sur aucun
+  visuel avant la révélation.
+
+### Le kit de gabarits
+
+`docs/linkedin/visuels/` — quatre gabarits HTML, rendus en PNG par un script.
+Format **1200 × 1500 px (4:5)**, qui occupe le maximum de hauteur dans le fil LinkedIn.
+
+| Gabarit | Fichier | Pour quels formats |
+|---|---|---|
+| `carte-chiffre` | `carte-chiffre.html` | V5, V6 — un chiffre géant, sa source, une phrase |
+| `tableau` | `tableau.html` | V2, V4, V10 — comparatifs, anti-glossaire, avant/après |
+| `timeline` | `timeline.html` | V1, V8 — process minuté, teardown d'appel |
+| `carte-citation` | `carte-citation.html` | D8, V9 — la phrase d'un manager, son prénom, sa fonction |
+
+Mode d'emploi complet : `docs/linkedin/visuels/README.md`.

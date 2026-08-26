@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Tolkee — carte-chiffre</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  .eyebrow { margin-top: 0; }
+  .number {
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 400px;
+    line-height: 0.82;
+    letter-spacing: -0.045em;
+    color: var(--ink);
+    margin: 12px 0 0 -12px;   /* correction optique du bord gauche */
+  }
+  .number .unit { font-size: 180px; letter-spacing: -0.03em; }
+  .statement {
+    font-size: 46px;
+    line-height: 1.22;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    font-weight: 500;
+    margin-top: 56px;
+    max-width: 900px;
+    text-wrap: pretty;
+  }
+  .kicker { margin-top: 32px; font-size: 26px; line-height: 1.4; color: var(--graphite); max-width: 880px; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="head">
+    <span class="label" id="topic"></span>
+    <span class="label" id="index"></span>
+  </div>
+  <div class="body">
+    <div class="label eyebrow" id="eyebrow"></div>
+    <div class="number" id="number"></div>
+    <div class="statement" id="statement"></div>
+    <div class="kicker" id="kicker"></div>
+  </div>
+  <div class="sig">
+    <span class="wordmark" id="wordmark"></span>
+    <span class="source" id="source"></span>
+  </div>
+</div>
+
+<script>
+/* ▼▼▼ LA SEULE ZONE À MODIFIER ▼▼▼ ------------------------------------------
+   Gabarit `carte-chiffre` — pour les formats V5 (l'ordre de grandeur) et
+   V6 (le chiffre retourné).
+
+   Règles :
+   - `source` n'est jamais vide. Pas de source → pas de chiffre → pas de visuel.
+   - `statement` accepte <span class="mint">…</span> pour surligner. UNE fois.
+   - `wordmark` reste « Nizar Zekri » jusqu'au 17 septembre 2026.
+-------------------------------------------------------------------------- */
+const DATA = {
+  topic:     "Pilotage commercial",
+  index:     "01 / 03",
+  eyebrow:   "Temps de parole du commercial",
+  number:    "43",
+  unit:      "%",
+  statement: 'C\'est la part de parole des commerciaux qui closent le plus. <span class="mint">Et c\'est le chiffre le plus mal utilisé du métier.</span>',
+  kicker:    "Un ratio n'est pas un objectif. C'est un symptôme.",
+  wordmark:  "Nizar Zekri",
+  source:    "Source : Gong Labs — à vérifier et lier en 1er commentaire",
+};
+/* ▲▲▲ FIN DE LA ZONE À MODIFIER ▲▲▲ */
+
+document.getElementById("topic").textContent = DATA.topic;
+document.getElementById("index").textContent = DATA.index;
+document.getElementById("eyebrow").textContent = DATA.eyebrow;
+document.getElementById("number").innerHTML = DATA.number + (DATA.unit ? '<span class="unit">' + DATA.unit + '</span>' : '');
+document.getElementById("statement").innerHTML = DATA.statement;
+document.getElementById("kicker").textContent = DATA.kicker;
+document.getElementById("wordmark").textContent = DATA.wordmark;
+document.getElementById("source").textContent = DATA.source;
+</script>
+</body>
+</html>

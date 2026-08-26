@@ -1,7 +1,7 @@
 # Édition « pré-lancement / design partners » — bibliothèque d'angles D1-D11
 
 > Extension du plugin `linkedin-skills` pour la phase actuelle de Nizar : 6 semaines,
-> un seul objectif — **trouver 3 à 5 design partners** pour Tolkee (ex-Tolkee), avant
+> un seul objectif — **trouver 3 à 5 design partners** pour Tolkee (ex-Aloalo), avant
 > toute annonce officielle de lancement.
 >
 > Ce fichier est la **source de vérité**. Le cache du plugin (`~/.claude/plugins/cache/
@@ -25,69 +25,135 @@ Le moteur, c'est l'engagement quotidien. Répartition de l'effort sur ces 6 sema
 | Effort | Part | Ce que c'est |
 |---|---|---|
 | Commentaires + DM | **70 %** | 10-15 commentaires substantiels/jour, DM de suite sur les fils qui ont répondu |
-| Écriture des posts | **30 %** | 4 posts/semaine |
+| Écriture des posts | **30 %** | 3 posts/semaine (cf. §2) |
 
-Un founder qui publie 4 fois par semaine sans commenter obtient de l'engagement.
-Un founder qui commente 15 fois par jour et publie 4 fois obtient des conversations.
+Un founder qui publie sans commenter obtient de l'engagement.
+Un founder qui commente 15 fois par jour et publie 3 fois obtient des conversations.
 Seules les conversations deviennent des design partners.
 
 ---
 
-## 2. Le jeu de piliers de la phase
+## 2. L'architecture : trois posts, trois métiers
 
-Quatre piliers, un par jour de publication. Ils correspondent aux trois actes du produit
-(**Piloter**, **Coacher**, **Organiser**) sans jamais parler du produit avant la semaine 3.
+> **Révision du 26 août 2026 — le virage « valeur ».** Trois posts par semaine au lieu
+> de quatre, et un socle qui bascule du récit personnel vers la valeur apportée.
+> Ce qui suit remplace l'ancienne semaine type à quatre posts. Les angles D1-D11 restent
+> valides et sont redistribués dans la nouvelle grille ; les formats de valeur V1-V10
+> sont décrits au §3 bis.
 
-| Pilier | Part | Ce que c'est | Angles | Formules |
+**Pourquoi ce virage.** Nizar n'a jamais été head of sales. Son ICP l'est. Tous les angles
+qui le font parler *depuis la position du manager* — comment coacher, comment animer une
+revue de pipe, comment repérer un décrochage — sonnent faux devant un directeur commercial,
+et ça s'entend en trois lignes. La règle « prends le point de vue de l'observé » (D11) sauve
+un ou deux posts ; elle ne tient pas sur dix-huit.
+
+**Le danger du virage, à ne jamais perdre de vue.** Le contenu de valeur pure est le plus
+commoditisé de LinkedIn : « 7 stats sur le closing » est publié quatre cents fois par jour
+en français. Ça fabrique des abonnés et des enregistrements. Ça ne fabrique **pas** de DM
+entrant — personne n'écrit à un compte utile, on écrit à quelqu'un dont on veut l'avis.
+Un chiffre sans position est de la curation ; un chiffre plus ce qu'on en conclut est un POV.
+Le second se commente, le premier se scrolle. **D'où le jeudi, qui reste intégralement un
+post d'opinion.**
+
+### Les trois postures qui donnent de la valeur sans mentir sur le vécu
+
+| Posture | Ce que tu dis | Pourquoi c'est légitime |
+|---|---|---|
+| **Le lecteur** | « J'ai lu les 40 pages du rapport. Voilà les trois chiffres qui comptent et ce qu'on en fait lundi matin. » | Tu ne revendiques aucune expérience : tu fais un travail que personne n'a le temps de faire. |
+| **Le constructeur** | « Pour construire cette alerte, j'ai dû trancher : à partir de combien de secondes un monologue devient un problème. Voilà ce que j'ai décidé. » | Construire force à répondre précisément à ce que tout le monde survole. Valeur **originale**, que personne d'autre ne publie. |
+| **L'enquêteur** | « J'ai posé la même question à onze head of sales cette semaine. Voilà ce qui revient, et les deux réponses qui m'ont surpris. » | Tu ne parles pas de ton expérience, tu parles de la leur — et tu la restitues. |
+
+La troisième est la plus importante : elle règle le problème de matière **et** le problème
+de design partners avec le même geste (cf. V9, §3 bis).
+
+### Les trois rôles de la semaine
+
+L'erreur classique du virage « tout valeur » : les trois posts font le même travail et se
+cannibalisent. Chaque jour porte donc un métier distinct, mesuré séparément.
+
+| | Jour et heure | Rôle | Ce qu'on mesure | Visuel |
 |---|---|---|---|---|
-| **Terrain** — le POV métier | 30-50 % | Ton point de vue sur l'efficacité commerciale à l'ère de l'IA. Le sujet, jamais le produit. C'est ce qui te rend suivable par un head of sales. | **D11 (ancrage)**, D1, D2, D3, D10 | F12, F10, F18, F19, F17 |
-| **Chantier** — build in public | 0 % en S1-2, 25 % à partir de S3 | Le journal de bord hebdomadaire : ce que tu as construit cette semaine, l'arbitrage, ce qui a raté. **N'ouvre qu'en semaine 3**, en même temps que la révélation du nom. | D4, D5 | F7, F4, F17 |
-| **Toi** — le récit | 20-25 % | Ta légitimité terrain d'AE, racontée en confession et pas en flex. Le pilier qui crée l'attachement. | D6 | F11, F4, F16 |
-| **Consultation** — l'ask | 20-25 % | Tu poses une vraie question au marché, tu cites nommément ceux qui t'ont fait changer d'avis. C'est ce pilier qui ouvre les DM. | D7, D8, D9 | F12, F14, F6 |
+| **L'ACTIF** | Mardi 8h30 | Le document qu'on enregistre et qu'on renvoie à son équipe : un process, une grille, un comparatif. Zéro opinion, cent pour cent utile. **Ne parle jamais de toi.** | Enregistrements, abonnés, partages | **Oui** — gabarit obligatoire |
+| **LE POV** | Jeudi 8h30 | Une position tranchée sur un territoire Tolkee. Court, texte nu, une vraie question à la fin. C'est ce qui te rend *identifiable* et pas seulement utile. | Commentaires | Non, ou carte-chiffre seule |
+| **LA CONVERSATION** | Vendredi 9h30 | La question au marché, ou la synthèse des réponses avec les personnes citées nommément. | DM ouverts, fils qui démarrent | Oui — carte-citation |
 
-**Pourquoi Chantier n'ouvre qu'en semaine 3.** Un journal de bord de développement n'a
-d'intérêt que pour quelqu'un qui sait déjà de quel problème tu parles et pourquoi il
-compte. Publié en semaine 1 devant une audience qui ne te connaît pas, c'est le journal
-intime d'un inconnu. Les deux premières semaines servent à installer le problème
-(Terrain), la personne (Toi) et la conversation (Consultation) — ensuite le chantier a
-un public.
-
-**Garde-fous** (hérités du skill, non négociables) :
-- 4 posts/semaine max. 6+ déclenche un signal de cannibalisation.
-- Aucun pilier au-dessus de 60 % d'une semaine.
-- Jamais deux fois la même formule dans une fenêtre de 7 jours.
-- Le but recherché (comments / reposts / likes / saves) doit être étalé sur la semaine :
-  au moins un de chaque sur 4 posts.
-- **D9 au maximum une fois par semaine, et jamais avant la semaine 5.**
-
-### Semaine type — deux variantes
-
-**Semaines 1-2 (avant l'ouverture du chantier)** — trois piliers, quatre posts :
-
-| Jour | Pilier | Rôle |
-|---|---|---|
-| Lundi | — | Journée commentaires uniquement (pas de post) |
-| Mardi | Terrain | Le POV métier : **D11 en S1** (l'angle d'ancrage, à poser en premier), puis D2 ou D3 |
-| Mercredi | Terrain | Le second territoire : D1 ou D10 |
-| Jeudi | Toi | Le récit : D6, ou **D6 bis (F4)** quand le matériau est un travers récurrent et non une scène |
-| Vendredi matin | Consultation | D7 en S1 (la question ouverte issue de D11), D8 en S2 — aucun ask produit |
-| Sam/Dim | — | Off (réseau B2B : -30 à -50 % de portée) |
-
-Terrain occupe 50 % de la semaine, ce qui reste sous le plafond de 60 %.
-
-**Semaines 3-6 (chantier ouvert)** — quatre piliers, quatre posts :
-
-| Jour | Pilier | Rôle |
-|---|---|---|
-| Lundi | — | Journée commentaires uniquement |
-| Mardi | Terrain | Le POV métier |
-| Mercredi | **Chantier** | Le journal de bord de la semaine : D5 (ou D4 quand tu as une vraie ligne rouge à défendre) |
-| Jeudi | Toi | Le récit |
-| Vendredi matin | Consultation | Ask calibré selon la semaine (cf. §4) |
-| Sam/Dim | — | Off |
-
+Lundi et mercredi : **journées commentaires uniquement**. Samedi et dimanche : off.
 Créneaux : 8h00-9h30 heure de Paris du mardi au jeudi ; vendredi avant 11h.
 Jamais vendredi après 14h.
+
+**Passer de quatre à trois posts est neutre — à une condition.** L'entonnoir de la phase
+(§5) ne contient nulle part le nombre de posts : ~300 commentaires → ~60 fils → ~30 DM →
+~12 appels → 3 à 5 design partners. L'heure économisée doit partir dans les commentaires.
+Si elle part dans la fabrication d'un plus beau visuel, on échange des conversations contre
+des likes.
+
+### Où sont passés les piliers
+
+Les quatre piliers d'origine (Terrain, Chantier, Toi, Consultation) ne disparaissent pas :
+ils se répartissent dans les trois rôles.
+
+| Rôle | Piliers portés | Angles et formats |
+|---|---|---|
+| **ACTIF** (mardi) | Terrain, en version outil | V1 à V5, V8, V10 |
+| **POV** (jeudi) | Terrain, Chantier (à partir de S3), Toi (résiduel) | V6, V7, D4, D5, D10, D11 |
+| **CONVERSATION** (vendredi) | Consultation | V9, D7, D8, D9 (S5-6 uniquement) |
+
+Le pilier **Toi** passe de 20-25 % à un usage résiduel : il ne disparaît pas — l'ancrage
+personnel reste le mouvement signature de la voix — mais il devient une *ligne* à
+l'intérieur d'un post de valeur plutôt qu'un post entier. Exception : D11 en semaine 1,
+qui est un témoignage et non une position de manager, donc parfaitement tenable.
+
+### Garde-fous (non négociables)
+
+- **3 posts/semaine.** Ni deux, ni quatre. La régularité vaut plus que le volume.
+- Jamais deux fois la même formule (F1-F20) dans une fenêtre de 7 jours.
+- Le mardi est illustré, le jeudi ne l'est pas. **Ne jamais illustrer un post d'opinion
+  comme un carrousel** : le visuel déplace la lecture vers l'image et coûte des commentaires.
+- **Aucun chiffre sans source publique liée en premier commentaire.** Voir la règle de
+  sourcing ci-dessous — c'est la règle la plus importante de tout ce document.
+- Aucun pilier au-dessus de deux posts sur trois dans une même semaine.
+- D9 au maximum une fois par semaine, et jamais avant la semaine 5.
+
+### La règle de sourcing (ajoutée le 26 août 2026)
+
+Le virage valeur repose sur des chiffres. Un chiffre faux, ou vrai mais insourçable, coûte
+plus cher que pas de chiffre du tout : l'audience est composée d'opérationnels qui vérifient.
+
+- **Tout chiffre publié a une source publique, nommée dans le post et liée en premier
+  commentaire.** Gong Labs, State of Sales de Salesforce, HubSpot Research, RAIN Group,
+  les benchmarks publiés par Ringover ou Aircall, la recherche académique en vente B2B.
+- **Les notes de discovery du dossier `ETUDES IA ALOALO/` ne sont PAS une source.** Leur
+  propre README le dit : ce sont des hypothèses structurées produites par des modèles de
+  langage, pas des données terrain. Un head of sales qui demande la source d'un chiffre et
+  découvre qu'il vient d'un LLM, c'est six semaines de crédibilité perdues en un commentaire.
+  Ces notes servent à savoir **quelles questions poser** en enquête, pas à fournir des chiffres.
+- **Un chiffre mesuré sur sa propre activité d'AE reste recevable**, à condition d'être
+  présenté comme tel (« sur mes appels, je mettais X minutes ») et non maquillé en statistique.
+- Si aucune source ne se trouve, le post se fait sans chiffre. Un process bien décrit n'a
+  besoin d'aucune statistique pour être enregistré.
+
+### L'arc des 6 semaines — 31 août → 9 octobre 2026
+
+Dix-huit posts. Le nom **Tolkee** est révélé le **jeudi 17 septembre** (semaine 3), dans
+son propre post. D9 n'ouvre qu'en semaine 5.
+
+| Sem. | Mardi · ACTIF | Jeudi · POV | Vendredi · CONVERSATION |
+|---|---|---|---|
+| **S1** 31/08 → 04/09 | **V4** — l'anti-glossaire de la revue de pipe | **D11** — « on m'a mesuré pendant sept ans » | **D7** — question au marché n°1 |
+| **S2** 07 → 11/09 | **V2** — MEDDIC / SPICED / BANT, lequel pour quel cycle | **V6** — le chiffre retourné sur le temps de parole | **D8** — synthèse de l'enquête n°1 |
+| **S3** 14 → 18/09 | **V1** — le 1:1 commercial en 30 minutes | **Révélation Tolkee + D4** — la ligne que je ne franchis pas | **D7** — question au marché n°2 |
+| **S4** 21 → 25/09 | **V5** — ce que coûte vraiment une revue de pipe | **V7** — pourquoi j'ai écarté les chiffres de résultat | **D8** — synthèse de l'enquête n°2 |
+| **S5** 28/09 → 02/10 | **V3** — les 12 questions qui qualifient vraiment | **D10** — l'angle mort de la catégorie | **D9** — appel design partners |
+| **S6** 05 → 09/10 | **V8** — teardown d'un appel réel anonymisé | **V7 / D5** — l'arbitrage de la semaine | **D9** — relance, places restantes |
+
+**V9 (l'enquête) tourne en fond dès le lundi 31 août** et n'est pas un post : c'est le
+travail de DM qui alimente les D8 des semaines 2 et 4. **V10 (le reformulateur)** est en
+réserve — il remplace n'importe quel ACTIF dont la matière n'est pas prête le lundi.
+
+**La montée en tranchant est délibérée.** S1 tu témoignes, S3 tu assumes ce que tu
+construis, S5 tu attaques les hypothèses de la catégorie. L'audience t'a suivi quatre
+semaines avant que tu prennes position durement ; dans l'autre sens, tu passes pour
+arrogant auprès de gens qui ne te connaissent pas.
 
 ---
 
@@ -564,6 +630,332 @@ contestables, chaque jugement justifié par une citation de l'appel, briefing 1:
 bienveillant) sont ta preuve — cite-les. Si une décision produit future contredit
 l'angle, c'est la décision qu'il faut changer, pas le post.
 
+## 3 bis. Bibliothèque de formats de valeur — V1-V10
+
+> Ajoutée le 26 août 2026 avec le virage valeur (§2). Là où D1-D11 donnent des
+> **territoires d'opinion**, V1-V10 donnent des **formats de valeur** : ce qui s'apporte
+> à un head of sales sans avoir soi-même managé une équipe. Les deux bibliothèques
+> cohabitent — la grille du §2 dit lequel sort quel jour.
+>
+> Chaque format indique son **gabarit visuel** dans le kit `docs/linkedin/visuels/`.
+
+---
+
+### V1 — Le teardown de process
+
+**La valeur :** tu démontes un rituel commercial minute par minute — le 1:1, la revue de
+pipe, le debrief d'appel, la première semaine d'onboarding. Le lecteur repart avec une
+trame qu'il peut appliquer jeudi.
+
+**Quand :** ACTIF du mardi. C'est le format le plus enregistré du B2B français, et le plus
+sûr : il ne demande aucune expérience de manager, seulement un travail de synthèse honnête.
+
+**But :** saves · **Formule :** F7 Odd-Precision ou F13 · **Gabarit :** `timeline`
+
+```
+{Le rituel, et le temps qu'il prend réellement — une ligne.}
+
+La plupart le font en {ce qui cloche : trop long, sans trame, sur du déclaratif}.
+Voilà la trame que j'ai reconstituée à partir de {tes sources, nommées}.
+
+00-05 · {étape} — {ce qui s'y joue, une ligne}
+05-15 · {étape} — {idem}
+15-25 · {étape} — {idem}
+25-30 · {étape} — {idem}
+
+{Le couperet : la ligne qui dit ce que la trame protège.}
+
+[Question opérationnelle : chez vous, laquelle de ces quatre étapes saute en premier quand la semaine est chargée ?]
+```
+
+**Piège :** ne pas inventer une trame « idéale ». Chaque étape doit venir d'une source
+nommée ou d'un praticien cité. Une trame sortie de nulle part se sent, et l'audience de
+head of sales a déjà vu quinze trames.
+
+---
+
+### V2 — Le comparatif de frameworks
+
+**La valeur :** MEDDIC, SPICED, BANT, CHAMP. Tout le monde en parle, personne ne dit
+lequel convient à quel cycle de vente. Tu tranches, avec un critère explicite.
+
+**Quand :** ACTIF du mardi. Excellent en début de phase : très partagé, zéro risque,
+et il te place immédiatement comme quelqu'un qui connaît le métier.
+
+**But :** saves / reposts · **Formule :** F18 False-Binary Dissolve · **Gabarit :** `tableau`
+
+```
+{Le framework dominant} est devenu la réponse par défaut. Il tue les PME.
+
+{Une ligne sur pourquoi : conçu pour des cycles de N mois et des comités de N personnes.}
+
+— {Framework A} → {type de cycle}, parce que {raison}
+— {Framework B} → {type de cycle}, parce que {raison}
+— {Framework C} → {type de cycle}, parce que {raison}
+
+{Le critère qui décide vraiment — une ligne. Ce n'est pas la taille de l'équipe.}
+
+[Question : lequel tourne chez vous, et est-ce qu'il est appliqué ou affiché ?]
+```
+
+**Piège :** la question de clôture (« appliqué ou affiché ») fait la moitié des commentaires
+de ce post. Ne pas la couper.
+
+---
+
+### V3 — La grille de questions
+
+**La valeur :** une liste de questions prêtes à l'emploi qu'un commercial peut poser demain.
+Discovery, qualification, relance d'un deal endormi, sortie d'une objection prix.
+
+**Quand :** ACTIF du mardi. C'est le format qui se copie-colle dans un Notion d'équipe —
+donc celui qui circule le plus loin.
+
+**But :** saves · **Formule :** F13 ou F7 · **Gabarit :** `grille`
+
+```
+« Ça avance bien » est la phrase la plus chère d'une revue de pipe.
+
+{Une ligne sur pourquoi : invérifiable sans réécouter l'appel, donc jamais vérifiée.}
+
+Les {N} questions qui la remplacent :
+
+1. {question} — {ce qu'elle révèle, quatre mots}
+2. {question} — {idem}
+…
+
+{Le couperet : ce que les {N} ont en commun.}
+
+[Question : laquelle vous n'osez pas poser ?]
+```
+
+**Piège :** dix questions maximum. Au-delà, ce n'est plus une grille, c'est une liste, et
+une liste ne s'applique pas. Chaque question doit être formulable telle quelle en appel.
+
+---
+
+### V4 — L'anti-glossaire
+
+**La valeur :** tu prends les formules creuses d'un rituel commercial et tu donnes leur
+traduction honnête, puis la question qui les remplace. Utile, drôle, et très partagé.
+
+**Quand :** ACTIF du mardi, idéal en **semaine 1** : c'est le post qui installe le
+territoire *Piloter* sans que tu aies besoin d'avoir été manager. Tu ne juges pas les
+managers, tu démontes un langage.
+
+**But :** reposts · **Formule :** F13 Anaphora ou F20 · **Gabarit :** `tableau`
+
+```
+{N} phrases qu'on entend en revue de pipe et qui ne veulent rien dire.
+
+« {phrase 1} » → {ce que ça veut dire en réalité}
+« {phrase 2} » → {idem}
+…
+
+{Le couperet : ce qu'elles ont toutes en commun — elles décrivent un ressenti, pas un fait.}
+
+[Ce que tu remplacerais par quoi — deux lignes concrètes.]
+[Question : laquelle vous entendez le plus souvent ?]
+```
+
+**Piège :** le ton. Se moquer du langage, jamais des gens qui l'emploient — ton lecteur
+l'emploie. La ligne à tenir : « on parle tous comme ça, et voilà ce que ça nous coûte ».
+
+---
+
+### V5 — L'ordre de grandeur (le calculateur)
+
+**La valeur :** tu ne donnes pas un chiffre, tu donnes une **formule** que le lecteur
+applique à sa propre équipe. Infiniment plus fort qu'une statistique : elle est vraie chez
+lui par construction, et il ne peut pas la contester.
+
+**Quand :** ACTIF du mardi. C'est le format le plus intelligent de la bibliothèque et le
+plus difficile à copier. À garder pour une semaine où tu veux marquer.
+
+**But :** saves · **Formule :** F7 Odd-Precision Money Ledger · **Gabarit :** `carte-chiffre`
+
+```
+{Le rituel} coûte plus cher que ce que vous croyez. Le calcul tient en trois lignes.
+
+{N} commerciaux × {durée} par semaine × {N} semaines = {résultat} heures par an.
+À {coût horaire chargé}, ça fait {montant}.
+
+{Le couperet : et ce n'est pas le vrai coût.}
+
+[Le coût invisible, celui qui n'apparaît pas dans le calcul — deux lignes.]
+
+[Appliquez-le chez vous, ça prend trente secondes. Question : vous tombez sur combien ?]
+```
+
+**Piège :** toutes les hypothèses du calcul doivent être visibles et discutables. Un
+calculateur opaque se lit comme une stat inventée. Assume les fourchettes.
+
+---
+
+### V6 — Le chiffre retourné
+
+**La valeur :** tu prends une statistique que tout le monde cite dans la catégorie et tu
+montres pourquoi elle est mal utilisée. Contrarian sans attaquer personne : tu t'en prends
+à une donnée, pas à des gens.
+
+**Quand :** POV du jeudi. C'est le format qui te rend identifiable le plus vite sur les
+sujets Tolkee, parce qu'il te force à avoir une position.
+
+**But :** comments · **Formule :** F10 Contrarian · **Gabarit :** `carte-chiffre` (facultatif)
+
+```
+{Le chiffre, tel que tout le monde le cite.} {Source, nommée.}
+
+Tout le monde en tire {la conclusion admise}. C'est là que ça se casse.
+
+{Ce que la statistique mesure vraiment — une ligne précise.}
+
+Ce qu'elle produit quand on la prend au pied de la lettre :
+— {conséquence observable 1}
+— {conséquence observable 2}
+
+{Le couperet : ce que le chiffre dit réellement.}
+
+[Question : vous le suivez, ce ratio, ou vous regardez autre chose ?]
+```
+
+**Piège :** le chiffre attaqué doit être réellement dominant, pas un épouvantail. Et sa
+source doit être exacte — attaquer un chiffre en se trompant sur son origine est le pire
+scénario possible.
+
+---
+
+### V7 — La décision de construction
+
+**La valeur :** construire force à trancher précisément là où tout le monde reste vague.
+Tu publies l'arbitrage, pas le code. C'est de la valeur **originale** : personne d'autre
+ne l'a, parce que personne d'autre n'a eu à décider.
+
+**Quand :** POV du jeudi, **à partir de la semaine 3** seulement (avant, le lecteur ne sait
+pas de quel problème tu parles). C'est la version « valeur » du pilier Chantier.
+
+**But :** comments · **Formule :** F4 Time-Anchor Confession ou F9 · **Gabarit :** aucun
+
+```
+{La question à trancher, formulée comme un problème de manager et non de développeur.}
+
+{Ce que fait tout le monde — une ligne.}
+
+Ce qui m'a arrêté : {le moment précis où tu as vu ce que ça coûtait à une équipe.}
+
+[Ce que tu as décidé, et le prix que ça t'a coûté — une fonctionnalité en moins, du travail jeté.]
+
+{Le principe qui en découle, en une phrase.}
+
+[Question : vous le placeriez où, ce curseur ?]
+```
+
+**Règle du solo founder — narrateur, jamais sujet.** Le sujet est toujours « pourquoi j'ai
+tranché comme ça pour une équipe commerciale », jamais « comment je code avec l'IA ». Un
+post « comment je build avec l'IA » construit une audience de builders no-code qui likent
+et n'achètent jamais. **Test avant publication :** si un directeur commercial qui ne code
+pas et ne veut pas coder n'a aucune raison de lire jusqu'au bout, le post est raté.
+
+---
+
+### V8 — Le teardown d'appel anonymisé
+
+**La valeur :** tu prends un vrai appel — le tien, un jeu de rôle, un enregistrement public
+— tu le passes dans l'outil et tu publies l'anatomie : où le deal s'est joué, quelle
+question a tout changé, à quelle seconde le prospect a décroché.
+
+**Quand :** ACTIF du mardi, **semaine 6**. C'est le format le plus différenciant de toute
+la bibliothèque : personne d'autre ne peut le produire. Il montre le produit sans le pitcher.
+
+**But :** saves / DM · **Formule :** F19 Anecdote-Meets-Evidence · **Gabarit :** `timeline`
+
+```
+{Un appel de N minutes. Issue : {gagné / perdu}.} Voilà où ça s'est joué.
+
+{Trois métriques mesurées, non contestables — temps de parole, plus long monologue, seconde de passage au pitch.}
+
+{Le moment exact, minuté, où ça bascule — avec la phrase citée.}
+
+[Ce que le commercial a fait, et ce qui aurait marché — deux lignes, sans condescendance.]
+
+{Le couperet.}
+
+[Question : sur vos appels, vous sauriez dire à quelle minute ça bascule ?]
+```
+
+**Pièges :** anonymisation totale et vérifiée (aucun nom d'entreprise, aucun secteur
+identifiable, accord explicite si l'appel n'est pas le tien). Et ne jamais humilier le
+commercial de l'appel, même anonyme — la moitié de ton audience est commerciale.
+
+---
+
+### V9 — L'enquête *(le moteur, pas un post)*
+
+**La valeur :** c'est le format qui règle le problème de matière **et** le problème de
+design partners avec le même geste. Il ne se publie pas : il se fait en DM et il alimente
+les D8 des semaines 2 et 4.
+
+**Quand :** en continu, dès le lundi 31 août. Une question par quinzaine.
+
+**Le mécanisme**
+
+1. **Lundi** — quinze DM à des head of sales de l'ICP. Une seule question, trente secondes
+   de réponse : « Je construis un truc sur le coaching commercial. Une question :
+   chez vous, qu'est-ce qui prouve concrètement qu'un deal avance ? »
+2. **Mardi-jeudi** — tu récoltes. Huit à douze réponses par vague est un bon rendement.
+3. **Vendredi de la semaine suivante** — tu publies la synthèse (D8) en citant nommément.
+
+**Pourquoi ça marche.** Demander un avis reconnaît l'expertise de l'autre ; demander du
+temps le fait travailler. Le taux de réponse à une question unique est très supérieur à
+celui d'une demande de call. Et c'est **compatible avec la règle « zéro pitch en DM en
+S1-2 »** : demander un avis n'est pas pitcher.
+
+**Ce que ça produit sur six semaines :** trois vagues, quarante-cinq à soixante
+conversations avec l'ICP, et une bibliothèque de citations réelles qui alimente tous les
+autres posts. Tes posts cessent d'être « ce que pense Nizar » pour devenir « ce que disent
+les managers commerciaux français » — position beaucoup plus solide quand on n'a pas
+managé soi-même.
+
+**Piège :** la question doit être réellement ouverte, et la synthèse doit vraiment sortir.
+Un engagement public non tenu en semaine 2 coûte les quatre semaines suivantes.
+
+---
+
+### V10 — Le reformulateur *(format de réserve)*
+
+**La valeur :** des phrases réelles de commerciaux, et la version qui fait avancer le deal.
+Avant / après, dix fois. C'est du pur artisanat de vente — le seul territoire où sept ans
+d'AE te rendent indiscutablement légitime.
+
+**Quand :** ACTIF du mardi, en **remplacement** de n'importe quel format dont la matière
+n'est pas prête le lundi matin. C'est le filet de sécurité de la semaine.
+
+**But :** saves / reposts · **Formule :** F13 Anaphora · **Gabarit :** `tableau`
+
+```
+{N} phrases que je disais en rendez-vous, et ce que je dis aujourd'hui.
+
+« {avant} »
+→ « {après} »
+{Ce que le changement produit, quatre mots.}
+
+« {avant} »
+→ « {après} »
+{idem}
+
+…
+
+{Le couperet : ce que les {N} réécritures ont en commun.}
+
+[Question : laquelle vous entendez encore dans votre équipe ?]
+```
+
+**Piège :** l'« après » ne doit pas être une formule de vendeur plus habile — sinon le post
+se lit comme du manipulation-porn et ton audience de head of sales décroche. Le bon « après »
+pose une vraie question ou fait un vrai constat.
+
+---
+
 ## 4. L'escalade de l'ask sur 6 semaines
 
 L'erreur classique : demander la même chose semaine 1 et semaine 6. L'ask doit monter
@@ -572,11 +964,11 @@ au rythme de ton antériorité publique.
 | Semaines | Post du vendredi | Ce que tu demandes | Ce que tu fais en DM |
 |---|---|---|---|
 | **S1-2 — exister** | D7 Consultation, puis D8 Gratitude | **Rien.** Un avis, au maximum. | Zéro pitch. Tu remercies, tu prolonges la conversation du commentaire. |
-| **S3-4 — assumer** | D7 puis la synthèse des réponses | Ask implicite : une ligne en fin de post (« je construis un truc là-dessus, je montre à qui veut »). Jamais dans le hook. **Le chantier s'ouvre le mercredi de S3**, en même temps que la révélation du nom. | « Tu as dit {X} sous mon post. Je construis un truc qui touche exactement ça — 20 min pour que tu me dises où je me plante ? » |
+| **S3-4 — assumer** | D7 puis la synthèse des réponses | Ask implicite : une ligne en fin de post (« je construis un truc là-dessus, je montre à qui veut »). Jamais dans le hook. **Le chantier s'ouvre le jeudi 17 septembre (S3)**, dans le même post que la révélation du nom. | « Tu as dit {X} sous mon post. Je construis un truc qui touche exactement ça — 20 min pour que tu me dises où je me plante ? » |
 | **S5-6 — convertir** | D9, une fois par semaine max | Appel explicite avec critères d'éligibilité. | Relance ciblée sur ceux qui ont réagi à D9 + les fils chauds des semaines 1-4. |
 
 **Le nom Tolkee :** ne le sors pas en semaine 1. Parle du problème et de « ce que je
-construis » pendant les semaines 1-2. **Révèle le nom en semaine 3, dans son propre
+construis » pendant les semaines 1-2. **Révèle le nom le jeudi 17 septembre (semaine 3), dans son propre
 post** — c'est un moment gratuit, ne le gaspille pas en note de bas de page. Le
 lancement officiel garde alors quelque chose à annoncer.
 
@@ -632,19 +1024,37 @@ de posts.
 
 ## 6. Checklist hebdomadaire
 
-- [ ] 4 posts publiés, selon la semaine type en vigueur (§2 : 2 Terrain en S1-2, Chantier le mercredi à partir de S3)
+**Les trois posts**
+
+- [ ] 3 posts publiés selon la grille du §2 : ACTIF mardi, POV jeudi, CONVERSATION vendredi
+- [ ] Le post de l'arc (§2) est bien celui de la semaine en cours — pas d'avance, pas de retard
 - [ ] Aucune formule (F1-F20) réutilisée depuis 7 jours
-- [ ] Les 4 buts sont représentés : au moins 1 comments, 1 reposts, 1 likes, 1 saves
-- [ ] Au moins 1 post contient une vraie vulnérabilité (D4, D5 ou D6)
-- [ ] Au moins 1 post contient un chiffre réel et vérifiable
+- [ ] Le mardi est illustré avec un gabarit du kit ; le jeudi ne l'est pas
+- [ ] Posts relus à voix haute avant publication (aucune coquille)
+- [ ] Un seul couperet par post
+
+**La règle de sourcing (la plus importante)**
+
+- [ ] Chaque chiffre publié a une source publique nommée dans le post
+- [ ] Le lien de la source est en premier commentaire, posté dans les 2 minutes
+- [ ] Aucun chiffre issu des notes `ETUDES IA ALOALO/` (hypothèses LLM, pas des données)
+- [ ] Les chiffres personnels sont présentés comme personnels, pas comme des statistiques
+
+**Le moteur**
+
 - [ ] 50+ commentaires substantiels sur la semaine, dans la répartition du §5
 - [ ] Tous les fils où l'auteur a répondu ont eu une relance dans les 24 h
-- [ ] L'ask du vendredi correspond bien à la semaine en cours (§4) — pas plus fort
-- [ ] Aucune mention de Tolkee avant la semaine 3
+- [ ] L'enquête V9 : quinze DM partis le lundi, réponses consignées au fil de la semaine
+- [ ] L'ask du vendredi correspond à la semaine en cours (§4) — jamais plus fort
+
+**Les interdits**
+
+- [ ] Aucune mention de Tolkee avant le jeudi 17 septembre
 - [ ] D9 non utilisé avant la semaine 5
-- [ ] Post de chantier (D5) : un directeur commercial qui ne code pas a une raison de le lire jusqu'au bout
 - [ ] Aucun concurrent nommé pour être taclé (créditer : oui — cf. D10)
-- [ ] Posts relus avant publication (aucune coquille)
+- [ ] Post de chantier (V7, D5) : un directeur commercial qui ne code pas a une raison
+      de le lire jusqu'au bout
+- [ ] V8 : anonymisation vérifiée, et aucune humiliation du commercial de l'appel
 
 ---
 

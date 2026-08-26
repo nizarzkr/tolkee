@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Tolkee — feuille de marque des visuels LinkedIn
+   DA « Swiss editorial ». Miroir de app/globals.css et refero/DESIGN.md.
+   Ne PAS inventer de couleur ni de police ici : si la DA du produit bouge,
+   c'est ce fichier qu'on met à jour, et les quatre gabarits suivent.
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  /* Pile de surfaces : canvas → carte blanche → mist → menthe → jaune */
+  --canvas: #e5e7eb;
+  --white: #ffffff;
+  --mist: #f3f3f3;
+  --ink: #000000;
+  --graphite: #444444;
+  --steel: #979797;
+  --mint: #d1ffca;
+  --yellow: #fff100;
+
+  --font-display: 'Barlow Condensed', 'Roboto Condensed', sans-serif;
+  --font-sans: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Format LinkedIn 4:5 — occupe le maximum de hauteur dans le fil. */
+  --w: 1200px;
+  --h: 1500px;
+  --pad: 80px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: #808080; /* hors-canvas, visible seulement en prévisualisation */
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.canvas {
+  width: var(--w);
+  height: var(--h);
+  background: var(--canvas);
+  padding: var(--pad);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
+/* --- Micro-voix mono : 12px, majuscules. Signature typographique. --------- */
+.label {
+  font-family: var(--font-mono);
+  font-size: 18px;              /* 12px de la DA, remonté à l'échelle du visuel */
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--graphite);
+}
+
+/* --- Titre display : condensé, serré, une une de journal ------------------ */
+.display {
+  font-family: var(--font-display);
+  font-weight: 700;
+  line-height: 0.90;
+  letter-spacing: -0.03em;
+  color: var(--ink);
+  text-wrap: balance;
+}
+
+.lede {
+  font-size: 30px;
+  line-height: 1.35;
+  letter-spacing: -0.02em;
+  color: var(--graphite);
+  text-wrap: pretty;
+}
+
+/* --- Les deux accents. Un seul par visuel. Jamais les deux. --------------- */
+.mint  { background: var(--mint);   padding: 0 .12em; box-decoration-break: clone; }
+.jaune { background: var(--yellow); padding: 0 .12em; box-decoration-break: clone; }
+
+/* --- En-tête et signature de pied, communs aux quatre gabarits ------------ */
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding-bottom: 28px;
+  border-bottom: 2px solid var(--ink);
+}
+
+.sig {
+  margin-top: auto;
+  padding-top: 28px;
+  border-top: 2px solid var(--ink);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.sig .wordmark {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+/* La source n'est pas décorative : elle est la preuve. Toujours remplie. */
+.sig .source {
+  font-family: var(--font-mono);
+  font-size: 17px;
+  color: var(--steel);
+  letter-spacing: -0.01em;
+  max-width: 620px;
+  text-align: right;
+}
+
+/* Le corps se centre verticalement : le blanc se répartit en haut ET en bas,
+   au lieu de s'accumuler au-dessus de la signature. */
+.body { flex: 1; display: flex; flex-direction: column; justify-content: center; }

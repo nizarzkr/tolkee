@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Tolkee — timeline</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  .title { font-size: 86px; margin-top: 0; max-width: 1000px; }
+  .subtitle { margin-top: 26px; font-size: 27px; line-height: 1.35; color: var(--graphite); max-width: 940px; }
+  .steps { margin-top: 56px; display: flex; flex-direction: column; }
+  .step { display: grid; grid-template-columns: 150px 1fr; gap: 32px; padding-bottom: 34px; position: relative; }
+  .step:last-child { padding-bottom: 0; }
+  /* Le filet vertical qui relie les étapes : hairline, pas une décoration. */
+  .step:not(:last-child)::before {
+    content: ""; position: absolute; left: 74px; top: 52px; bottom: 6px;
+    width: 2px; background: var(--ink);
+  }
+  .chip {
+    background: var(--ink); color: var(--white);
+    font-family: var(--font-mono); font-size: 20px; font-weight: 500;
+    letter-spacing: 0.02em; text-align: center;
+    padding: 12px 0; height: 46px;
+  }
+  .step.accent .chip { background: var(--mint); color: var(--ink); }
+  .step h2 { font-size: 34px; line-height: 1.15; letter-spacing: -0.025em; color: var(--ink); font-weight: 600; }
+  .step p  { margin-top: 10px; font-size: 25px; line-height: 1.32; letter-spacing: -0.02em; color: var(--graphite); }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="head">
+    <span class="label" id="topic"></span>
+    <span class="label" id="index"></span>
+  </div>
+  <div class="body">
+    <h1 class="display title" id="title"></h1>
+    <p class="subtitle" id="subtitle"></p>
+    <div class="steps" id="steps"></div>
+  </div>
+  <div class="sig">
+    <span class="wordmark" id="wordmark"></span>
+    <span class="source" id="source"></span>
+  </div>
+</div>
+
+<script>
+/* ▼▼▼ LA SEULE ZONE À MODIFIER ▼▼▼ ------------------------------------------
+   Gabarit `timeline` — pour V1 (teardown de process) et V8 (teardown d'appel).
+
+   Règles :
+   - 4 à 6 étapes. Cinq est le bon nombre.
+   - `chip` : une durée ("00-05") ou un rang ("1"). Court : 8 caractères max.
+   - `accent: true` sur UNE étape — celle qui porte le vrai enjeu.
+-------------------------------------------------------------------------- */
+const DATA = {
+  topic:    "Coaching commercial",
+  index:    "01 / 03",
+  title:    "Le 1:1 commercial en 30 minutes",
+  subtitle: "La trame, minute par minute. Celle qui saute en premier quand la semaine est chargée est aussi celle qui coûte le plus cher.",
+  steps: [
+    { chip: "00-05", h: "Comment ça va, vraiment",   p: "Pas le pipe. La personne. Cinq minutes qui décident si les vingt-cinq suivantes servent à quelque chose." },
+    { chip: "05-12", h: "Un appel, un seul",         p: "Écouté avant le 1:1, pas pendant. On parle d'un moment précis, pas d'une impression générale." },
+    { chip: "12-20", h: "Ce qui bloque sur le pipe", p: "Deal par deal, avec un fait par deal. « Ça avance bien » ne compte pas comme un fait.", accent: true },
+    { chip: "20-27", h: "Une seule chose à changer", p: "Un comportement, formulé pour être observable la semaine suivante. Pas trois." },
+    { chip: "27-30", h: "Ce que le manager fait",    p: "L'engagement est réciproque, sinon c'est un contrôle déguisé en coaching." },
+  ],
+  wordmark: "Nizar Zekri",
+  source:   "Trame reconstituée — sources liées en 1er commentaire",
+};
+/* ▲▲▲ FIN DE LA ZONE À MODIFIER ▲▲▲ */
+
+document.getElementById("topic").textContent = DATA.topic;
+document.getElementById("index").textContent = DATA.index;
+document.getElementById("title").textContent = DATA.title;
+document.getElementById("subtitle").textContent = DATA.subtitle;
+document.getElementById("wordmark").textContent = DATA.wordmark;
+document.getElementById("source").textContent = DATA.source;
+
+document.getElementById("steps").innerHTML = DATA.steps.map(function (s) {
+  return '<div class="step' + (s.accent ? ' accent' : '') + '">'
+       +   '<div class="chip">' + s.chip + '</div>'
+       +   '<div><h2>' + s.h + '</h2><p>' + s.p + '</p></div>'
+       + '</div>';
+}).join("");
+</script>
+</body>
+</html>

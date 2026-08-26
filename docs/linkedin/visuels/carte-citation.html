@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Tolkee — carte-citation</title>
+<link rel="stylesheet" href="brand.css">
+<style>
+  .question { margin-top: 0; font-size: 27px; line-height: 1.35; color: var(--graphite); max-width: 900px; }
+  .quotes { margin-top: 48px; display: flex; flex-direction: column; gap: 26px; }
+  .quote {
+    background: var(--white);
+    border-left: 8px solid var(--ink);
+    padding: 34px 38px;
+  }
+  .quote.accent { border-left-color: var(--mint); background: var(--mint); }
+  .quote blockquote {
+    font-family: var(--font-display); font-weight: 600;
+    font-size: 46px; line-height: 1.02; letter-spacing: -0.03em; color: var(--ink);
+    text-wrap: pretty;
+  }
+  .quote .who { margin-top: 20px; font-family: var(--font-mono); font-size: 19px; color: var(--graphite); letter-spacing: -0.01em; }
+  /* Version « une seule citation » : le texte prend toute la place. */
+  .solo .quote blockquote { font-size: 78px; line-height: 0.96; }
+  .solo .quote { padding: 56px 48px; }
+</style>
+</head>
+<body>
+<div class="canvas">
+  <div class="head">
+    <span class="label" id="topic"></span>
+    <span class="label" id="index"></span>
+  </div>
+  <div class="body">
+    <p class="question" id="question"></p>
+    <div class="quotes" id="quotes"></div>
+  </div>
+  <div class="sig">
+    <span class="wordmark" id="wordmark"></span>
+    <span class="source" id="source"></span>
+  </div>
+</div>
+
+<script>
+/* ▼▼▼ LA SEULE ZONE À MODIFIER ▼▼▼ ------------------------------------------
+   Gabarit `carte-citation` — pour D8 (la synthèse d'enquête) et V9.
+
+   Règles :
+   - 1 à 3 citations. Avec une seule, le gabarit bascule tout seul en grand format.
+   - Citer la phrase EXACTE. « Merci à X pour son contenu inspirant » ne déclenche rien.
+   - Ne jamais publier une citation sans l'accord de la personne. Le prénom + la
+     fonction suffisent si elle préfère ne pas être identifiée.
+-------------------------------------------------------------------------- */
+const DATA = {
+  topic:    "Ce que vous m'avez répondu",
+  index:    "03 / 03",
+  question: "La question posée vendredi dernier : « chez vous, qu'est-ce qui prouve concrètement qu'un deal avance ? »",
+  quotes: [
+    { text: "Rien de ce que dit le commercial. Ce que fait le client entre deux rendez-vous.",
+      who:  "Prénom N. — Head of Sales, SaaS, 14 commerciaux", accent: true },
+    { text: "Un deal avance quand quelqu'un de nouveau entre dans la boucle.",
+      who:  "Prénom N. — Directrice commerciale, services B2B" },
+    { text: "Si je dois demander où on en est, on n'en est nulle part.",
+      who:  "Prénom N. — VP Sales, industrie" },
+  ],
+  wordmark: "Nizar Zekri",
+  source:   "Enquête n°1 — 11 réponses de head of sales, septembre 2026",
+};
+/* ▲▲▲ FIN DE LA ZONE À MODIFIER ▲▲▲ */
+
+document.getElementById("topic").textContent = DATA.topic;
+document.getElementById("index").textContent = DATA.index;
+document.getElementById("question").textContent = DATA.question;
+document.getElementById("wordmark").textContent = DATA.wordmark;
+document.getElementById("source").textContent = DATA.source;
+
+var box = document.getElementById("quotes");
+if (DATA.quotes.length === 1) box.classList.add("solo");
+box.innerHTML = DATA.quotes.map(function (q) {
+  return '<div class="quote' + (q.accent ? ' accent' : '') + '">'
+       +   '<blockquote>« ' + q.text + ' »</blockquote>'
+       +   '<div class="who">' + q.who + '</div>'
+       + '</div>';
+}).join("");
+</script>
+</body>
+</html>
