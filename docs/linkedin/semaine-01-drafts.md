@@ -170,10 +170,32 @@ Vous le mettez où, ce curseur ?
 
 ---
 
+## État Publora
+
+Compte LinkedIn connecté : `linkedin-yAbHNdflMF` (Nizar Zekri), jeton valide jusqu'au
+25 octobre 2026.
+
+| Jour | `postGroupId` | Statut | Visuel |
+|---|---|---|---|
+| Mardi 1er, 8h30 | `6a8ee9f967e23631099e69e3` | **programmé** (2026-09-01T06:30Z) | attaché |
+| Jeudi 3, 8h30 | `6a8eea3067e23631099e6aa3` | brouillon | aucun (voulu) |
+| Vendredi 4, 9h30 | `6a8eea3ea4bfddb0690f0662` | brouillon | attaché |
+
+**Pourquoi deux brouillons.** Le plan Starter de Publora ne programme qu'à **sept jours**
+d'avance. Au 26 août, la limite tombait au 2 septembre : seul le mardi entrait. Les deux
+autres sont complets (texte et visuel), il ne reste qu'à basculer leur statut.
+
+**Fenêtres d'ouverture** : le jeudi 3 devient programmable à partir du **27 août**, le
+vendredi 4 à partir du **28 août**. Heures visées, en UTC (Paris est à UTC+2 en septembre) :
+`2026-09-03T06:30:00Z` et `2026-09-04T07:30:00Z`.
+
+---
+
 ## À faire avant lundi 31
 
 - [ ] **L'enquête V9** : quinze DM à des head of sales de l'ICP, avec la même question que
       le D7. Liste à établir.
-- [ ] Vérifier que Publora est bien connecté et les trois posts programmés.
+- [ ] **Basculer les deux brouillons en programmé** dès le 27 et le 28 août
+      (cf. « État Publora » ci-dessus). Sans ça, jeudi et vendredi ne partent pas.
 - [ ] Décider pour l'option « nommer ta manager » du jeudi (et la prévenir si oui).
 - [ ] Relire les trois à voix haute. C'est le seul test qui attrape les phrases d'IA.
