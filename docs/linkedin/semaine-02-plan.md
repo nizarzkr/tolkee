@@ -1,5 +1,12 @@
 # Semaine 2 — plan de publication et d'engagement
 
+> ⚠️ **PÉRIMÉ — à refaire.** Ce plan date de l'architecture à quatre posts par semaine et
+> d'un calendrier qui commençait le 24 août. Depuis le 26 août : trois posts par semaine
+> (ACTIF / POV / CONVERSATION), semaine 1 du 31 août au 4 septembre, semaine 2 du 7 au
+> 11 septembre. L'arc en vigueur est dans `angles-design-partners.md` §2. Ce fichier n'est
+> conservé que pour ses notes de fond, à réécrire avant le 7 septembre.
+
+
 > Phase « pré-lancement / design partners », semaine 2 sur 6.
 > Lundi 31 août → vendredi 4 septembre 2026.
 > Cadre : `angles-design-partners.md` · Voix : `voice-profile.md` · Suite de `semaine-01-drafts.md`

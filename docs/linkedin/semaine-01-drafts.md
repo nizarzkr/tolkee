@@ -137,7 +137,7 @@ Sauf que l'intention ne se voit pas. Ce qui se voit, c'est la fréquence, qui ch
 
 Et je bute dessus pour une raison simple. J'ai été le commercial qu'on écoute. Je n'ai jamais été celui qui décide de la règle.
 
-Si vous managez une équipe commerciale, votre avis vaut plus que le mien ici. Je publie la synthèse de vos réponses vendredi prochain.
+Si vous managez une équipe commerciale, votre avis vaut plus que le mien ici.
 
 Vous le mettez où, ce curseur ?
 ```
@@ -147,10 +147,20 @@ Vous le mettez où, ce curseur ?
   écoute, je n'ai jamais été celui qui décide de la règle » est à la fois le couperet, la
   vulnérabilité, et la raison pour laquelle la question est sincère. C'est ce qui empêche
   le post de ressembler à une fausse question d'engagement bait.
-- **Engagement public** : « je publie la synthèse vendredi prochain » se tient. C'est le
-  D8 du 11 septembre. Un engagement non tenu en semaine 2 coûte les quatre suivantes.
-- **La question est aussi celle de l'enquête V9** partie en DM le lundi 31. Les réponses
-  publiques et les réponses privées alimentent la même synthèse.
+- **Aucune promesse de synthèse dans le post.** La version d'origine annonçait « je publie
+  la synthèse vendredi prochain ». Retiré volontairement : un engagement public non tenu en
+  semaine 2 coûterait les quatre semaines suivantes, et rien n'oblige à le prendre. La
+  synthèse du 11 septembre reste au programme, mais elle se décidera à la vue du matériau,
+  pas à cause d'une promesse.
+- **La question est aussi celle de l'enquête V9** partie en DM le lundi 31. C'est le vrai
+  filet : quinze messages avec une question unique produisent des réponses même si le post
+  public n'en produit aucune. Les réponses publiques et privées alimentent la même synthèse.
+- **Si le matériau manque quand même le 11 septembre** : ne fabrique jamais de synthèse.
+  Bascule sur un D8 classique — les trois personnes dont un post t'a fait changer d'avis
+  pendant ces deux semaines — et dis en une ligne que la question reste ouverte.
+  Une réponse peut aussi se citer sans nommer son auteur : « un directeur commercial d'une
+  équipe de trente personnes m'a dit que… ». C'est vrai, c'est utilisable, ça ne demande
+  l'accord de personne.
 - **Variante si le post du jeudi a bien répondu** : remplacer le deuxième paragraphe par
   « Plusieurs d'entre vous m'ont répondu que le problème n'était pas la confiance mais le
   curseur. » C'est plus fort, mais ça ne s'écrit que si c'est vrai. À trancher vendredi
