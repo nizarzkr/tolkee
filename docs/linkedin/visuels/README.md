@@ -44,13 +44,14 @@ Les formats V1-V10 sont décrits dans `docs/linkedin/angles-design-partners.md` 
 
 ## Les règles à ne pas casser
 
-- **La ligne `source` n'est jamais vide.** Pas de source publique → pas de chiffre →
-  pas de visuel. C'est la règle de sourcing du `voice-profile.md` §3, et c'est celle qui
-  protège la crédibilité de tout le compte.
+- **La source n'apparaît que quand il y en a une.** Une étude, un article, une recherche,
+  un témoignage cité : `source` est remplie, et le pied de visuel s'affiche. Un contenu
+  tiré de l'expérience de Nizar : `source` reste vide, et **le pied disparaît entièrement**.
+  Signer son propre vécu d'une source serait faux, et le signer de son nom fait publicité.
+- **Le corollaire, lui, ne bouge pas :** un chiffre tiers sans source publique ne se publie
+  pas. Pas de source → pas de chiffre → pas de visuel (`voice-profile.md` §3).
 - **Un seul accent de couleur par visuel.** Une ligne en menthe, ou un mot en jaune.
   Jamais les deux, jamais deux fois. La DA tient parce que la couleur est rare.
-- **Le wordmark reste « Nizar Zekri » jusqu'au 17 septembre 2026.** Le nom Tolkee
-  n'apparaît sur aucun visuel avant sa révélation (cf. §4 de la bibliothèque d'angles).
 - **Aucune ombre, aucun dégradé, aucune icône décorative.** La hiérarchie se fait par la
   taille du texte et la pile de tons. Si un visuel a besoin d'une décoration pour tenir,
   c'est son contenu qui est faible.
@@ -65,9 +66,10 @@ Les formats V1-V10 sont décrits dans `docs/linkedin/angles-design-partners.md` 
 densité — le texte reste net après la recompression de LinkedIn. Le 4:5 est le ratio qui
 occupe le plus de hauteur dans le fil, donc celui qui s'arrête le plus.
 
-Le compteur en haut à droite (`01 / 03`) situe le post dans la semaine : `01` mardi,
-`02` jeudi, `03` vendredi. Il donne au fil une régularité reconnaissable — un lecteur
-qui voit passer `03 / 03` sait qu'il a manqué les deux autres.
+**Aucune signature, aucun compteur, aucun logo.** C'est la direction artistique
+elle-même qui signe : le gris canvas, le condensé serré, l'aplat menthe. Au bout de
+quelques semaines le fil la reconnaît sans qu'on ait eu à écrire un nom dessus, et le
+visuel reste éditorial au lieu de basculer en contenu de marque.
 
 ---
 

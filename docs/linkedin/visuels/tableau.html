@@ -29,7 +29,6 @@
 <div class="canvas">
   <div class="head">
     <span class="label" id="topic"></span>
-    <span class="label" id="index"></span>
   </div>
   <div class="body">
     <h1 class="display title" id="title"></h1>
@@ -37,7 +36,6 @@
     <div class="rows" id="rows"></div>
   </div>
   <div class="sig">
-    <span class="wordmark" id="wordmark"></span>
     <span class="source" id="source"></span>
   </div>
 </div>
@@ -54,7 +52,6 @@
 -------------------------------------------------------------------------- */
 const DATA = {
   topic:    "Revue de pipe",
-  index:    "01 / 03",
   title:    "Sept phrases de revue de pipe qui ne veulent rien dire",
   subtitle: "À gauche ce qu'on dit. À droite ce que ça veut dire vraiment.",
   arrow:    "→",
@@ -67,17 +64,16 @@ const DATA = {
     { left: "« Le projet est prioritaire »",   right: "Prioritaire pour mon contact, pas pour son comité" },
     { left: "« Je le relance la semaine prochaine »", right: "Je n'ai aucune raison de le rappeler" },
   ],
-  wordmark: "Nizar Zekri",
-  source:   "Formulations que j'employais moi-même, 7 ans en tant qu'AE",
+  source:   "",
 };
 /* ▲▲▲ FIN DE LA ZONE À MODIFIER ▲▲▲ */
 
 document.getElementById("topic").textContent = DATA.topic;
-document.getElementById("index").textContent = DATA.index;
 document.getElementById("title").textContent = DATA.title;
 document.getElementById("subtitle").textContent = DATA.subtitle;
-document.getElementById("wordmark").textContent = DATA.wordmark;
-document.getElementById("source").textContent = DATA.source;
+var sig = document.querySelector(".sig");
+if (DATA.source) { document.getElementById("source").textContent = DATA.source; }
+else { sig.classList.add("vide"); }
 
 document.getElementById("rows").innerHTML = DATA.rows.map(function (r) {
   return '<div class="row' + (r.accent ? ' accent' : '') + '">'

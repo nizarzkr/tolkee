@@ -259,11 +259,14 @@ ou des séparateurs.
 ### Marque
 
 - **Wordmark : « Tolkee »**, en Barlow Condensed 700, `tracking-tight`, noir. Pas de
-  logo image à ce jour — le mot *est* le logo.
-- **Signature de pied de visuel** (obligatoire sur tous les gabarits) : le wordmark à
-  gauche en 12px mono, la source à droite en steel-gray. **Jusqu'au 17 septembre 2026,
-  le wordmark est remplacé par « Nizar Zekri »** — le nom Tolkee n'apparaît sur aucun
-  visuel avant la révélation.
+  logo image à ce jour : le mot *est* le logo. Réservé au site et au produit.
+- **Les visuels LinkedIn ne portent ni nom, ni logo, ni compteur.** C'est la DA qui
+  signe : le gris canvas, le condensé serré, l'aplat menthe. Au bout de quelques semaines
+  le fil la reconnaît sans nom, et le visuel reste éditorial au lieu de basculer en
+  contenu de marque.
+- **Le pied de visuel n'affiche qu'une source, et seulement s'il y en a une** : une étude,
+  un article, une recherche, un témoignage cité. Un contenu tiré du vécu de Nizar n'a pas
+  de source, donc pas de pied du tout.
 
 ### Le kit de gabarits
 

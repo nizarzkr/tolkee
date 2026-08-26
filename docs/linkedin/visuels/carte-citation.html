@@ -28,14 +28,12 @@
 <div class="canvas">
   <div class="head">
     <span class="label" id="topic"></span>
-    <span class="label" id="index"></span>
   </div>
   <div class="body">
     <p class="question" id="question"></p>
     <div class="quotes" id="quotes"></div>
   </div>
   <div class="sig">
-    <span class="wordmark" id="wordmark"></span>
     <span class="source" id="source"></span>
   </div>
 </div>
@@ -52,7 +50,6 @@
 -------------------------------------------------------------------------- */
 const DATA = {
   "topic": "Mesure et confiance",
-  "index": "02 / 03",
   "question": "",
   "quotes": [
     {
@@ -60,16 +57,15 @@ const DATA = {
       "who": ""
     }
   ],
-  "wordmark": "Nizar Zekri",
-  "source": "Sept ans en tant que commercial mesuré"
+  "source": ""
 };
 /* ▲▲▲ FIN DE LA ZONE À MODIFIER ▲▲▲ */
 
 document.getElementById("topic").textContent = DATA.topic;
-document.getElementById("index").textContent = DATA.index;
 document.getElementById("question").textContent = DATA.question;
-document.getElementById("wordmark").textContent = DATA.wordmark;
-document.getElementById("source").textContent = DATA.source;
+var sig = document.querySelector(".sig");
+if (DATA.source) { document.getElementById("source").textContent = DATA.source; }
+else { sig.classList.add("vide"); }
 
 var box = document.getElementById("quotes");
 if (DATA.quotes.length === 1) box.classList.add("solo");

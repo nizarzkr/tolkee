@@ -82,11 +82,12 @@ body {
 .mint  { background: var(--mint);   padding: 0 .12em; box-decoration-break: clone; }
 .jaune { background: var(--yellow); padding: 0 .12em; box-decoration-break: clone; }
 
-/* --- En-tête et signature de pied, communs aux quatre gabarits ------------ */
+/* --- En-tête et signature de pied ------------------------------------------
+   La signature n'apparaît QUE s'il y a une source à citer. Un visuel tiré de
+   l'expérience de Nizar n'a pas de source, donc pas de pied : la DA elle-même
+   fait la signature, le nom n'apporte rien.
+   -------------------------------------------------------------------------- */
 .head {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
   padding-bottom: 28px;
   border-bottom: 2px solid var(--ink);
 }
@@ -95,29 +96,18 @@ body {
   margin-top: auto;
   padding-top: 28px;
   border-top: 2px solid var(--ink);
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
 }
 
-.sig .wordmark {
-  font-family: var(--font-display);
-  font-weight: 700;
-  font-size: 30px;
-  letter-spacing: -0.02em;
-  color: var(--ink);
-}
-
-/* La source n'est pas décorative : elle est la preuve. Toujours remplie. */
+/* La source n'est pas décorative : elle est la preuve. */
 .sig .source {
   font-family: var(--font-mono);
-  font-size: 17px;
-  color: var(--steel);
+  font-size: 19px;
+  color: var(--graphite);
   letter-spacing: -0.01em;
-  max-width: 620px;
-  text-align: right;
 }
 
-/* Le corps se centre verticalement : le blanc se répartit en haut ET en bas,
-   au lieu de s'accumuler au-dessus de la signature. */
+/* Pas de source, pas de pied du tout. */
+.sig:empty,
+.sig.vide { display: none; }
+
 .body { flex: 1; display: flex; flex-direction: column; justify-content: center; }

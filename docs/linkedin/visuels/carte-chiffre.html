@@ -33,7 +33,6 @@
 <div class="canvas">
   <div class="head">
     <span class="label" id="topic"></span>
-    <span class="label" id="index"></span>
   </div>
   <div class="body">
     <div class="label eyebrow" id="eyebrow"></div>
@@ -42,7 +41,6 @@
     <div class="kicker" id="kicker"></div>
   </div>
   <div class="sig">
-    <span class="wordmark" id="wordmark"></span>
     <span class="source" id="source"></span>
   </div>
 </div>
@@ -55,29 +53,28 @@
    Règles :
    - `source` n'est jamais vide. Pas de source → pas de chiffre → pas de visuel.
    - `statement` accepte <span class="mint">…</span> pour surligner. UNE fois.
-   - `wordmark` reste « Nizar Zekri » jusqu'au 17 septembre 2026.
+   - `source` vide = pas de pied de visuel du tout. C'est le cas quand le chiffre
+     vient de l'expérience de Nizar et non d'une étude.
 -------------------------------------------------------------------------- */
 const DATA = {
   topic:     "Pilotage commercial",
-  index:     "01 / 03",
   eyebrow:   "Temps de parole du commercial",
   number:    "43",
   unit:      "%",
   statement: 'C\'est la part de parole des commerciaux qui closent le plus. <span class="mint">Et c\'est le chiffre le plus mal utilisé du métier.</span>',
   kicker:    "Un ratio n'est pas un objectif. C'est un symptôme.",
-  wordmark:  "Nizar Zekri",
   source:    "Source : Gong Labs — à vérifier et lier en 1er commentaire",
 };
 /* ▲▲▲ FIN DE LA ZONE À MODIFIER ▲▲▲ */
 
 document.getElementById("topic").textContent = DATA.topic;
-document.getElementById("index").textContent = DATA.index;
 document.getElementById("eyebrow").textContent = DATA.eyebrow;
 document.getElementById("number").innerHTML = DATA.number + (DATA.unit ? '<span class="unit">' + DATA.unit + '</span>' : '');
 document.getElementById("statement").innerHTML = DATA.statement;
 document.getElementById("kicker").textContent = DATA.kicker;
-document.getElementById("wordmark").textContent = DATA.wordmark;
-document.getElementById("source").textContent = DATA.source;
+var sig = document.querySelector(".sig");
+if (DATA.source) { document.getElementById("source").textContent = DATA.source; }
+else { sig.classList.add("vide"); }
 </script>
 </body>
 </html>

@@ -30,7 +30,6 @@
 <div class="canvas">
   <div class="head">
     <span class="label" id="topic"></span>
-    <span class="label" id="index"></span>
   </div>
   <div class="body">
     <h1 class="display title" id="title"></h1>
@@ -38,7 +37,6 @@
     <div class="steps" id="steps"></div>
   </div>
   <div class="sig">
-    <span class="wordmark" id="wordmark"></span>
     <span class="source" id="source"></span>
   </div>
 </div>
@@ -54,7 +52,6 @@
 -------------------------------------------------------------------------- */
 const DATA = {
   topic:    "Coaching commercial",
-  index:    "01 / 03",
   title:    "Le 1:1 commercial en 30 minutes",
   subtitle: "La trame, minute par minute. Celle qui saute en premier quand la semaine est chargée est aussi celle qui coûte le plus cher.",
   steps: [
@@ -64,17 +61,16 @@ const DATA = {
     { chip: "20-27", h: "Une seule chose à changer", p: "Un comportement, formulé pour être observable la semaine suivante. Pas trois." },
     { chip: "27-30", h: "Ce que le manager fait",    p: "L'engagement est réciproque, sinon c'est un contrôle déguisé en coaching." },
   ],
-  wordmark: "Nizar Zekri",
   source:   "Trame reconstituée — sources liées en 1er commentaire",
 };
 /* ▲▲▲ FIN DE LA ZONE À MODIFIER ▲▲▲ */
 
 document.getElementById("topic").textContent = DATA.topic;
-document.getElementById("index").textContent = DATA.index;
 document.getElementById("title").textContent = DATA.title;
 document.getElementById("subtitle").textContent = DATA.subtitle;
-document.getElementById("wordmark").textContent = DATA.wordmark;
-document.getElementById("source").textContent = DATA.source;
+var sig = document.querySelector(".sig");
+if (DATA.source) { document.getElementById("source").textContent = DATA.source; }
+else { sig.classList.add("vide"); }
 
 document.getElementById("steps").innerHTML = DATA.steps.map(function (s) {
   return '<div class="step' + (s.accent ? ' accent' : '') + '">'
