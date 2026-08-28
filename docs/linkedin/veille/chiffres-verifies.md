@@ -133,6 +133,21 @@ renforce la crédibilité au lieu de l'entamer.
 - [ ] RAIN Group — les trois chiffres ci-dessus, et la date de l'étude sur 472 organisations
 - [ ] CSO Insights — l'année de l'étude (elle est ancienne, à confirmer avant de la citer)
 - [ ] HubSpot State of Sales — non exploré, rapport annuel à ouvrir
-- [ ] The Bridge Group — benchmarks SDR/AE, non exploré
+- [ ] The Bridge Group — *SDR Models, Motions & Metrics* (10ᵉ édition, 351 répondants) :
+      https://blog.bridgegroupinc.com/sales-development-metrics — ratio SDR:AE, pipeline
+      par SDR, temps de rampe
 - [ ] Corporate Visions — obtenir le rapport complet (formulaire) pour les taux de succès
       des trois autres stratégies, absents du communiqué
+- [ ] Kluger & DeNisi (1996), *Psychological Bulletin* 119(2), 254-284 — méta-analyse
+      feedback : 607 tailles d'effet, 23 663 observations, d = 0,41, plus d'un tiers des
+      interventions dégradent la performance. Lien : https://doi.org/10.1037/0033-2909.119.2.254
+      — valeur exacte du « plus d'un tiers » à confirmer sur la page primaire
+- [ ] Gamification en formation commerciale — field experiment, DOI 10.1080/08853134.2024.2431817
+      (tandfonline) : échantillon, durée, effets à l'extinction non confirmés
+- [ ] « Highspot 2026, étude mondiale sur 1 004 commerciaux » (ratio parole 43:57) — vu
+      uniquement sur des blogs tiers (zeliq.com, outreachbloom.com), jamais sur highspot.com.
+      Suspicion de recyclage du chiffre Gong 2016 sous une étiquette neuve — ne pas citer
+      avant vérification directe sur https://www.highspot.com
+- [ ] Gartner — communiqué du 20 mai 2026 sur les next-best-actions IA (« 2,6x plus
+      susceptibles de croître ») : vérifier la fenêtre de collecte (vue en recherche :
+      227 directeurs commerciaux, août-septembre 2025) contre la date du communiqué
