@@ -151,3 +151,21 @@ renforce la crédibilité au lieu de l'entamer.
 - [ ] Gartner — communiqué du 20 mai 2026 sur les next-best-actions IA (« 2,6x plus
       susceptibles de croître ») : vérifier la fenêtre de collecte (vue en recherche :
       227 directeurs commerciaux, août-septembre 2025) contre la date du communiqué
+- [ ] Salesloft — *2026 US Revenue Benchmark Report* (avec Censuswide, 500 décideurs
+      sales/revenue US, organisations 200+ salariés, terrain 28 mai-10 juin 2026, publié
+      le 2 septembre 2026) : https://www.salesloft.com/resources/guides/revenue-benchmark-report-us
+      — confirmer 89 % (managers jugés objectifs), 56 % (coaching ≥ 1x/2 semaines),
+      ~32 % (diagnostic instantané d'un deal bloqué), 47,4 % (part du revenu par le top
+      10 % des vendeurs), taux moyen d'atteinte de quota ~62 %
+- [ ] Deci, Olafsen & Ryan (2017), *Self-Determination Theory in Work Organizations: The
+      State of a Science*, Annual Review of Organizational Psychology and Organizational
+      Behavior, vol. 4, p. 19-43 : https://selfdeterminationtheory.org/wp-content/uploads/2017/03/2017_DeciOlafsenRyan_annurev-orgpsych.pdf
+      — confirmer le passage sur l'effet d'éviction des récompenses extrinsèques en
+      contexte organisationnel (classements, primes) et un verbatim citable
+- [ ] Gong Labs — *State of Revenue AI 2026* (communiqué repéré daté du 4 décembre 2025
+      malgré le millésime « 2026 » — à confirmer) : https://www.prnewswire.com/news-releases/new-gong-labs-research-finds-ai-is-now-a-trusted-decision-maker-in-revenue-teams-302632355.html
+      — échantillon annoncé 3 048 revenue leaders / 7,1M d'opportunités / 3 613 sociétés,
+      chiffre annoncé « 77 % de revenu en plus par commercial » avec IA embarquée ; vérifier
+      la date exacte avant de le traiter comme récent
+- [ ] The Bridge Group — nouvelle URL trouvée pour le rapport 2025 (10ᵉ édition, 351
+      répondants), plus officielle que le lien blog déjà tenté : https://www.bridgegroupinc.com/research/2025-sdr-models-metrics-report-the-bridge-group
