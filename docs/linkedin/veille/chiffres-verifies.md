@@ -162,10 +162,26 @@ renforce la crédibilité au lieu de l'entamer.
       Behavior, vol. 4, p. 19-43 : https://selfdeterminationtheory.org/wp-content/uploads/2017/03/2017_DeciOlafsenRyan_annurev-orgpsych.pdf
       — confirmer le passage sur l'effet d'éviction des récompenses extrinsèques en
       contexte organisationnel (classements, primes) et un verbatim citable
-- [ ] Gong Labs — *State of Revenue AI 2026* (communiqué repéré daté du 4 décembre 2025
-      malgré le millésime « 2026 » — à confirmer) : https://www.prnewswire.com/news-releases/new-gong-labs-research-finds-ai-is-now-a-trusted-decision-maker-in-revenue-teams-302632355.html
+- [ ] Gong Labs — *State of Revenue AI 2026* : https://www.prnewswire.com/news-releases/new-gong-labs-research-finds-ai-is-now-a-trusted-decision-maker-in-revenue-teams-302632355.html
       — échantillon annoncé 3 048 revenue leaders / 7,1M d'opportunités / 3 613 sociétés,
-      chiffre annoncé « 77 % de revenu en plus par commercial » avec IA embarquée ; vérifier
-      la date exacte avant de le traiter comme récent
+      chiffre annoncé « 77 % de revenu en plus par commercial » avec IA embarquée.
+      **Date résolue le 11 septembre 2026** : communiqué du 4 décembre 2025 (repris par
+      VentureBeat le 22 décembre 2025) malgré le millésime « 2026 » dans le titre — ne
+      jamais le citer comme récent. Le chiffre lui-même (77 %) reste à confirmer à la
+      source si utilisé un jour, en le datant correctement.
 - [ ] The Bridge Group — nouvelle URL trouvée pour le rapport 2025 (10ᵉ édition, 351
       répondants), plus officielle que le lien blog déjà tenté : https://www.bridgegroupinc.com/research/2025-sdr-models-metrics-report-the-bridge-group
+- [ ] Frazier, Fainshmidt, Klinger, Pezeshkan & Vracheva (2017), *Psychological Safety: A
+      Meta-Analytic Review and Extension*, Personnel Psychology, vol. 70, p. 113-165 :
+      https://onlinelibrary.wiley.com/doi/10.1111/peps.12183 — 136 échantillons
+      indépendants, 22 000+ individus, ~5 000 groupes ; corrélation exacte sécurité
+      psychologique ↔ performance à confirmer
+- [ ] HubSpot — rapport tendances de vente 2026 (édition Europe/France) :
+      https://offers.hubspot.fr/rapport-tendances-ventes — chiffre relevé « 49 % des
+      commerciaux passent 2h+/jour en prospection », échantillon annoncé 2 200+
+      professionnels en Europe ; échantillon par pays et date de collecte à confirmer
+- [ ] Ebsta × Pavilion — *2025 GTM Benchmarks* :
+      https://www.joinpavilion.com/resource/2025-gtm-benchmarks-ebsta-pavilion —
+      655 000 opportunités, taux de gain moyen annoncé 19 % contre 29 % l'an précédent ;
+      **suspicion de piège de millésime** (rapport « 2025 » vu en sept. 2026) — vérifier la
+      date de collecte réelle avant tout usage
