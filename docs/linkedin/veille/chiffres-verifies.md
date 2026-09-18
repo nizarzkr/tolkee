@@ -185,3 +185,18 @@ renforce la crédibilité au lieu de l'entamer.
       655 000 opportunités, taux de gain moyen annoncé 19 % contre 29 % l'an précédent ;
       **suspicion de piège de millésime** (rapport « 2025 » vu en sept. 2026) — vérifier la
       date de collecte réelle avant tout usage
+- [ ] Dixon & McKenna, *The JOLT Effect* (2022) : https://www.jolteffect.com/about-the-book
+      — chiffre annoncé « 40 à 60 % des deals B2B perdus finissent en no decision » plutôt
+      qu'en perte concurrentielle ; taille d'échantillon exacte et méthodologie à confirmer
+- [ ] CSO Insights — précision du forecast : https://www.csoinsights.com/blog/top-12-world-class-sales-practices-rigorous-forecasting-process/
+      — deux chiffres voisins mais distincts vus en recherche (45,8 % en 2016, 46,9 %/48,2 %
+      en 2017) ; démêler l'année et le chiffre exacts avant toute citation
+- [ ] Robson, Plangger, Kietzmann, McCarthy & Pitt (2015), *Is It All a Game? Understanding
+      the Principles of Gamification*, Business Horizons, vol. 58, n°4, p. 411-420 :
+      https://www.sciencedirect.com/science/article/abs/pii/S000768131500035X — framework
+      mechanics/dynamics/emotions, cas SAP Roadwarrior et Microsoft Ribbon Hero ; passage sur
+      l'effet à l'extinction du dispositif de jeu non confirmé cette semaine (accès payant)
+- [ ] Gartner — coût moyen de la mauvaise donnée : https://www.gartner.com/en/data-analytics/topics/data-quality
+      — chiffre relevé « 12,9 M$/an » (Magic Quadrant for Data Quality Solutions, 2020) ;
+      échantillon annoncé de 154 clients de référence d'éditeurs de qualité de données —
+      biais de sélection probable à signaler si cité ; date exacte à confirmer
