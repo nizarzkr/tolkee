@@ -200,3 +200,14 @@ renforce la crédibilité au lieu de l'entamer.
       — chiffre relevé « 12,9 M$/an » (Magic Quadrant for Data Quality Solutions, 2020) ;
       échantillon annoncé de 154 clients de référence d'éditeurs de qualité de données —
       biais de sélection probable à signaler si cité ; date exacte à confirmer
+- [ ] Locke, Shaw, Saari & Latham (1981), *Goal setting and task performance: 1969–1980*,
+      Psychological Bulletin, 90(1), 125-152 : https://doi.org/10.1037/0033-2909.90.1.125
+      — pourcentage exact d'études montrant un effet positif des objectifs spécifiques et
+      difficiles, et tailles d'effet rapportées par ce papier précis (des valeurs
+      contradictoires vues en recherche cette semaine : « 90 % » vs « 96 % » des études,
+      d entre 0,42 et 0,82 — à démêler à la source)
+- [ ] Gong Labs Trends — « AI vs. Jobs » (juin 2026), citant Deloitte *State of AI in the
+      Enterprise* 2026 : https://www.gong.io/trends — chiffre relevé « seulement 25 % des
+      entreprises ont fait passer 40 % ou plus de leurs pilotes IA en production » ; ni
+      l'article Gong exact ni le rapport Deloitte primaire ouverts cette semaine — matière
+      possible pour D10 (l'écart entre adoption IA annoncée et bascule en production réelle)
