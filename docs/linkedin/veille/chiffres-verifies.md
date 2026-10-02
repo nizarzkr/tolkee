@@ -211,3 +211,23 @@ renforce la crédibilité au lieu de l'entamer.
       entreprises ont fait passer 40 % ou plus de leurs pilotes IA en production » ; ni
       l'article Gong exact ni le rapport Deloitte primaire ouverts cette semaine — matière
       possible pour D10 (l'écart entre adoption IA annoncée et bascule en production réelle)
+- [ ] Salesforce France — communiqué du 23 février 2026, « Les équipes commerciales
+      françaises font de l'IA et des agents leurs nouveaux accélérateurs de croissance pour
+      2026 » : https://www.salesforce.com/fr/news/press-releases/2026/02/23/les-equipes-commerciales-francaises-font-de-lia-et-des-agents-leurs-nouveaux-accelerateurs-de-croissance-pour-2026-selon-une-etude-de-salesforce/
+      — premier signal axe 4 (écosystème français) de cette veille ; vérifier s'il existe un
+      chiffre ou un sous-échantillon France distinct du panel global (4 050 professionnels,
+      22 pays, terrain août-septembre 2025) ou si le communiqué ne fait que repackager ce
+      panel global sous un titre français
+- [ ] Forrester — « State of B2B Sales » (pas de lien direct trouvé vers forrester.com) :
+      chiffre circulant sur plusieurs blogs d'outils (zeliq.com, trykondo.com, apollo.io)
+      « 28 % du temps des commerciaux consacré à la vente » et « productivité en baisse de
+      14 % entre 2020 et 2025 », sans lien vers un rapport Forrester identifiable —
+      suspicion de chiffre orphelin recyclé (même schéma que le cas Highspot du 28 août) ;
+      pistes à explorer : « Forrester Death of a B2B Salesman » et le webinar Forrester
+      « Culture, Coaching, Compensation: Motivating 21st-Century Sellers »
+- [ ] Ferster & Skinner (1957), *Schedules of Reinforcement* : résultat relevé en recherche
+      (concordant sur plusieurs résumés pédagogiques, texte original non ouvert) — le
+      renforcement à ratio variable serait le calendrier de renforcement le plus résistant
+      à l'extinction ; chercher aussi une étude empirique récente qui l'applique à un
+      dispositif de gamification commerciale (classement, badge) pour sortir du cadre
+      purement théorique
