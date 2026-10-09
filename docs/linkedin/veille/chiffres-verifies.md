@@ -231,3 +231,31 @@ renforce la crédibilité au lieu de l'entamer.
       à l'extinction ; chercher aussi une étude empirique récente qui l'applique à un
       dispositif de gamification commerciale (classement, badge) pour sortir du cadre
       purement théorique
+- [ ] Sonnentag & Kleine (2000), *Deliberate practice at work: a study with insurance
+      agents*, Journal of Occupational and Organizational Psychology, 73, 87-102, DOI
+      10.1348/096317900166895 : étude sur 100 agents d'assurance — le temps actuel
+      consacré à la pratique délibérée corrélerait significativement aux notes de
+      performance des managers, contre aucune corrélation pour le temps cumulé passé ;
+      valeur exacte de la corrélation et définition opérationnelle de « pratique
+      délibérée » à confirmer sur le texte complet (page Wiley ou PDF du dépôt de
+      l'université de Constance, tous deux bloqués cette semaine)
+- [ ] Salesforce France — communiqué du 23 février 2026 : chiffres relevés « 37 % de
+      réduction du temps de recherche de prospects » et « 39 % de réduction du temps de
+      rédaction d'e-mails » grâce aux agents IA pleinement déployés — gains **projetés**,
+      pas mesurés ; taille exacte du sous-échantillon France non confirmée, et des valeurs
+      différentes (34 %/36 %) circulent pour la version mondiale de la même étude — à
+      démêler avant citation
+- [ ] SyncGTM — *2026 RevOps Report* (1 200+ entreprises B2B, publié le 11 mars 2026) :
+      https://syncgtm.com/blog/revops-report-2026 — chiffres relevés « 78 % des
+      entreprises de 50+ salariés ont une fonction RevOps dédiée contre 48 % en 2023 »,
+      « 61 % des équipes RevOps utilisent l'IA dans ≥1 workflow contre 34 % en 2025 »,
+      dont 52 % sur le forecast ; méthodologie non confirmée, et à ne pas confondre avec
+      le rapport au nom presque identique « 2026 State of RevOps » (4 050+ professionnels,
+      citant Salesforce/ZoomInfo/Benchmarkit)
+- [ ] Validity — *The State of CRM Data Management* : https://www.validity.com/resource-center/the-state-of-crm-data-management-in-2025/
+      annonce 600+ répondants pour l'édition 2025, mais des reprises tierces d'une édition
+      antérieure citent 1 240+ répondants (US/UK/Australie) sous le même nom de rapport —
+      confusion d'édition à lever avant tout chiffre sur le coût d'une mauvaise donnée CRM
+      (chiffres vus en recherche : 44 % des entreprises perdraient plus de 10 % de revenu
+      annuel à cause d'une donnée CRM de mauvaise qualité, 16 deals perdus par trimestre,
+      13h/semaine passées à chercher une information de base)
