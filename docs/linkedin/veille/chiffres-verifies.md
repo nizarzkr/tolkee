@@ -252,6 +252,27 @@ renforce la crédibilité au lieu de l'entamer.
       dont 52 % sur le forecast ; méthodologie non confirmée, et à ne pas confondre avec
       le rapport au nom presque identique « 2026 State of RevOps » (4 050+ professionnels,
       citant Salesforce/ZoomInfo/Benchmarkit)
+- [ ] MySalesCoach × Aircall — *The State of Sales Coaching in 2026* :
+      https://aircall.io/en-gb/guides/state-of-sales-coaching/ (rapport PDF trouvé sur un
+      domaine tiers inhabituel : https://mysalescoach-sales-leadership-festival.lovable.app/__l5e/assets-v1/6c22fb27-19ad-4b13-b50c-ddef6b1a8699/state-of-sales-coaching-2026.pdf)
+      — chiffres relevés via reprise Aircall, non confirmés à la source primaire : 73 % des
+      managers passeraient moins de 5 % de leur temps à coacher, 65 % disent manquer de
+      temps, 1-2 % des appels seulement écoutés par les managers. Attention : une édition
+      2025 du même rapport (38 % des commerciaux rarement/jamais coachés vs 90 % des
+      managers qui affirment coacher au moins mensuellement) circule aussi — bien démêler
+      les deux millésimes avant citation, et confirmer l'authenticité du PDF.
+- [ ] Ambition — *The State of Sales Coaching in 2026* : https://ambition.com/resources/the-state-of-sales-coaching-in-2026
+      — 312 revenue leaders interrogés été 2026 ; cross-tab fréquence de coaching × atteinte
+      de quota annoncé dans le rapport complet mais non vu cette semaine. À ne pas confondre
+      avec le rapport MySalesCoach × Aircall ci-dessus, nom quasi identique mais étude
+      distincte. Chiffres de comparaison plateforme (46 % vs 22 %, 58 % vs 32 %) fournis par
+      le vendeur lui-même — juge et partie, à signaler si cité.
+- [ ] Fogg, B.J. (2009), *A Behavior Model for Persuasive Design*, Persuasive '09 (4ᵉ
+      conférence internationale sur la technologie persuasive), ACM, DOI
+      10.1145/1541948.1541999 (voir aussi https://behaviormodel.org) — modèle B=MAP
+      (motivation, capacité, déclencheur) ; verbatim exact sur la primauté de la capacité
+      sur la motivation non confirmé à la source, vu uniquement sur des résumés tiers
+      (ProductLed Alliance, Dovetail, HackerNoon) cette semaine.
 - [ ] Validity — *The State of CRM Data Management* : https://www.validity.com/resource-center/the-state-of-crm-data-management-in-2025/
       annonce 600+ répondants pour l'édition 2025, mais des reprises tierces d'une édition
       antérieure citent 1 240+ répondants (US/UK/Australie) sous le même nom de rapport —
