@@ -141,7 +141,12 @@ renforce la crédibilité au lieu de l'entamer.
 - [ ] Kluger & DeNisi (1996), *Psychological Bulletin* 119(2), 254-284 — méta-analyse
       feedback : 607 tailles d'effet, 23 663 observations, d = 0,41, plus d'un tiers des
       interventions dégradent la performance. Lien : https://doi.org/10.1037/0033-2909.119.2.254
-      — valeur exacte du « plus d'un tiers » à confirmer sur la page primaire
+      — valeur exacte du « plus d'un tiers » à confirmer sur la page primaire.
+      **Mise à jour du 23 octobre 2026** : trois sources indépendantes (répertoires de
+      recherche de l'Université hébraïque de Jérusalem — scholars.huji.ac.il/node/1802 et
+      cris.huji.ac.il — plus une référence croisée sur PMC) convergent toutes sur les mêmes
+      chiffres exacts ci-dessus. Triangulation forte, mais aucune des trois pages primaires
+      n'a pu être ouverte directement (proxy bloqué) : statut toujours ⚠️.
 - [ ] Gamification en formation commerciale — field experiment, DOI 10.1080/08853134.2024.2431817
       (tandfonline) : échantillon, durée, effets à l'extinction non confirmés
 - [ ] « Highspot 2026, étude mondiale sur 1 004 commerciaux » (ratio parole 43:57) — vu
@@ -169,6 +174,19 @@ renforce la crédibilité au lieu de l'entamer.
       VentureBeat le 22 décembre 2025) malgré le millésime « 2026 » dans le titre — ne
       jamais le citer comme récent. Le chiffre lui-même (77 %) reste à confirmer à la
       source si utilisé un jour, en le datant correctement.
+      **Nouveau chiffre relevé le 23 octobre 2026, même rapport** : le taux moyen
+      d'atteinte de quota serait passé de 52 % (2024) à 46 % (cette année) selon les
+      dirigeants commerciaux interrogés — chiffre déclaratif (perception), pas une mesure
+      directe sur les 7,1M d'opportunités. Non confirmé à la source.
+- [ ] Friess, M. (2025), *Gamification in Virtual Sales Training: Evidence from a Field
+      Experiment*, Journal of Personal Selling & Sales Management, vol. 45, n°3,
+      p. 224-237 : https://publications.hnu.de/5176/ — expérience de terrain sur 147
+      commerciaux, quiz compétitif après formation en ligne → plaisir → motivation à se
+      former et acquisition de connaissances déclaratives, effet plus fort chez les
+      commerciaux expérimentés. Deux recherches menées le 23 octobre 2026 divergent sur un
+      détail : l'une mentionne un échantillon télécom et un gain de « 16 % » de
+      connaissances déclaratives, l'autre ne confirme ni l'un ni l'autre — à trancher sur
+      le texte complet avant toute citation de secteur ou de pourcentage.
 - [ ] The Bridge Group — nouvelle URL trouvée pour le rapport 2025 (10ᵉ édition, 351
       répondants), plus officielle que le lien blog déjà tenté : https://www.bridgegroupinc.com/research/2025-sdr-models-metrics-report-the-bridge-group
 - [ ] Frazier, Fainshmidt, Klinger, Pezeshkan & Vracheva (2017), *Psychological Safety: A
