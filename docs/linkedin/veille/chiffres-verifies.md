@@ -298,3 +298,37 @@ renforce la crédibilité au lieu de l'entamer.
       (chiffres vus en recherche : 44 % des entreprises perdraient plus de 10 % de revenu
       annuel à cause d'une donnée CRM de mauvaise qualité, 16 deals perdus par trimestre,
       13h/semaine passées à chercher une information de base)
+- [ ] Gong — communiqué du 30 janvier 2024, « Gong Report Finds More Than 80 Percent of
+      Companies Have Missed Revenue Forecasts Over the Last Two Years » :
+      https://www.gong.io/press/gong-report-finds-more-than-80-percent-of-companies-have-missed-revenue-forecasts-over-the-last-two-years
+      — 2 015 dirigeants d'entreprises privées interrogés (US/UK), 81 % auraient manqué
+      leur prévision commerciale sur au moins un trimestre entre T1 2021 et T3 2023.
+      Attention : troisième enquête forecast distincte de Gong repérée dans cette veille —
+      à ne pas confondre avec le *Reality of Forecasting Report 2022* (928 professionnels,
+      terrain juin 2022) ni l'enquête Censuswide UK (500 décideurs, 1-2 décembre 2022).
+      Méthodologie exacte et date de terrain précise non confirmées à la source.
+- [ ] Müller, H.C. (2011), *Forecast Errors in Undisclosed Management Sales Forecasts:
+      The Disappearance of the Overoptimism Bias*, DICE Discussion Paper No. 40, Heinrich
+      Heine University Düsseldorf (également présenté au congrès 2011 du Verein für
+      Socialpolitik) : https://hdl.handle.net/10419/54195 (texte complet) ou
+      https://econpapers.repec.org/paper/zbwdicedp/40.htm — 6 234 prévisions commerciales
+      internes et non divulguées, fournies anonymement par des entreprises allemandes ;
+      résultat annoncé : biais moyen significativement pessimiste (à l'inverse du biais
+      d'excès d'optimisme documenté dans les prévisions publiques), attribué à l'aversion
+      à la perte. Magnitude exacte du biais et confirmation de la source des données (IAB
+      Establishment Panel) non vérifiées — texte complet non ouvert cette semaine.
+- [ ] Edmondson, A. (1999), *Psychological Safety and Learning Behavior in Work Teams*,
+      Administrative Science Quarterly, 44(2), 350-383, DOI 10.2307/2666999 — étude sur 51
+      équipes d'une entreprise manufacturière : la sécurité psychologique d'équipe serait
+      associée au comportement d'apprentissage, qui médiatiserait à son tour la relation
+      avec la performance d'équipe ; l'efficacité d'équipe perdrait sa significativité une
+      fois la sécurité psychologique contrôlée. L'étude originale derrière le pilier de
+      l'angle D11 — jusqu'ici seule la méta-analyse 2017 de Frazier et al. était en
+      attente. Médiation exacte et détail de la mesure de performance à confirmer sur le
+      texte complet, non ouvert cette semaine.
+- [ ] Claap — article « Coaching commercial IA ou manager : ce que dit la recherche en
+      2026 » (Rémi Kokabi, 3 septembre 2026) : https://www.claap.io/fr/blog/coaching-commercial-ia
+      — structuré autour d'un tableau explicite source/mesure/résultat ; contenu du
+      tableau et études exactement citées non extraits cette semaine (lecture bloquée).
+      Premier candidat concret pour l'axe 5 (bibliographie concurrents) après cinq
+      semaines sans trouvaille.
