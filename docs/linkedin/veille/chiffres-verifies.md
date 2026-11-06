@@ -332,3 +332,27 @@ renforce la crédibilité au lieu de l'entamer.
       tableau et études exactement citées non extraits cette semaine (lecture bloquée).
       Premier candidat concret pour l'axe 5 (bibliographie concurrents) après cinq
       semaines sans trouvaille.
+      **Mise à jour du 6 novembre 2026** : la source que Claap cite est identifiée —
+      Casenave & Schmitt (2025), voir ci-dessous. Le tableau source/mesure/résultat
+      lui-même et d'éventuelles autres études citées restent à vérifier sur la page.
+- [ ] Casenave, E. & Schmitt, L. (2025), *Comparing AI coaching and sales manager
+      coaching: A construal-level approach*, Journal of Business Research, vol. 190,
+      article 115241, DOI 10.1016/j.jbusres.2025.115241 (post-print en libre accès
+      probable : https://ideas.repec.org/p/hal/journl/hal-04963353.html) — deux
+      expériences, 244 puis 310 commerciaux ; un conseil de coaching concret et
+      actionnable (low construal) renforce le sentiment d'efficacité personnelle et
+      l'intention de l'utiliser quand il vient d'un manager, mais fonctionne moins bien
+      délivré par une IA (perçue comme plus distante), où un conseil plus abstrait (high
+      construal) fonctionne mieux. Confirmé par deux sources indépendantes (fiche
+      RePEc/HAL, CV professoral d'Eric Casenave sur audencia.com) mais le DOI lui-même non
+      ouvert cette semaine. Divergence à lever : un profil tiers mentionne une version à
+      100 commerciaux centrée sur la résilience, à distinguer de l'échantillon 244/310
+      avant citation.
+- [ ] Mekler, E., Brühlmann, F., Opwis, K. & Tuch, A.N. (2013), *Do points, levels and
+      leaderboards harm intrinsic motivation? An empirical analysis of common
+      gamification elements*, Gamification 2013, p. 66-73 :
+      https://edoc.unibas.ch/32047/ — expérience en ligne sur une tâche d'annotation
+      d'images ; ces trois mécaniques augmenteraient la performance sans affecter la
+      motivation intrinsèque perçue, l'autonomie ou la compétence perçues (IMI moyen
+      relevé : 4,78/7). Taille exacte de l'échantillon non trouvée cette semaine (accès
+      restreint) — à confirmer avant toute citation comme chiffre.
