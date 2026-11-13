@@ -285,6 +285,48 @@ renforce la crédibilité au lieu de l'entamer.
       avec le rapport MySalesCoach × Aircall ci-dessus, nom quasi identique mais étude
       distincte. Chiffres de comparaison plateforme (46 % vs 22 %, 58 % vs 32 %) fournis par
       le vendeur lui-même — juge et partie, à signaler si cité.
+      **Détail relevé le 13 novembre 2026, non confirmé à la source primaire** : dans les
+      organisations où >75 % des commerciaux sont coachés chaque semaine, 54 % atteignent
+      71 %+ de quota contre 25 % quand <25 % des commerciaux le sont (seules 30 % des
+      organisations coachent à cette cadence) ; 77 % ont un cadre de coaching formel mais
+      seulement 38 % l'appliquent de façon cohérente ; les organisations utilisant l'IA en
+      coaching seraient 57 % plus susceptibles d'atteindre 71 %+ de quota.
+- [ ] RAIN Group — *2026 Sales Challenges & Priorities* (« Pipeline Is Growing, but Sales
+      Performance Isn't Keeping Pace »), troisième vague après 2019 et 2023, 252
+      responsables commerciaux/direction/enablement interrogés, communiqué PRWeb du 18 juin
+      2026 : https://www.prweb.com/releases/rain-group-research-reveals-pipeline-is-growing-but-sales-performance-isnt-keeping-pace-302802990.html
+      — chiffres relevés via reprise (PRWeb, DestinationCRM), jamais la page RAIN Group
+      elle-même : 47,2 % rapportent plus de pipe qualifié, mais seulement 37,1 % une
+      meilleure atteinte de quota et 39,7 % plus d'opportunités gagnées ; 48,4 % un cycle de
+      vente allongé. Candidat V6 pour l'axe Piloter, trouvé le 13 novembre 2026.
+- [ ] The Bridge Group — *2026 AE Models, Motions & Metrics* (10ᵉ édition biennale, 158
+      entreprises B2B, publiée juin 2026) : https://www.bridgegroupinc.com/research/2026-ae-models-motions-metrics
+      — ATTENTION, étude distincte du rapport SDR (10ᵉ édition, 351 répondants) déjà en
+      attente ci-dessous : celle-ci porte sur les Account Executives. Chiffres relevés via
+      deux reprises indépendantes convergentes, page officielle non ouverte : 48 %
+      d'atteinte de quota en 2026 contre 51 % en 2024, OTE médian 200 k$ (190 k$ en 2024),
+      quota médian 960 k$, ratio quota/OTE 4,6x (4,2x en 2024), temps de rampe moyen 6,2
+      mois (le plus haut de l'historique de l'étude).
+- [ ] Blanchard, S. & Palazzolo, M. (2025), *Game Over? Assessing the Impact of
+      Gamification Discontinuation on Mobile Banking Behaviors*, Marketing Science, 44(3),
+      546-565, DOI 10.1287/mksc.2023.0345 : https://pubsonline.informs.org/doi/10.1287/mksc.2023.0345
+      — expérience naturelle sur l'arrêt d'un module de récompenses gamifié dans une banque
+      mobile d'Amérique latine ; le module incitait les comportements visés, son arrêt les
+      fait décliner, effet plus fort chez les clients récents et qui s'accentue avec le
+      temps (confirmé par deux recherches indépendantes). Magnitudes précises (une recherche
+      a donné : -20 % connexions, -31 % remboursements à échéance, fenêtre de 50 jours) non
+      confirmées par une seconde recherche ciblée — à vérifier sur le texte complet avant
+      toute citation chiffrée. Premier résultat trouvé dans cette veille qui teste
+      directement l'effet à l'extinction de la gamification (sources.md, axe 3), même si
+      hors contexte commercial.
+- [ ] Claap — deux articles du même blog citent deux chiffres contradictoires sur l'oubli
+      post-formation sans source primaire vérifiable : https://www.claap.io/fr/blog/coaching-performance-commerciale
+      (« 50 % du contenu oublié en 5 semaines sans renforcement », présenté comme « la
+      courbe de l'oubli », Ebbinghaus non nommé) et https://www.claap.io/fr/blog/formation-commerciale-ia
+      (« 70 % perdu en 1 semaine », attribué à Gartner, communiqué non identifié). Fenêtres
+      différentes, donc non comparables. Même source cite aussi Challenger pour « formation
+      + coaching jusqu'à 4x plus efficace que la formation seule » — non vérifié. Relevé le
+      13 novembre 2026, axe 5.
 - [ ] Fogg, B.J. (2009), *A Behavior Model for Persuasive Design*, Persuasive '09 (4ᵉ
       conférence internationale sur la technologie persuasive), ACM, DOI
       10.1145/1541948.1541999 (voir aussi https://behaviormodel.org) — modèle B=MAP
