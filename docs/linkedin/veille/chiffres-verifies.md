@@ -131,6 +131,12 @@ renforce la crédibilité au lieu de l'entamer.
 
 - [ ] Salesforce State of Sales 2026 — les trois chiffres ci-dessus
 - [ ] RAIN Group — les trois chiffres ci-dessus, et la date de l'étude sur 472 organisations
+      **(alerte confusion possible, 20 novembre 2026)** : une recherche sur l'étude *Top-
+      Performing Sales Organization* de RAIN Group (https://www.rainsalestraining.com/research/tpso/benchmark-report)
+      remonte aussi un échantillon de 472 répondants, mais pour un rapport centré sur les
+      taux de gain et le pricing, sans lien visible avec le coaching ou le quota. Les deux
+      études RAIN Group (celle-ci et celle citée ci-dessus) pourraient être confondues — à
+      démêler avant toute citation du « 472 »
 - [ ] CSO Insights — l'année de l'étude (elle est ancienne, à confirmer avant de la citer)
 - [ ] HubSpot State of Sales — non exploré, rapport annuel à ouvrir
 - [ ] The Bridge Group — *SDR Models, Motions & Metrics* (10ᵉ édition, 351 répondants) :
@@ -390,6 +396,36 @@ renforce la crédibilité au lieu de l'entamer.
       ouvert cette semaine. Divergence à lever : un profil tiers mentionne une version à
       100 commerciaux centrée sur la résilience, à distinguer de l'échantillon 244/310
       avant citation.
+- [ ] Revenue Innovations — enquête en ligne auprès de 419 dirigeants go-to-market, terrain
+      mars 2026, chiffres publiés le 10 novembre 2026 (repris par MarketScale et le Des
+      Moines Register) : https://www.marketscale.com/industries/marketing-tech/why-six-in-ten-sales-methodology-rollouts-fade-within-90-days
+      — 59 % des déploiements de méthodologie commerciale s'effacent dans les 90 jours ;
+      58 % avec renforcement structuré contre 63 % en renforcement informel. Revenue
+      Innovations vend sa propre méthode (« GIVE Method ») et dit avoir mené l'enquête pour
+      un livre à paraître sur cette méthode — juge et partie, à dire soi-même. Chiffres
+      déclaratifs des dirigeants, pas un comportement mesuré. Trouvé le 20 novembre 2026,
+      axe 3.
+- [ ] Akolgo, D.R., Robiullah, A. & Ramirez, G. (2025), *The emotional and motivational
+      costs of poorly delivered academic feedback*, Frontiers in Psychology, 16:1585447,
+      DOI 10.3389/fpsyg.2025.1585447 : https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2025.1585447/full
+      — 148 étudiants, plan 2×2 croisant le ton du feedback (respectueux/irrespectueux) et
+      la charge de correction demandée (faible/élevée) ; un ton irrespectueux dégraderait la
+      confiance et l'émotion, une charge de correction élevée annulerait une bonne partie du
+      bénéfice d'un ton respectueux. Hors contexte commercial (feedback de professeur à
+      étudiant) et hors sales — transfert au coaching commercial à prendre comme hypothèse.
+      Statistiques exactes (F, p) non confirmées cette semaine, page primaire inaccessible.
+      Trouvé le 20 novembre 2026, premier usage de la théorie de la réactance psychologique
+      (Brehm) dans cette veille.
+- [ ] Zyberaj, J. (2025), *The effects of supervisory negative feedback and coaching on
+      employees' responses to feedback: The moderating role of mindset*, Human Resource
+      Development Quarterly, 36(3), 243-262, DOI 10.1002/hrdq.21553 : https://onlinelibrary.wiley.com/doi/10.1002/hrdq.21553
+      — étude expérimentale en vignettes, 69 participants ; un feedback formulé en coaching
+      mieux accepté qu'un feedback négatif brut (moyennes relevées : 4,95 contre 4,08), écart
+      le plus net chez les personnes à mentalité de progression (growth mindset). Échantillon
+      petit, cadre laboratoire, hors contexte commercial. Moyennes et écarts-types exacts non
+      confirmés à la source cette semaine. Trouvé le 20 novembre 2026, à lire avec Akolgo et
+      al. ci-dessus et avec Casenave & Schmitt (déjà en attente) sur la forme du conseil de
+      coaching.
 - [ ] Mekler, E., Brühlmann, F., Opwis, K. & Tuch, A.N. (2013), *Do points, levels and
       leaderboards harm intrinsic motivation? An empirical analysis of common
       gamification elements*, Gamification 2013, p. 66-73 :
